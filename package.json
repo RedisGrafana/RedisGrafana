@@ -1,0 +1,17 @@
+{
+  "name": "redisgrafana-docs",
+  "version": "1.0.0",
+  "description": "RedisGrafana documentation for https://redisgrafana.github.io",
+  "keywords": [
+    "redisgrafana",
+    "redis-data-source",
+    "redis-app"
+  ],
+  "homepage": "https://redisgrafana.github.io",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "mkdocs build",
+    "clean": "mkdocs build --clean",
+    "serve": "mkdocs serve"
+  }
+}

@@ -1,0 +1,48 @@
+site_name: RedisGrafana - Redis plug-ins for Grafana
+site_url: http://redisgrafana.github.io
+repo_url: https://github.com/RedisGrafana/redisgrafana-docs
+repo_name: RedisGrafana/redisgrafana-docs
+
+use_directory_urls: false
+
+theme:
+  name: "material"
+  language: "en"
+  logo: "images/logo.png"
+  favicon: "images/logo.png"
+  palette:
+    primary: "indigo"
+    accent: "red"
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+  feature:
+    tabs: false
+
+nav:
+  - "Home": "index.md"
+  - "Quickstart": "quickstart.md"
+  - "Configuration": "configuration.md"
+  - "Redis Data Source":
+      - "Supported commands": "redis-data-source/commands.md"
+      - "Redis":
+          - "INFO": "redis-data-source/INFO.md"
+      - "RedisTimeSeries":
+          - "TS.RANGE": "redis-data-source/TS-RANGE.md"
+  - "Dashboards": "dashboards.md"
+  - "Development": "development.md"
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: False
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - toc:
+      permalink: True
+
+plugins:
+  - search
+  - include:
+      src_path: docs/snippets
