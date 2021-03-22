@@ -45,7 +45,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.PUBLISH_KEY }}
+          personal_token: ${{ secrets.PUBLISH_TOKEN }}
           external_repository: redisgrafana/redisgrafana.github.io
           publish_branch: main
           publish_dir: ./site
