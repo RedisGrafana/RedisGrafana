@@ -40,7 +40,7 @@ jobs:
         run: python3 -m pip install git+https://github.com/RedisLabs/mkdocs-include.git
 
       - name: Build
-      - run: mkdocs build
+        run: mkdocs build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
