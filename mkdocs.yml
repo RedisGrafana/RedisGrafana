@@ -43,6 +43,7 @@ nav:
   - "Development":
       - "Redis Data Source": "development/redis-datasource.md"
       - "Redis Application plug-in": "development/redis-app.md"
+      - "Docker images": "development/images.md"
 
 markdown_extensions:
   - admonition

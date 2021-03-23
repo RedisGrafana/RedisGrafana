@@ -1,6 +1,6 @@
 # Docker Images
 
-To try the latest features you can start Docker nightly build Docker image. Supported platforms are:
+To try the latest features you can start nightly build Docker image. Supported platforms are:
 
 - linux/amd64
 - linux/arm64
