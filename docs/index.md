@@ -9,23 +9,22 @@
 The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data.
 Data Source can connect to any Redis database On-Premises or in the Cloud.
 
-!!! important "Plug-ins are registered in the Grafana repository and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/)."
+!!! important "Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/)."
 
 <img src="images/redis-app.gif" alt="Redis plug-ins for Grafana"/>
 
 ## Where Next?
 
 - The [Quickstart](quickstart.md) is the recommended starting point
-- The [Development](development.md) page has more information how to build plugins
 - The [Configuration](redis-datasource/configuration.md) page explains how to configure Redis Data Source
-- The [Commands](redis-data-source/commands.md) reference all supported commands
+- The [Commands](redis-datasource/commands.md) reference all supported commands
+- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels
 - There are predefined dashboards and recipes in the [Dashboards](dashboards.md) page
 
 ## Quick Links
 
-- [Redis Data Source for Grafana](https://github.com/RedisGrafana/grafana-redis-datasource)
-- [Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app)
-- [Docker images](https://github.com/orgs/RedisGrafana/packages)
+- [Redis Data Source for Grafana](https://grafana.com/grafana/plugins/redis-datasource/)
+- [Redis Application plug-in](https://grafana.com/grafana/plugins/redis-app/)
 
 ## Learn More
 

@@ -96,7 +96,7 @@ tail -100 /var/log/grafana/grafana.log
 
 ## Start using Docker Compose
 
-!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)"
+!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)."
 
 ```
 yarn start:dev
@@ -108,4 +108,6 @@ yarn start:dev
 
 ![Data Source](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-datasource/master/src/img/datasource.png)
 
-!!! note "If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)"
+## Contact Us
+
+If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose).
