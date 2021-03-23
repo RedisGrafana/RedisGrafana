@@ -6,21 +6,20 @@
 [![Redis Data Source](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Data%20Source&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
 [![Redis Application plug-in](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Application%20plug-in&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 
-The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data. Plug-ins are registered in the Grafana repository and available to Grafana, Grafana Enterprise and Grafana Cloud.
+The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data.
+Data Source can connect to any Redis database On-Premises or in the Cloud.
+
+!!! important "Plug-ins are registered in the Grafana repository and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/)."
 
 <img src="images/redis-app.gif" alt="Redis plug-ins for Grafana"/>
-
-## Features
-
-- Provides
 
 ## Where Next?
 
 - The [Quickstart](quickstart.md) is the recommended starting point
-- The [Configuration](configuration.md) page explains how to configure Redis Data Source
+- The [Development](development.md) page has more information how to build plugins
+- The [Configuration](redis-datasource/configuration.md) page explains how to configure Redis Data Source
 - The [Commands](redis-data-source/commands.md) reference all supported commands
 - There are predefined dashboards and recipes in the [Dashboards](dashboards.md) page
-- The [Development](development.md) page has more information how to build plugins
 
 ## Quick Links
 
@@ -45,4 +44,4 @@ If you have questions or feedback, or want to report an issue, here's where you 
 
 ## License
 
-Redis plug-ins for Grafana is licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/grafana-redis-datasource/blob/master/LICENSE).
+Redis plug-ins for Grafana are licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/grafana-redis-datasource/blob/master/LICENSE).

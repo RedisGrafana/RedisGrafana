@@ -1,7 +1,8 @@
-site_name: RedisGrafana - Redis plug-ins for Grafana
+site_name: Redis plug-ins for Grafana
 site_url: http://redisgrafana.github.io
-repo_url: https://github.com/RedisGrafana/redisgrafana-docs
-repo_name: RedisGrafana/redisgrafana-docs
+edit_uri: https://github.com/RedisGrafana/redisgrafana-docs/edit/main/docs/
+repo_url: https://github.com/RedisGrafana/grafana-redis-datasource
+repo_name: RedisGrafana/grafana-redis-datasource
 
 use_directory_urls: false
 
@@ -22,15 +23,17 @@ theme:
 nav:
   - "Home": "index.md"
   - "Quickstart": "quickstart.md"
-  - "Configuration": "configuration.md"
   - "Redis Data Source":
-      - "Supported commands": "redis-data-source/commands.md"
+      - "Configuration": "redis-datasource/configuration.md"
+      - "Supported commands": "redis-datasource/commands.md"
       - "Redis":
-          - "INFO": "redis-data-source/INFO.md"
+          - "INFO": "redis-datasource/INFO.md"
       - "RedisTimeSeries":
-          - "TS.RANGE": "redis-data-source/TS-RANGE.md"
+          - "TS.RANGE": "redis-datasource/TS-RANGE.md"
   - "Dashboards": "dashboards.md"
-  - "Development": "development.md"
+  - "Development":
+      - "Redis Data Source": "development/redis-datasource.md"
+      - "Redis Application plug-in": "development/redis-app.md"
 
 markdown_extensions:
   - admonition
@@ -45,4 +48,4 @@ markdown_extensions:
 plugins:
   - search
   - include:
-      src_path: docs/snippets
+      src_path: docs/sources
