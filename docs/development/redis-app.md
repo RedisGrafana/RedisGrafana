@@ -64,7 +64,7 @@ tail -100 /var/log/grafana/grafana.log
 
 ## Start using Docker Compose
 
-!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)"
+!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)."
 
 ```
 yarn start:dev
@@ -76,4 +76,6 @@ yarn start:dev
 
 Go to `Configuration` -> `Plugins` and enable Redis Application plug-in.
 
-!!! note "If you have questions, enhancement ideas or running into issues, please just open an [issue](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)"
+## Contact Us
+
+If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose).
