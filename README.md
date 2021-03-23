@@ -1,4 +1,4 @@
-# <img src="docs/images/logo.png" alt="logo" style="width: 2em; vertical-align: middle;"/> Redis plug-ins for Grafana
+# Redis plug-ins for Grafana
 
 [![Grafana 7](https://img.shields.io/badge/Grafana-7-orange)](https://www.grafana.com)
 [![Radix](https://img.shields.io/badge/Radix-powered-darkblue)](https://github.com/mediocregopher/radix)
