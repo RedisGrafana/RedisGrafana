@@ -10,7 +10,7 @@
   "homepage": "https://redisgrafana.github.io",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "mkdocs build",
+    "build": "mkdocs build --strict",
     "clean": "mkdocs build --clean",
     "serve": "mkdocs serve"
   }
