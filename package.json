@@ -1,7 +1,7 @@
 {
-  "name": "redisgrafana-docs",
+  "name": "redisgrafana",
   "version": "1.0.0",
-  "description": "RedisGrafana documentation for https://redisgrafana.github.io",
+  "description": "Redis plug-ins for Grafana",
   "keywords": [
     "redisgrafana",
     "redis-data-source",

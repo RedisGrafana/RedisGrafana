@@ -40,7 +40,7 @@ If you have questions or feedback, or want to report an issue, here's where you 
 
 - [Redis Data Source Issues](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
 - [Redis Application Issues](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
-- [Documentation updates](https://github.com/RedisGrafana/redisgrafana-docs/issues/new/choose)
+- [Documentation updates](https://github.com/RedisGrafana/redisgrafana/issues/new/choose)
 
 ## License
 
