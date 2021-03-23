@@ -28,9 +28,18 @@ nav:
       - "Supported commands": "redis-datasource/commands.md"
       - "Redis":
           - "INFO": "redis-datasource/INFO.md"
+      - "Custom":
+          - "TMSCAN": "redis-datasource/TMSCAN.md"
       - "RedisTimeSeries":
           - "TS.RANGE": "redis-datasource/TS-RANGE.md"
+  - "Redis Application plug-in":
+      - "Custom panels": "redis-app/panels.md"
+      - "Command line interface (CLI)": "redis-app/redis-cli-panel.md"
+      - "Command Latency": "redis-app/redis-latency-panel.md"
+      - "Keys consuming a lot of memory": "redis-app/redis-keys-panel.md"
+      - "RedisGears": "redis-app/redis-gears-panel.md"
   - "Dashboards": "dashboards.md"
+  - "Streaming": "streaming.md"
   - "Development":
       - "Redis Data Source": "development/redis-datasource.md"
       - "Redis Application plug-in": "development/redis-app.md"
