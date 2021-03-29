@@ -1,6 +1,6 @@
-# Developing Redis Application plug-in for Grafana
+# Developing Redis Explorer plug-in for Grafana
 
-Developing Application plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
+Developing Explorer plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
 ## Install Grafana
 
@@ -13,10 +13,10 @@ Developing Application plug-in involves setting up the development environment (
 ## Clone repository
 
 ```bash
-git clone https://github.com/RedisGrafana/grafana-redis-app.git
+git clone https://github.com/RedisGrafana/grafana-redis-explorer.git
 ```
 
-## Build Application
+## Build Explorer
 
 - Install the latest version of Node.js using [Node Version Manager](https://github.com/nvm-sh/nvm) or [download binaries](https://nodejs.org/en/download/)
 
@@ -43,17 +43,17 @@ yarn build
 - Move distribution to Grafana's `plugins/` folder
 
 ```bash
-mv dist/ /var/lib/grafana/plugins/redis-app
+mv dist/ /var/lib/grafana/plugins/redis-explorer
 ```
 
-- Add `redis-app` to allowed unsigned plugins
+- Add `redis-explorer` to allowed unsigned plugins
 
 ```bash
 vi /etc/grafana/grafana.ini
 ```
 
 ```
-{{ include('redis-app-grafana.ini') }}
+{{ include('redis-explorer-grafana.ini') }}
 ```
 
 - Verify that plugin is registered
@@ -70,12 +70,12 @@ tail -100 /var/log/grafana/grafana.log
 yarn start:dev
 ```
 
-## Enable Redis Application plug-in
+## Enable Redis Explorer plug-in
 
-!!! important "Redis Application plug-in is disabled by default."
+!!! important "Redis Explorer plug-in is disabled by default."
 
-Go to `Configuration` -> `Plugins` and enable Redis Application plug-in.
+Go to `Configuration` -> `Plugins` and enable Redis Explorer plug-in.
 
 ## Contact Us
 
-If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose).
+If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-explorer/issues/new/choose).

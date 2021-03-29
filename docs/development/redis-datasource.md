@@ -4,11 +4,11 @@ Developing Redis Data Source involves setting up the development environment (wh
 
 ## Install Grafana
 
-!!! important "Grafana can be used in Docker or installed locally"
+!!! important "Grafana can be started in Docker or installed locally."
 
-- Follow [Installation](https://grafana.com/docs/grafana/latest/installation/) to install and start Grafana
+- Follow [Installation instructions](https://grafana.com/docs/grafana/latest/installation/) to install and start Grafana
 
-- Open Grafana in web-browser `http://X.X.X.X:3000`
+- Open Grafana UI in web-browser `http://X.X.X.X:3000`
 
 ## Clone repository
 
@@ -18,7 +18,7 @@ git clone https://github.com/RedisGrafana/grafana-redis-datasource.git
 
 ## Build Data Source Frontend
 
-- Install the latest version of Node.js using [Node Version Manager](https://github.com/nvm-sh/nvm)
+- Install the latest version of Node.js using [Node Version Manager](https://github.com/nvm-sh/nvm) or [download binaries](https://nodejs.org/en/download/)
 
 - Install `yarn` globally
 
@@ -32,7 +32,7 @@ npm install yarn -g
 yarn install
 ```
 
-- Build Data Source
+- Build frontend components
 
 ```bash
 yarn build
@@ -40,7 +40,7 @@ yarn build
 
 ## Build Data Source Backend
 
-- Install Golang
+- Install [Golang](https://golang.org/dl/) for your platform
 
 ```bash
 yum install go
@@ -52,7 +52,7 @@ yum install go
 go get -u github.com/grafana/grafana-plugin-sdk-go
 ```
 
-- Install mage (make-like build tool using Go)
+- Install [Mage](https://magefile.org/) (make-like build tool using Go)
 
 ```bash
 git clone https://github.com/magefile/mage
@@ -60,7 +60,7 @@ cd mage
 go run bootstrap.go
 ```
 
-- Build backend binaries for Linux, Windows and MacOS for ARM and AMD64 platforms
+- Build backend binaries for Linux, Windows and MacOS for supported platforms
 
 ```bash
 yarn build:backend
@@ -104,9 +104,7 @@ yarn start:dev
 
 ## Configure Redis Data Source
 
-!!! note "The [Configuration](../redis-datasource/configuration.md) page explains how to configure Redis Data Source"
-
-![Data Source](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-datasource/master/src/img/datasource.png)
+The [Configuration](../redis-datasource/configuration.md) page explains how to configure Redis Data Source.
 
 ## Contact Us
 

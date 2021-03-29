@@ -17,9 +17,8 @@ Data Source can connect to any Redis database On-Premises or in the Cloud.
 
 - The [Quickstart](quickstart.md) is the recommended starting point
 - The [Configuration](redis-datasource/configuration.md) page explains how to configure Redis Data Source
-- The [Commands](redis-datasource/commands.md) reference all supported commands
-- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels
-- There are predefined dashboards and recipes in the [Dashboards](dashboards.md) page
+- The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source
+- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in
 
 ## Quick Links
 
@@ -37,8 +36,9 @@ Data Source can connect to any Redis database On-Premises or in the Cloud.
 
 If you have questions or feedback, or want to report an issue, here's where you can get in touch:
 
-- [Redis Data Source Issues](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
-- [Redis Application Issues](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
+- [Redis Data Source](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
+- [Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
+- [Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/issues/new/choose)
 - [Documentation updates](https://github.com/RedisGrafana/redisgrafana/issues/new/choose)
 
 ## License
