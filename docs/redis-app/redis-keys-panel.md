@@ -6,7 +6,7 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
 !!! warning "Please use this command in OFF-PEAK as it cause latency increase."
 
-![Keys](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-app/master/src/img/redis-keys-panel.png)
+![Keys](../images/redis-app/keys-panel.png)
 
 ## Options
 

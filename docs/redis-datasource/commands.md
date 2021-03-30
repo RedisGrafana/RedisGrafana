@@ -11,7 +11,7 @@ Redis Data Source supports core Redis, custom and Redis Modules commands:
 
 Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and provide all required parameters:
 
-![Query Editor](../images/redis-datasource-query.png)
+![Query Editor](../images/redis-datasource/query.png)
 
 ## Core (Hashes, Sets, Lists, Strings, Streams, etc.)
 
