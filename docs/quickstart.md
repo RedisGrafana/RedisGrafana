@@ -1,7 +1,5 @@
 # Quickstart
 
-!!! important "Only Grafana 7.1 and later with a new plug-in platform supported."
-
 ## Install using `grafana-cli`
 
 Use the `grafana-cli` tool to install from the commandline.
@@ -45,13 +43,13 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasourc
 !!! important "Redis Data Source binaries should have executable permissions for Grafana to be able to execute it!"
 
 ```
-{{ include('redis-datasource-binaries.txt')}}
+{{ include('redis-datasource/binaries.txt')}}
 ```
 
 - Check that plug-in was registered:
 
 ```
-{{ include('redis-datasource-grafana.log') }}
+{{ include('redis-datasource/grafana.log') }}
 ```
 
 ### Redis Application plug-in

@@ -7,6 +7,12 @@ Redis Data Source supports core Redis, custom and Redis Modules commands:
 - [RedisGraph](https://oss.redislabs.com/redisgraph/) - Graph database
 - [RediSearch](https://oss.redislabs.com/redisearch/) - Secondary Index & Query Engine
 
+## Query Editor
+
+Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and provide all required parameters:
+
+![Query Editor](../images/redis-datasource-query.png)
+
 ## Core (Hashes, Sets, Lists, Strings, Streams, etc.)
 
 - CLIENT LIST - Returns information and statistics about the client connections server
@@ -18,7 +24,7 @@ Redis Data Source supports core Redis, custom and Redis Modules commands:
 - HKEYS - Returns all field names in the hash stored at key
 - HLEN - Returns the number of fields contained in the hash stored at key
 - HMGET - Returns the values associated with the specified fields in the hash stored at key
-- [INFO](INFO.md) - Returns information and statistics about the server
+- [INFO](redis/INFO.md) - Returns information and statistics about the server
 - LLEN - Returns the length of the list stored at key
 - SCARD - Returns the set cardinality (number of elements) of the set stored at key
 - SLOWLOG GET - Returns the Redis slow queries log
@@ -32,7 +38,7 @@ Redis Data Source supports core Redis, custom and Redis Modules commands:
 
 ## Custom
 
-- [TMSCAN](TMSCAN.md) - Returns keys with types and memory usage
+- [TMSCAN](custom/TMSCAN.md) - Returns keys with types and memory usage
 
 ## RedisTimeSeries
 
@@ -40,7 +46,7 @@ Redis Data Source supports core Redis, custom and Redis Modules commands:
 - TS.INFO - Returns information and statistics on the time-series
 - TS.MRANGE - Query a timestamp range across multiple time-series by filters
 - TS.QUERYINDEX - Query all the keys matching the filter list
-- [TS.RANGE](TS-RANGE.md) - Query a range
+- [TS.RANGE](redis-timeseries/TS-RANGE.md) - Query a range
 
 ## RedisGears
 

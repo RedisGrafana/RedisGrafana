@@ -57,7 +57,7 @@ vi /etc/grafana/grafana.ini
 ```
 
 ```
-{{ include('redis-app-grafana.ini') }}
+{{ include('redis-app/grafana.ini') }}
 ```
 
 - Verify that plugin is registered
@@ -82,7 +82,7 @@ Docker-compose file for Development includes:
 !!! important "Redis Data Source should be cloned and built following [Instructions](redis-datasource.md)."
 
 ```
-{{ include('redis-app-dev.yml') }}
+{{ include('redis-app/dev.yml') }}
 ```
 
 ## Enable Redis Application plug-in

@@ -1,6 +1,6 @@
-# Examples
+# Projects
 
-The following sections consist of various sample projects and examples showing the uses for Redis plug-ins for Grafana.
+The following sections consist of various projects showing the uses for Redis plug-ins for Grafana.
 
 !!! note "To contribute your project, click the "Edit this page" button at the top to submit a Pull Request."
 

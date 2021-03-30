@@ -85,7 +85,7 @@ vi /etc/grafana/grafana.ini
 ```
 
 ```
-{{ include('redis-datasource-grafana.ini') }}
+{{ include('redis-datasource/grafana.ini') }}
 ```
 
 - Verify that plugin registered
@@ -95,7 +95,7 @@ tail -100 /var/log/grafana/grafana.log
 ```
 
 ```
-{{ include('redis-datasource-grafana.log') }}
+{{ include('redis-datasource/grafana.log') }}
 ```
 
 ## Start using Docker Compose
