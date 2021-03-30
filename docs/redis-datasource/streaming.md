@@ -1,3 +1,3 @@
-# Redis Data Source supported Streaming
+# Redis Data Source supports Streaming
 
 !!! note "Work in Progress"

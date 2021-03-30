@@ -1,26 +1,25 @@
 # <img src="images/logo.png" alt="logo" style="width: 2em; vertical-align: middle;"/> Redis plug-ins for Grafana
 
 [![Grafana 7](https://img.shields.io/badge/Grafana-7-orange)](https://www.grafana.com)
-[![Radix](https://img.shields.io/badge/Radix-powered-darkblue)](https://github.com/mediocregopher/radix)
-[![Redis Enterprise](https://img.shields.io/badge/Redis%20Enterprise-supported-darkgreen)](https://redislabs.com/redis-enterprise/)
+[![Redis Enterprise](https://img.shields.io/badge/Redis%20Enterprise-supported-green)](https://redislabs.com/redis-enterprise/)
 [![Redis Data Source](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Data%20Source&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
 [![Redis Application plug-in](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Application%20plug-in&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 
 The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data.
-Data Source can connect to any Redis database On-Premises or in the Cloud.
+
+!!! note "Data Source can connect to any Redis database On-Premises or in the Cloud."
 
 !!! important "Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/)."
 
-<img src="images/redis-app.gif" alt="Redis plug-ins for Grafana"/>
+![Redis plug-ins for Grafana](images/redis-app.gif)
 
 ## Where Next?
 
-- The [Quickstart](quickstart.md) is the recommended starting point
-- The [Configuration](redis-datasource/configuration.md) page explains how to configure Redis Data Source
-- The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source
-- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in
+- The [Quickstart](quickstart.md) is the recommended starting point.
+- The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source.
+- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in.
 
-## Quick Links
+## Grafana Repository
 
 - [Redis Data Source for Grafana](https://grafana.com/grafana/plugins/redis-datasource/)
 - [Redis Application plug-in](https://grafana.com/grafana/plugins/redis-app/)

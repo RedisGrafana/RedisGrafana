@@ -1,5 +1,9 @@
 # Developing Redis Application plug-in for Grafana
 
+![CI](https://github.com/RedisGrafana/grafana-redis-app/workflows/CI/badge.svg)
+![Docker](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
+[![codecov](https://codecov.io/gh/RedisGrafana/grafana-redis-app/branch/master/graph/badge.svg?token=15SIRGU8SX)](https://codecov.io/gh/RedisGrafana/grafana-redis-app)
+
 Developing Application plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
 ## Install Grafana
@@ -70,11 +74,28 @@ tail -100 /var/log/grafana/grafana.log
 yarn start:dev
 ```
 
+Docker-compose file for Development includes:
+
+- Service `redis` using [Redismod](https://hub.docker.com/r/redislabs/redismod)
+- Service `grafana` using [Grafana](https://hub.docker.com/r/grafana/grafana) which allow loading unsigned plugins `redis-app` and `redis-datasource`
+
+!!! important "Redis Data Source should be cloned and built following [Instructions](redis-datasource.md)."
+
+```
+{{ include('redis-app-dev.yml') }}
+```
+
 ## Enable Redis Application plug-in
 
 !!! important "Redis Application plug-in is disabled by default."
 
-Go to `Configuration` -> `Plugins` and enable Redis Application plug-in.
+Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
+
+![Grafana plug-ins](../images/grafana-plugins-app.png)
+
+Click **Enable** to add side menu, [Custom panels](../redis-app/panels.md) and import [Dashboards](../redis-app/dashboards.md).
+
+![Enable Redis Application plug-in](../images/redis-app-enable.png)
 
 ## Contact Us
 

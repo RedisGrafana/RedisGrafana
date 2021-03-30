@@ -1,6 +1,6 @@
 # Docker Images
 
-To try the latest features you can start nightly build Docker image. Supported platforms are:
+Interested to try the latest features and verify bug fixes? Start nightly build Docker image. Supported platforms are:
 
 - linux/amd64
 - linux/arm64
@@ -8,20 +8,26 @@ To try the latest features you can start nightly build Docker image. Supported p
 
 !!! important "Images built from main branch and can be UNSTABLE."
 
-<img src="../images/docker-images.png" alt="Nightly build Docker images"/>
+![Nightly built Docker images](../images/docker-images.png)
+
+!!! note "Username and password to login to Grafana is `admin`/`admin`."
 
 ## Redis Application plug-in
 
-The Redis Application, is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source.
+![Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
+
+The Redis Application, is a plug-in for Grafana that provides application pages and [Custom panels](../redis-app/panels.md) for Redis Data Source.
 
 ```bash
-docker run -d -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
+docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
 ```
 
 ## Redis Explorer plug-in
 
+![Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
+
 The Redis Explorer, is a plug-in for Grafana that allows users to connect to Redis Enterprise software clusters using REST API and build dashboards to observe their status.
 
 ```bash
-docker run -d -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
+docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
 ```
