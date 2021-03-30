@@ -87,7 +87,7 @@ Docker-compose file for Development includes:
 
 ## Enable Redis Application plug-in
 
-!!! important "Redis Application plug-in is disabled by default."
+!!! note "Redis Application plug-in is disabled by default."
 
 Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
 

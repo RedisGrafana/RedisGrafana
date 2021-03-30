@@ -6,6 +6,10 @@ repo_name: RedisGrafana/grafana-redis-datasource
 
 use_directory_urls: false
 
+google_analytics:
+  - G-8E4J019JNF
+  - auto
+
 theme:
   name: "material"
   language: "en"
@@ -40,11 +44,12 @@ nav:
           - "Keys consuming a lot of memory": "redis-app/redis-keys-panel.md"
           - "RedisGears": "redis-app/redis-gears-panel.md"
   - "Development":
-      - "Docker images": "development/images.md"
+      - "Docker Images": "development/images.md"
       - "Redis Data Source": "development/redis-datasource.md"
       - "Redis Application plug-in": "development/redis-app.md"
       - "Redis Explorer plug-in": "development/redis-explorer.md"
   - "Examples": "examples.md"
+  - "FAQ": "faq.md"
 
 markdown_extensions:
   - admonition

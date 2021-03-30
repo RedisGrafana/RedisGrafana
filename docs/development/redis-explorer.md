@@ -76,7 +76,7 @@ yarn start:dev
 
 ## Enable Redis Explorer plug-in
 
-!!! important "Redis Explorer plug-in is disabled by default."
+!!! note "Redis Explorer plug-in is disabled by default."
 
 Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
 

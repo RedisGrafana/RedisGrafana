@@ -108,7 +108,7 @@ yarn start:dev
 
 ## Configure Redis Data Source
 
-!!! note "The [Redis Data Source Configuration](../redis-datasource/configuration.md) page explains how to connect data source to Redis database."
+The [Redis Data Source Configuration](../redis-datasource/configuration.md) page explains how to connect data source to Redis database.
 
 ## Contact Us
 

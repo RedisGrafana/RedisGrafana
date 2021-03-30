@@ -18,6 +18,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 - The [Quickstart](quickstart.md) is the recommended starting point.
 - The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source.
 - The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in.
+- The **Development** section has more information about the nightly built [Docker Images](development/images.md) and developing plug-ins.
 
 ## Grafana Repository
 
