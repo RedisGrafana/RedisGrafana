@@ -57,7 +57,7 @@ vi /etc/grafana/grafana.ini
 ```
 
 ```
-{{ include('redis-explorer-grafana.ini') }}
+{{ include('redis-explorer/grafana.ini') }}
 ```
 
 - Verify that plugin is registered
@@ -80,11 +80,11 @@ yarn start:dev
 
 Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
 
-![Grafana plug-ins](../images/grafana-plugins-explorer.png)
+![Grafana plug-ins](../images/redis-explorer/grafana-plugins.png)
 
 Click **Enable** to add side menu, Data Sources and import Dashboards.
 
-![Enable Redis Explorer plug-in](../images/redis-explorer-enable.png)
+![Enable Redis Explorer plug-in](../images/redis-explorer/enable.png)
 
 ## Contact Us
 

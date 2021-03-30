@@ -2,7 +2,7 @@
 
 Redis Application plug-in helps to manage Redis Data Sources and open [CLI](dashboards.md#cli-command-line-interface) and [RedisGears](dashboards.md#redisgears) dashboards from a single page.
 
-![Manage Redis Data Sources](../images/redis-app-home.png)
+![Manage Redis Data Sources](../images/redis-app/home.png)
 
 Home page connects to every configured data source and check available Redis Modules using `command` command.
 

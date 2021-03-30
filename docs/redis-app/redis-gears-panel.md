@@ -6,4 +6,4 @@
 
 This panel support Python syntax and allows to execute functions in blocking and non-blocking mode.
 
-![RedisGears-Dashboard](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-app/master/src/img/redis-gears-dashboard.png)
+![RedisGears-Dashboard](../images/redis-app/gears-dashboard.png)

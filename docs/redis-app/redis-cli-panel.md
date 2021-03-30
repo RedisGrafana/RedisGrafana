@@ -4,4 +4,4 @@ This panel provides [Redis command line interface](https://redis.io/topics/redis
 
 !!! note "This panel is a part of [Redis CLI dashboard](dashboards.md)."
 
-![CLI](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-app/master/src/img/redis-cli-panel.png)
+![CLI](../images/redis-app/cli-panel.png)

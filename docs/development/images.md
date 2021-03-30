@@ -8,7 +8,7 @@ Interested to try the latest features and verify bug fixes? Start nightly built 
 
 !!! important "Images built from main branch and can be UNSTABLE."
 
-![Nightly built Docker images](../images/docker-images.png)
+![Nightly built Docker images](../images/development/docker.png)
 
 !!! note "Username and password to login to Grafana is `admin`/`admin`."
 
