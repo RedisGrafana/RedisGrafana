@@ -34,9 +34,34 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" graf
 docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
 ```
 
+## Install without Internet access
+
+### Redis Data Source
+
+- Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-datasource/releases).
+- Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
+- Check permissions for `redis-datasource` binaries:
+
+!!! important "Redis Data Source binaries should have executable permissions for Grafana to be able to execute it!"
+
+```
+{{ include('redis-datasource-binaries.txt')}}
+```
+
+- Check that plug-in was registered:
+
+```
+{{ include('redis-datasource-grafana.log') }}
+```
+
+### Redis Application plug-in
+
+- Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-app/releases).
+- Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
+
 ## Enable Redis Application plug-in
 
-!!! important "Redis Application plug-in is disabled by default."
+!!! note "Redis Application plug-in is disabled by default."
 
 Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
 
@@ -50,4 +75,4 @@ Click **Enable** to add side menu, [Custom panels](redis-app/panels.md) and impo
 
 ### Redis Data Source
 
-!!! note "The [Redis Data Source Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database."
+The [Redis Data Source Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database.

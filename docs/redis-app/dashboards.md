@@ -58,7 +58,3 @@ Redis Application plug-in includes three dashboards:
 - RedisGears Memory Usage
 - [Registrations](https://oss.redislabs.com/redisgears/functions.html#execution)
 - [RedisGears script editor](redis-gears-panel.md)
-
-## Contact Us
-
-If you have questions, enhancement ideas or running into issues, please open an [issue](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose).
