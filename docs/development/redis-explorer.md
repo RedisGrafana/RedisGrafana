@@ -1,5 +1,9 @@
 # Developing Redis Explorer plug-in for Grafana
 
+![CI](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/CI/badge.svg)
+![Docker](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
+[![codecov](https://codecov.io/gh/RedisGrafana/grafana-redis-explorer/branch/master/graph/badge.svg?token=15SIRGU8SX)](https://codecov.io/gh/RedisGrafana/grafana-redis-explorer)
+
 Developing Explorer plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
 ## Install Grafana
@@ -74,7 +78,13 @@ yarn start:dev
 
 !!! important "Redis Explorer plug-in is disabled by default."
 
-Go to `Configuration` -> `Plugins` and enable Redis Explorer plug-in.
+Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
+
+![Grafana plug-ins](../images/grafana-plugins-explorer.png)
+
+Click **Enable** to add side menu, Data Sources and import Dashboards.
+
+![Enable Redis Explorer plug-in](../images/redis-explorer-enable.png)
 
 ## Contact Us
 

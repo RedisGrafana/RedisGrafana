@@ -1,5 +1,9 @@
 # Developing Redis Data Source for Grafana
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/RedisGrafana/grafana-redis-datasource)](https://goreportcard.com/report/github.com/RedisGrafana/grafana-redis-datasource)
+![CI](https://github.com/RedisGrafana/grafana-redis-datasource/workflows/CI/badge.svg)
+[![codecov](https://codecov.io/gh/RedisGrafana/grafana-redis-datasource/branch/master/graph/badge.svg?token=YX7995RPCF)](https://codecov.io/gh/RedisGrafana/grafana-redis-datasource)
+
 Developing Redis Data Source involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
 ## Install Grafana
@@ -104,7 +108,7 @@ yarn start:dev
 
 ## Configure Redis Data Source
 
-The [Configuration](../redis-datasource/configuration.md) page explains how to configure Redis Data Source.
+!!! note "The [Redis Data Source Configuration](../redis-datasource/configuration.md) page explains how to connect data source to Redis database."
 
 ## Contact Us
 

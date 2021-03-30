@@ -20,6 +20,8 @@ grafana-cli plugins install redis-datasource
 
 ## Run using `Docker`
 
+!!! note "Username and password to login to Grafana is `admin`/`admin`."
+
 ### Redis Application plug-in and Redis Data Source
 
 ```bash
@@ -36,12 +38,16 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasourc
 
 !!! important "Redis Application plug-in is disabled by default."
 
-Go to `Configuration` -> `Plugins` and enable Redis Application plug-in.
+Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
 
-## Configure Redis Data Source
+![Grafana plug-ins](images/grafana-plugins-app.png)
 
-!!! note "The [Configuration](redis-datasource/configuration.md) page explains how to configure Redis Data Source."
+Click **Enable** to add side menu, [Custom panels](redis-app/panels.md) and import [Dashboards](redis-app/dashboards.md).
 
-Open Grafana in your browser and configure Redis Data Source. You can add as many data sources as you want to support multiple Redis databases.
+![Enable Redis Application plug-in](images/redis-app-enable.png)
 
-![Datasource](https://raw.githubusercontent.com/RedisGrafana/grafana-redis-datasource/master/src/img/datasource.png)
+## Configuration
+
+### Redis Data Source
+
+!!! note "The [Redis Data Source Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database."

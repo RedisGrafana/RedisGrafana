@@ -5,7 +5,8 @@
   "keywords": [
     "redisgrafana",
     "redis-data-source",
-    "redis-app"
+    "redis-app",
+    "redis-explorer"
   ],
   "homepage": "https://redisgrafana.github.io",
   "license": "Apache-2.0",
