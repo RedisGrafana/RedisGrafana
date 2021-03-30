@@ -4,7 +4,7 @@ Redis is often used in the context of demanding use cases, where it serves a lar
 
 !!! note "This panel is a part of [Redis CLI dashboard](dashboards.md)."
 
-This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-datasource/INFO.md). Information is provide in Graph and table views.
+This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-datasource/redis/INFO.md). Information is provide in Graph and table views.
 
 ## Graph view
 

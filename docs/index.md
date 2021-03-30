@@ -7,11 +7,11 @@
 
 The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data.
 
-!!! note "Data Source can connect to any Redis database On-Premises or in the Cloud."
-
-!!! important "Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/)."
+!!! important "Only Grafana 7.1 and later with a new plug-in platform supported."
 
 ![Redis plug-ins for Grafana](images/redis-app.gif)
+
+Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/) and [Grafana Cloud](https://grafana.com/products/cloud/).
 
 ## Where Next?
 

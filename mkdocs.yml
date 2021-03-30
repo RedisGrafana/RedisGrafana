@@ -31,12 +31,14 @@ nav:
       - "Configuration": "redis-datasource/configuration.md"
       - "Supported commands": "redis-datasource/commands.md"
       - "Streaming": "redis-datasource/streaming.md"
+      - "Variables": "redis-datasource/variables.md"
       - "Commands":
-          - "INFO": "redis-datasource/INFO.md"
-          - "TMSCAN": "redis-datasource/TMSCAN.md"
-          - "TS.RANGE": "redis-datasource/TS-RANGE.md"
+          - "INFO": "redis-datasource/redis/INFO.md"
+          - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
+          - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
   - "Redis Application plug-in":
-      - "Custom panels": "redis-app/panels.md"
+      - "Data Sources": "redis-app/datasources.md"
+      - "Custom Panels": "redis-app/panels.md"
       - "Dashboards": "redis-app/dashboards.md"
       - "Panels":
           - "Command line interface (CLI)": "redis-app/redis-cli-panel.md"
@@ -48,7 +50,7 @@ nav:
       - "Redis Data Source": "development/redis-datasource.md"
       - "Redis Application plug-in": "development/redis-app.md"
       - "Redis Explorer plug-in": "development/redis-explorer.md"
-  - "Examples": "examples.md"
+  - "Projects": "projects.md"
   - "FAQ": "faq.md"
 
 markdown_extensions:
