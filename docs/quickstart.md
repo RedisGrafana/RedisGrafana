@@ -18,7 +18,9 @@ grafana-cli plugins install redis-datasource
 
 ## Run using `Docker`
 
-!!! note "Username and password to login to Grafana is `admin`/`admin`."
+!!! note "Login to Grafana"
+
+    Username and password is `admin`/`admin`.
 
 ### Redis Application plug-in and Redis Data Source
 
@@ -40,15 +42,17 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasourc
 - Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
 - Check permissions for `redis-datasource` binaries:
 
-!!! important "Redis Data Source binaries should have executable permissions for Grafana to be able to execute it!"
+!!! important "Permissions"
 
-```
+    Redis Data Source binaries should have executable permissions for Grafana to be able to execute it.
+
+```bash
 {{ include('redis-datasource/binaries.txt')}}
 ```
 
 - Check that plug-in was registered:
 
-```
+```bash
 {{ include('redis-datasource/grafana.log') }}
 ```
 
@@ -59,13 +63,13 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasourc
 
 ## Enable Redis Application plug-in
 
-!!! note "Redis Application plug-in is disabled by default."
+Redis Application plug-in is disabled by default. To enable:
 
-Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
+- Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
 
 ![Grafana plug-ins](images/redis-app/grafana-plugins.png)
 
-Click **Enable** to add side menu, [Custom panels](redis-app/panels.md) and import [Dashboards](redis-app/dashboards.md).
+- Click **Enable** to add side menu, [Custom panels](redis-app/panels.md) and import [Dashboards](redis-app/dashboards.md).
 
 ![Enable Redis Application plug-in](images/redis-app/enable.png)
 

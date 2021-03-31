@@ -2,7 +2,9 @@
 
 The following sections consist of various projects showing the uses for Redis plug-ins for Grafana.
 
-!!! note "To contribute your project, click the "Edit this page" button at the top to submit a Pull Request."
+!!! note "Contribute"
+
+    To contibute your project, click the "Edit this page" button at the top to submit a Pull Request.
 
 ## How many times Redis Data Source for Grafana was downloaded?
 
@@ -14,7 +16,9 @@ This project collect plug-ins statistics from Grafana repository using [RedisTim
 
 ![Stats](https://raw.githubusercontent.com/RedisGrafana/grafana-plugin-stats/master/images/redis-datasource-stats.png)
 
-!!! important "GitHub repository: [https://github.com/RedisGrafana/grafana-plugin-stats](https://github.com/RedisGrafana/grafana-plugin-stats)."
+!!! important "GitHub Repository"
+
+    [https://github.com/RedisGrafana/grafana-plugin-stats](https://github.com/RedisGrafana/grafana-plugin-stats)
 
 ## Pop-up store demo using RedisTimeSeries, RedisGears and Redis Data Source
 
@@ -26,4 +30,6 @@ The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-i
 
 ![Pop-up](https://raw.githubusercontent.com/RedisTimeSeries/redis-pop-up-store/master/images/pop-up.gif)
 
-!!! important "GitHub repository: [https://github.com/RedisTimeSeries/redis-pop-up-store](https://github.com/RedisTimeSeries/redis-pop-up-store)."
+!!! important "GitHub Repository"
+
+    [https://github.com/RedisTimeSeries/redis-pop-up-store](https://github.com/RedisTimeSeries/redis-pop-up-store)

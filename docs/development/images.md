@@ -6,11 +6,15 @@ Interested to try the latest features and verify bug fixes? Start nightly built 
 - linux/arm64
 - linux/arm
 
-!!! important "Images built from main branch and can be UNSTABLE."
+!!! important "Unstable"
+
+    Images built from main branch and recommended for Testing new features and bugfixes only.
 
 ![Nightly built Docker images](../images/development/docker.png)
 
-!!! note "Username and password to login to Grafana is `admin`/`admin`."
+!!! note "Login to Grafana"
+
+    Username and password to login to Grafana is `admin`/`admin`.
 
 ## Redis Application plug-in
 

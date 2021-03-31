@@ -8,7 +8,7 @@ Developing Redis Data Source involves setting up the development environment (wh
 
 ## Install Grafana
 
-!!! important "Grafana can be started in Docker or installed locally."
+Grafana can be started in Docker or installed locally:
 
 - Follow [Installation instructions](https://grafana.com/docs/grafana/latest/installation/) to install and start Grafana
 
@@ -84,7 +84,7 @@ mv dist/ /var/lib/grafana/plugins/redis-datasource
 vi /etc/grafana/grafana.ini
 ```
 
-```
+```bash
 {{ include('redis-datasource/grafana.ini') }}
 ```
 
@@ -94,15 +94,17 @@ vi /etc/grafana/grafana.ini
 tail -100 /var/log/grafana/grafana.log
 ```
 
-```
+```bash
 {{ include('redis-datasource/grafana.log') }}
 ```
 
 ## Start using Docker Compose
 
-!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)."
+!!! important "Prerequisite"
 
-```
+    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+
+```bash
 yarn start:dev
 ```
 

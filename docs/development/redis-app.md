@@ -8,7 +8,7 @@ Developing Application plug-in involves setting up the development environment (
 
 ## Install Grafana
 
-!!! important "Grafana can be used in Docker or installed locally."
+Grafana can be used in Docker or installed locally:
 
 - Follow [Installation instructions](https://grafana.com/docs/grafana/latest/installation/) to install and start Grafana
 
@@ -56,7 +56,7 @@ mv dist/ /var/lib/grafana/plugins/redis-app
 vi /etc/grafana/grafana.ini
 ```
 
-```
+```bash
 {{ include('redis-app/grafana.ini') }}
 ```
 
@@ -68,9 +68,11 @@ tail -100 /var/log/grafana/grafana.log
 
 ## Start using Docker Compose
 
-!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)."
+!!! important "Prerequisite"
 
-```
+    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+
+```bash
 yarn start:dev
 ```
 
@@ -79,21 +81,23 @@ Docker-compose file for Development includes:
 - Service `redis` using [Redismod](https://hub.docker.com/r/redislabs/redismod)
 - Service `grafana` using [Grafana](https://hub.docker.com/r/grafana/grafana) which allow loading unsigned plugins `redis-app` and `redis-datasource`
 
-!!! important "Redis Data Source should be cloned and built following [Instructions](redis-datasource.md)."
+!!! important "Redis Data Source"
 
-```
+    Redis Data Source should be cloned and built following [Instructions](redis-datasource.md).
+
+```bash
 {{ include('redis-app/dev.yml') }}
 ```
 
 ## Enable Redis Application plug-in
 
-!!! note "Redis Application plug-in is disabled by default."
+Redis Application plug-in is disabled by default. To enable:
 
-Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
+- Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
 
 ![Grafana plug-ins](../images/redis-app/grafana-plugins.png)
 
-Click **Enable** to add side menu, [Custom panels](../redis-app/panels.md) and import [Dashboards](../redis-app/dashboards.md).
+- Click **Enable** to add side menu, [Custom panels](../redis-app/panels.md) and import [Dashboards](../redis-app/dashboards.md).
 
 ![Enable Redis Application plug-in](../images/redis-app/enable.png)
 

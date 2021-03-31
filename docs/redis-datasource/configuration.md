@@ -12,7 +12,7 @@ Redis accepts clients connections on the configured [listening TCP port](#standa
 
 Specify `host:port` address or a URI. Please use `/db-number` or `?db=db-number` to specify the database number as defined in the [Schema](https://www.iana.org/assignments/uri-schemes/prov/redis):
 
-```
+```bash
 redis://redis-server:6379/0
 ```
 
@@ -24,7 +24,9 @@ redis://redis-server:6379/0
 
 ### Password
 
-!!! important "Passwords and TLS certificates/keys are kept in the Grafana security database and not shown to users."
+!!! important "Security"
+
+    Passwords are kept in the Grafana security database and not accessible to users.
 
 When specified AUTH command will be used to authenticate with the provided password.
 
@@ -72,7 +74,9 @@ If checked, the server's certificate will not be checked for validity. Should be
 
 ### Client Certificate and Key
 
-!!! important "Passwords and TLS certificates/keys are kept in the Grafana security database and not shown to users."
+!!! important "Security"
+
+    Client certificates and keys are kept in the Grafana security database and not accessible to users.
 
 Client Certificate and Key should be provided when client authentication is enforced.
 
