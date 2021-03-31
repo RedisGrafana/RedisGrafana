@@ -70,43 +70,41 @@ go run bootstrap.go
 yarn build:backend
 ```
 
-## Update local Grafana Configuration
+## Start Grafana
 
-- Move distribution to Grafana's `plugins/` folder
+=== "Docker Compose"
 
-```bash
-mv dist/ /var/lib/grafana/plugins/redis-datasource
-```
+    !!! important "Prerequisite"
 
-- Add `redis-datasource` to allowed unsigned plugins
+        Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
 
-```bash
-vi /etc/grafana/grafana.ini
-```
+    ```bash
+    yarn start:dev
+    ```
 
-```bash
-{{ include('redis-datasource/grafana.ini') }}
-```
+=== "Update local Grafana Configuration"
 
-- Verify that plugin registered
+    Move distribution to Grafana's `plugins/` folder
 
-```bash
-tail -100 /var/log/grafana/grafana.log
-```
+    ```bash
+    mv dist/ /var/lib/grafana/plugins/redis-datasource
+    ```
 
-```bash
-{{ include('redis-datasource/grafana.log') }}
-```
+    Add `redis-datasource` to allowed unsigned plugins
 
-## Start using Docker Compose
+    ```bash
+    vi /etc/grafana/grafana.ini
+    ```
 
-!!! important "Prerequisite"
+    --8<-- "includes/redis-datasource/grafana-ini.md"
 
-    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+    Restart Grafana and verify that plugin registered
 
-```bash
-yarn start:dev
-```
+    ```bash
+    tail -100 /var/log/grafana/grafana.log
+    ```
+
+    --8<-- "includes/redis-datasource/grafana-log.md"
 
 ## Configure Redis Data Source
 

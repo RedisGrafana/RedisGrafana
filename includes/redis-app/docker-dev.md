@@ -1,3 +1,4 @@
+```bash
 version: "3.4"
 
 services:
@@ -33,3 +34,4 @@ services:
       - ../provisioning/plugins:/etc/grafana/provisioning/plugins
       # Uncomment to preserve Grafana configuration
       # - ./data:/var/lib/grafana
+```

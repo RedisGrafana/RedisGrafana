@@ -33,8 +33,5 @@ jobs:
       - name: Install dependencies
         run: python3 -m pip install -r ./requirements.txt
 
-      - name: Install include plugin
-        run: python3 -m pip install git+https://github.com/RedisLabs/mkdocs-include.git
-
       - name: Build
         run: mkdocs build --strict
