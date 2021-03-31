@@ -63,18 +63,17 @@ nav:
 
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: False
+  - pymdownx.highlight
   - pymdownx.details
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.snippets
   - toc:
       permalink: true
 
 plugins:
   - search
-  - include:
-      src_path: docs/sources
 
 extra_javascript:
   - javascripts/extra.js
