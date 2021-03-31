@@ -80,6 +80,12 @@ Client Certificate and Key should be provided when client authentication is enfo
 
 Provide certificate to validate server's certificate or enable **Skip Verify**.
 
-## Plugin health check failed
+## Known issues
+
+### Plugin health check failed
 
 Redis Data Source binaries should have executable permissions for Grafana to be able to execute it. Check out [Quickstart](../quickstart.md#install-without-internet-access) page for more information.
+
+### `Redis_datasource_darwin_amd64` cannot be opened because the developer cannot be verified
+
+Go to `System Preferences` > `Security & Privacy` and set to allow `redis-datasource_darwin_amd64`.
