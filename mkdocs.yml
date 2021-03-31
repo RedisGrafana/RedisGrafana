@@ -4,25 +4,33 @@ edit_uri: https://github.com/RedisGrafana/redisgrafana/edit/main/docs/
 repo_url: https://github.com/RedisGrafana/grafana-redis-datasource
 repo_name: RedisGrafana/grafana-redis-datasource
 
-use_directory_urls: false
-
-google_analytics:
-  - G-8E4J019JNF
-  - auto
-
 theme:
   name: "material"
   language: "en"
   logo: "images/logo-white.png"
   favicon: "images/logo.png"
   palette:
-    primary: "indigo"
-    accent: "red"
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   font:
     text: "Roboto"
     code: "Roboto Mono"
-  feature:
-    tabs: false
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
 
 nav:
   - "Home": "index.md"
@@ -61,9 +69,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - toc:
-      permalink: True
+      permalink: true
 
 plugins:
   - search
   - include:
       src_path: docs/sources
+
+extra_javascript:
+  - javascripts/extra.js

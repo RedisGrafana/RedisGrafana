@@ -8,7 +8,7 @@ Developing Explorer plug-in involves setting up the development environment (whi
 
 ## Install Grafana
 
-!!! important "Grafana can be used in Docker or installed locally."
+Grafana can be used in Docker or installed locally:
 
 - Follow [Installation instructions](https://grafana.com/docs/grafana/latest/installation/) to install and start Grafana
 
@@ -56,7 +56,7 @@ mv dist/ /var/lib/grafana/plugins/redis-explorer
 vi /etc/grafana/grafana.ini
 ```
 
-```
+```bash
 {{ include('redis-explorer/grafana.ini') }}
 ```
 
@@ -68,21 +68,23 @@ tail -100 /var/log/grafana/grafana.log
 
 ## Start using Docker Compose
 
-!!! important "Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/)."
+!!! important "Prerequisite"
 
-```
+    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+
+```bash
 yarn start:dev
 ```
 
 ## Enable Redis Explorer plug-in
 
-!!! note "Redis Explorer plug-in is disabled by default."
+Redis Explorer plug-in is disabled by default. To enable:
 
-Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
+- Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
 
 ![Grafana plug-ins](../images/redis-explorer/grafana-plugins.png)
 
-Click **Enable** to add side menu, Data Sources and import Dashboards.
+- Click **Enable** to add side menu, Data Sources and import Dashboards.
 
 ![Enable Redis Explorer plug-in](../images/redis-explorer/enable.png)
 

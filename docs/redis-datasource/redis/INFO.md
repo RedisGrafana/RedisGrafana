@@ -2,4 +2,6 @@
 
 Returns information and statistics about the server.
 
-!!! note "Specification: [INFO](https://redis.io/commands/INFO)."
+!!! note "Core"
+
+    [https://redis.io/commands/INFO](https://redis.io/commands/INFO)

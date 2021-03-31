@@ -8,7 +8,7 @@ Template variables can query command and use other variables as parameters:
 
 The LUA script should work fine on a single shard deployment:
 
-```
+```bash
 eval "return redis.call('sunion',${region:singlequote})" 0
 ```
 
@@ -16,12 +16,12 @@ eval "return redis.call('sunion',${region:singlequote})" 0
 
 Another option is to utilize [RedisGears](https://redisgears.io) module:
 
-```
+```python
 {{ include('redis-datasource/gears-sunion.py') }}
 ```
 
 To execute the trigger in Grafana:
 
-```
+```bash
 RG.TRIGGER SUNION ${region:csv}
 ```
