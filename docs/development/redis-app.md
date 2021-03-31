@@ -42,52 +42,50 @@ yarn install
 yarn build
 ```
 
-## Update local Grafana Configuration
+## Start Grafana
 
-- Move distribution to Grafana's `plugins/` folder
+=== "Docker Compose"
 
-```bash
-mv dist/ /var/lib/grafana/plugins/redis-app
-```
+    !!! important "Prerequisite"
 
-- Add `redis-app` to allowed unsigned plugins
+        Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
 
-```bash
-vi /etc/grafana/grafana.ini
-```
+    ```bash
+    yarn start:dev
+    ```
 
-```bash
-{{ include('redis-app/grafana.ini') }}
-```
+    Docker-compose file for Development includes:
 
-- Verify that plugin is registered
+    - Service `redis` using [Redismod](https://hub.docker.com/r/redislabs/redismod)
+    - Service `grafana` using [Grafana](https://hub.docker.com/r/grafana/grafana) which allow loading unsigned plugins `redis-app` and `redis-datasource`
 
-```bash
-tail -100 /var/log/grafana/grafana.log
-```
+    !!! summary "Redis Data Source"
 
-## Start using Docker Compose
+        Redis Data Source should be cloned and built following [Instructions](redis-datasource.md).
 
-!!! important "Prerequisite"
+    --8<-- "includes/redis-app/docker-dev.md"
 
-    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+=== "Update local Grafana Configuration"
 
-```bash
-yarn start:dev
-```
+    Move distribution to Grafana's `plugins/` folder
 
-Docker-compose file for Development includes:
+    ```bash
+    mv dist/ /var/lib/grafana/plugins/redis-app
+    ```
 
-- Service `redis` using [Redismod](https://hub.docker.com/r/redislabs/redismod)
-- Service `grafana` using [Grafana](https://hub.docker.com/r/grafana/grafana) which allow loading unsigned plugins `redis-app` and `redis-datasource`
+    Add `redis-app` to allowed unsigned plugins
 
-!!! important "Redis Data Source"
+    ```bash
+    vi /etc/grafana/grafana.ini
+    ```
 
-    Redis Data Source should be cloned and built following [Instructions](redis-datasource.md).
+    --8<-- "includes/redis-app/grafana-ini.md"
 
-```bash
-{{ include('redis-app/dev.yml') }}
-```
+    Restart and verify that plugin is registered
+
+    ```bash
+    tail -100 /var/log/grafana/grafana.log
+    ```
 
 ## Enable Redis Application plug-in
 

@@ -16,9 +16,23 @@ Specify `host:port` address or a URI. Please use `/db-number` or `?db=db-number`
 redis://redis-server:6379/0
 ```
 
+#### Cluster
+
+In Cluster mode **Address** can contain multiple values (`host:port` address or a URI) with comma.
+
+#### Sentinel
+
+In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. Also, provide **Master Name** to connect to.
+
+![Sentinel configuration](../images/redis-datasource/sentinel.png)
+
+#### Unix socket
+
+In Unix socket mode **Address** should contain path to the socket file.
+
 ### ACL
 
-[Available since Redis 6.0](https://redis.io/topics/acl) and allows to specify **Username** to authenticate.
+Available since [Redis 6.0](https://redis.io/topics/acl) and allows to specify **Username** to authenticate.
 
 ![ACL enabled](../images/redis-datasource/acl.png)
 
@@ -33,20 +47,6 @@ When specified AUTH command will be used to authenticate with the provided passw
 ### Pool Size
 
 Data source will keep open at least the given number of connections to the redis instance at the given address. The recommended size of the pool is 5 and can be increased if dashboards have a lot of panels and multiple users.
-
-### Cluster
-
-In Cluster mode **Address** can contain multiple values (`host:port` address or a URI) with comma.
-
-### Sentinel
-
-In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. Also, provide **Master Name** to connect to.
-
-![Sentinel configuration](../images/redis-datasource/sentinel.png)
-
-### Unix socket
-
-In Unix socket mode **Address** should contain path to the socket file.
 
 ## Advanced configuration
 

@@ -42,39 +42,39 @@ yarn install
 yarn build
 ```
 
-## Update local Grafana Configuration
+## Start Grafana
 
-- Move distribution to Grafana's `plugins/` folder
+=== "Docker Compose"
 
-```bash
-mv dist/ /var/lib/grafana/plugins/redis-explorer
-```
+    !!! important "Prerequisite"
 
-- Add `redis-explorer` to allowed unsigned plugins
+        Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
 
-```bash
-vi /etc/grafana/grafana.ini
-```
+    ```bash
+    yarn start:dev
+    ```
 
-```bash
-{{ include('redis-explorer/grafana.ini') }}
-```
+=== "Update local Grafana Configuration"
 
-- Verify that plugin is registered
+    Move distribution to Grafana's `plugins/` folder
 
-```bash
-tail -100 /var/log/grafana/grafana.log
-```
+    ```bash
+    mv dist/ /var/lib/grafana/plugins/redis-explorer
+    ```
 
-## Start using Docker Compose
+    Add `redis-explorer` to allowed unsigned plugins
 
-!!! important "Prerequisite"
+    ```bash
+    vi /etc/grafana/grafana.ini
+    ```
 
-    Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+    --8<-- "includes/redis-explorer/grafana-ini.md"
 
-```bash
-yarn start:dev
-```
+    Restart Grafana and verify that plugin is registered
+
+    ```bash
+    tail -100 /var/log/grafana/grafana.log
+    ```
 
 ## Enable Redis Explorer plug-in
 

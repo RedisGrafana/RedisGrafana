@@ -4,17 +4,17 @@
 
 Use the `grafana-cli` tool to install from the commandline.
 
-### Redis Application plug-in and Redis Data Source
+=== "Redis Application plug-in and Redis Data Source"
 
-```bash
-grafana-cli plugins install redis-app
-```
+    ```bash
+    grafana-cli plugins install redis-app
+    ```
 
-### Redis Data Source
+=== "Redis Data Source"
 
-```bash
-grafana-cli plugins install redis-datasource
-```
+    ```bash
+    grafana-cli plugins install redis-datasource
+    ```
 
 ## Run using `Docker`
 
@@ -22,17 +22,17 @@ grafana-cli plugins install redis-datasource
 
     Username and password is `admin`/`admin`.
 
-### Redis Application plug-in and Redis Data Source
+=== "Redis Application plug-in and Redis Data Source"
 
-```bash
-docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
-```
+    ```bash
+    docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
+    ```
 
-### Redis Data Source
+=== "Redis Data Source"
 
-```bash
-docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
-```
+    ```bash
+    docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
+    ```
 
 ## Install without Internet access
 
@@ -46,15 +46,11 @@ docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasourc
 
     Redis Data Source binaries should have executable permissions for Grafana to be able to execute it.
 
-```bash
-{{ include('redis-datasource/binaries.txt')}}
-```
+    --8<-- "includes/redis-datasource/binaries.md"
 
 - Check that plug-in was registered:
 
-```bash
-{{ include('redis-datasource/grafana.log') }}
-```
+--8<-- "includes/redis-datasource/grafana-log.md"
 
 ### Redis Application plug-in
 
