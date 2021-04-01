@@ -1,17 +1,31 @@
 # Command Latency
 
-Redis is often used in the context of demanding use cases, where it serves a large number of queries per second per instance, and at the same time, there are very strict latency requirements both for the average response time and for the worst case latency.
+This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-datasource/redis/INFO.md).
 
-This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-datasource/redis/INFO.md). Information is provide in Graph and table views.
+> Redis is often used in the context of demanding use cases, where it serves a large number of queries per second per instance, and at the same time, there are very strict latency requirements both for the average response time and for the worst case latency.
 
-## Graph view
+## Query Editor
+
+- Data Source should be selected as variable or exact name.
+- Query is not required.
+
+## Options
+
+| Option          | Description                               |
+| --------------- | ----------------------------------------- |
+| Interval        | Interval to run INFO command, ms          |
+| View mode       | Table or Graph                            |
+| Samples (Graph) | Number of Samples per command             |
+| Empty (Graph)   | Hide commands which have only zero values |
+
+### Graph view
 
 ![Latency-Graph](../images/redis-app/latency-panel-graph.png)
 
-## Table view
+### Table view
 
 ![Latency-Table](../images/redis-app/latency-panel-table.png)
 
 ## Dashboard
 
-This panel is included in [Redis CLI dashboard](dashboards.md).
+This panel is included in the [Redis CLI dashboard](dashboards.md).

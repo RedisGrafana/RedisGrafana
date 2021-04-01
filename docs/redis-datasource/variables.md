@@ -1,6 +1,6 @@
 # Variables
 
-Template variables can query command and use other variables as parameters:
+Template variables can query command and use other variables as parameters.
 
 ![Variables](../images/redis-datasource/variables.png)
 

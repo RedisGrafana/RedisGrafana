@@ -6,12 +6,24 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
     Please use this command in OFF-PEAK as it cause latency increase.
 
+    Interval and count for SCAN command is configurable to keep latency under control.
+
 ![Keys](../images/redis-app/keys-panel.png)
+
+## Query Editor
+
+- Data Source should be selected as variable or exact name.
+- Query is not required.
 
 ## Options
 
-Interval and count for SCAN command is configurable to keep latency under control.
+| Option        | Description                                                                                                             |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| Interval      | Interval to run SCAN command, ms                                                                                        |
+| Top Keys      | Calculate top keys in the results                                                                                       |
+| Count         | The amount of work that should be done at every call in order to retrieve elements from the collection for SCAN command |
+| Match pattern | Patter for SCAN command                                                                                                 |
 
 ## Dashboard
 
-This panel is included in [Redis CLI dashboard](dashboards.md).
+This panel is included in the [Redis CLI dashboard](dashboards.md).
