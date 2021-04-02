@@ -1,6 +1,6 @@
-# Streaming support
+# Streaming Data Source
 
-Redis Data Source supports streaming data for the most commands. Please take a look at specific command for details.
+Redis Data Source supports Streaming. Please take a look at specific command in the list for details.
 
 !!! note "A dot in the top right corner"
 
@@ -24,9 +24,15 @@ Streaming data supported as Time series and Data frames.
 
 ### Time series
 
-When selected, `time` field will be added or replaced to allow display values on Chart.
+When selected, `time` field will be added or replaced to allow visualize values using Graph or Time Series (Grafana 7.4+).
 
-If command return more than one line, the last line of data will be returned.
+!!! important "Multi-line results"
+
+    If command returns more than one line, the last line of data will be returned.
+
+!!! example "[XLEN](redis/XLEN.md)"
+
+    ![XLEN](../images/redis-datasource/commands/xlen.png)
 
 ### Data frame
 

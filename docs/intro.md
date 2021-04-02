@@ -12,6 +12,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 - The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source.
 - The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in.
 - The **Development** section has more information about the nightly built [Docker Images](development/images.md) and developing plug-ins.
+- The **Projects** section has some interesting use cases for using Redis plug-in for Grafana.
 
 ## Grafana Repository
 
@@ -34,7 +35,10 @@ If you have questions or feedback, or want to report an issue, here's where you 
 - [Redis Data Source](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
 - [Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
 - [Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/issues/new/choose)
-- [Documentation updates](https://github.com/RedisGrafana/redisgrafana/issues/new/choose)
+
+!!! tip "Contribute"
+
+    To contibute your project or propose Documentation updates, open an [issue](https://github.com/RedisGrafana/redisgrafana/issues/new/choose) or click the "Edit this page" button at the top to submit a Pull Request.
 
 ## License
 

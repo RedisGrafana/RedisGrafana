@@ -6,11 +6,15 @@ Data Source can connect to any Redis database On-Premises or in the Cloud. You c
 
 Redis accepts clients connections on the configured [listening TCP port](#standalone) and the [Unix socket](#unix-socket) if enabled. [Cluster](#cluster) is a distributed implementation of OSS Redis and [Sentinel](#sentinel) provides high availability.
 
+!!! tip "Redis Application plug-in"
+
+    Redis Application plug-in helps to manage multiple [Redis Data Sources](../redis-app/datasources.md) and provides [Custom panels](../redis-app/panels.md).
+
 ## Main configuration
 
 ### Address
 
-Specify `host:port` address or a URI. Please use `/db-number` or `?db=db-number` to specify the database number as defined in the [Schema](https://www.iana.org/assignments/uri-schemes/prov/redis):
+Specify `host:port` address or a URI to connect to Redis. Please use `/db-number` or `?db=db-number` to specify the logical database number as defined in the [Schema](https://www.iana.org/assignments/uri-schemes/prov/redis):
 
 ```bash
 redis://redis-server:6379/0
@@ -22,7 +26,7 @@ In Cluster mode **Address** can contain multiple values (`host:port` address or 
 
 #### Sentinel
 
-In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. Also, provide **Master Name** to connect to.
+In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. **Master Name** is required to connect to Sentinel.
 
 ![Sentinel configuration](../images/redis-datasource/sentinel.png)
 
@@ -46,7 +50,7 @@ When specified AUTH command will be used to authenticate with the provided passw
 
 ### Pool Size
 
-Data source will keep open at least the given number of connections to the redis instance at the given address. The recommended size of the pool is 5 and can be increased if dashboards have a lot of panels and multiple users.
+Data source will keep open at least the given number of connections to the Redis instance at the provided **Address**. The recommended size of the pool is 5 and can be increased if dashboards have a lot of panels and multiple users.
 
 ## Advanced configuration
 
@@ -64,7 +68,7 @@ Sets the duration in microseconds after which internal pipelines will be flushed
 
 ## SSL/TLS
 
-To enabled SSL/TLS authenticate enable it and provide all required parameters.
+To support SSL/TLS authentication enable it and provide all required parameters.
 
 ![TLS enabled](../images/redis-datasource/tls.png)
 

@@ -4,7 +4,10 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 
 ## Query Editor
 
-Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and provide all required parameters:
+1. Choose **Type** to select core Redis, Custom or Redis Module
+2. Select one of supported **Command**s
+3. Provide all required parameters, depends on selected **Command**
+4. Enable [Streaming](streaming.md) if required
 
 ![Query Editor](../images/redis-datasource/query.png)
 
@@ -16,14 +19,14 @@ Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and p
 
 ## Commands
 
-### Core (Hashes, Sets, Lists, Strings, Streams, etc.)
+### Redis (Hashes, Sets, Lists, Strings, Streams, etc.)
 
 | Command               | Description                                                                       |
 | --------------------- | --------------------------------------------------------------------------------- |
 | CLIENT LIST           | Returns information and statistics about the client connections server            |
 | CLUSTER INFO          | Provides INFO style information about Redis Cluster vital parameters              |
 | CLUSTER NODES         | Provides current cluster configuration, given by the set of known nodes           |
-| GET                   | Returns the value of key                                                          |
+| [GET](redis/GET.md)   | Returns the value of key                                                          |
 | HGET                  | Returns the value associated with field in the hash stored at key                 |
 | HGETALL               | Returns all fields and values of the hash stored at key                           |
 | HKEYS                 | Returns all field names in the hash stored at key                                 |
@@ -49,11 +52,11 @@ Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and p
 
 ### RedisTimeSeries
 
-[RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
+> [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
 
 | Command                                  | Description                                                    |
 | ---------------------------------------- | -------------------------------------------------------------- |
-| TS.GET                                   | Returns the last sample                                        |
+| [TS.GET](redis-timeseries/TS-GET.md)     | Returns the last sample                                        |
 | TS.INFO                                  | Returns information and statistics on the time-series          |
 | TS.MRANGE                                | Query a timestamp range across multiple time-series by filters |
 | TS.QUERYINDEX                            | Query all the keys matching the filter list                    |
@@ -61,16 +64,16 @@ Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and p
 
 ### RedisGears
 
-[RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
+> [RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 | Command                                                     | Description                                                 |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | [RG.DUMPREGISTRATIONS](redis-gears/RG-DUMPREGISTRATIONS.md) | Outputs the list of function registrations                  |
-| RG.PYSTATS                                                  | Returns memory usage statistics from the Python interpreter |
+| [RG.PYSTATS](redis-gears/RG-PYSTATS.md)                     | Returns memory usage statistics from the Python interpreter |
 
 ### RedisGraph
 
-[RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
+> [RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
 
 | Command       | Description                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------- |
@@ -79,7 +82,7 @@ Choose **Type**, **Command**, enable [Streaming](streaming.md) if required and p
 
 ### RediSearch
 
-[RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
+> [RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
 | Command | Description                                     |
 | ------- | ----------------------------------------------- |

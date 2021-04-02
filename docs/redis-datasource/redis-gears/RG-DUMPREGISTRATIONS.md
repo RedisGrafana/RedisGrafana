@@ -1,6 +1,8 @@
 # RG.DUMPREGISTRATIONS
 
-Outputs the list of [function registrations](https://oss.redislabs.com/redisgears/functions.html#registration).
+Outputs the list of function registrations.
+
+> The representation of an event-driven function is called a [registration](https://oss.redislabs.com/redisgears/functions.html#registration).
 
 !!! info "RedisGears"
 
@@ -20,10 +22,6 @@ Streaming is supported as **Data frame**.
 
 - Table
 
-## Example
+## Dashboards
 
-??? example "Table"
-
-    Dashboard contains formatted table with Streaming enabled.
-
-    ---8<-- "includes/redis-datasource/commands/rg-dumpregistrations.md"
+- [RedisGears](../../redis-app/dashboards.md#redisgears) includes Table panel "Registrations" using this command.
