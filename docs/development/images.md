@@ -12,9 +12,7 @@ Interested to try the latest features and verify bug fixes? Start nightly built 
 
 ![Nightly built Docker images](../images/development/docker.png)
 
-!!! note "Login to Grafana"
-
-    Username and password to login to Grafana is `admin`/`admin`.
+--8<-- "includes/login-grafana.md"
 
 ## Redis Application plug-in
 

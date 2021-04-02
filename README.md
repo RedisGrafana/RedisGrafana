@@ -6,7 +6,7 @@
 [![Redis Data Source](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Data%20Source&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
 [![Redis Application plug-in](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Application%20plug-in&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 
-The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to easily monitor Redis and application data.
+The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to observe and interact with Redis and Application data.
 Data Source can connect to any Redis database On-Premises or in the Cloud.
 
 ![Redis plug-ins for Grafana](docs/images/redis-app.gif)

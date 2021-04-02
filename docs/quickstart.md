@@ -2,7 +2,7 @@
 
 ## Install using `grafana-cli`
 
-Use the `grafana-cli` tool to install from the commandline.
+Use the `grafana-cli` tool to install from the commandline:
 
 === "Redis Application plug-in and Redis Data Source"
 
@@ -18,9 +18,7 @@ Use the `grafana-cli` tool to install from the commandline.
 
 ## Run using `Docker`
 
-!!! note "Login to Grafana"
-
-    Username and password is `admin`/`admin`.
+--8<-- "includes/login-grafana.md"
 
 === "Redis Application plug-in and Redis Data Source"
 
@@ -33,6 +31,10 @@ Use the `grafana-cli` tool to install from the commandline.
     ```bash
     docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
     ```
+
+!!! note "Docker Images"
+
+    Interested to try the latest features and verify bug fixes? Start nightly built [Docker image](development/images.md).
 
 ## Install without Internet access
 
@@ -57,20 +59,14 @@ Use the `grafana-cli` tool to install from the commandline.
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-app/releases).
 - Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
 
-## Enable Redis Application plug-in
-
-Redis Application plug-in is disabled by default. To enable:
-
-- Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
-
-![Grafana plug-ins](images/redis-app/grafana-plugins.png)
-
-- Click **Enable** to add side menu, [Custom panels](redis-app/panels.md) and import [Dashboards](redis-app/dashboards.md).
-
-![Enable Redis Application plug-in](images/redis-app/enable.png)
+--8<-- "includes/redis-app/enable.md"
 
 ## Configuration
 
 ### Redis Data Source
 
-The [Redis Data Source Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database.
+The [Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database.
+
+### Redis Application plug-in
+
+The [Data Sources](redis-app/datasources.md) page explains how to add and manage multiple Redis Data Sources.
