@@ -46,19 +46,24 @@ nav:
   - "Quickstart": "quickstart.md"
   - "Redis Data Source":
       - "Configuration": "redis-datasource/configuration.md"
-      - "Supported commands": "redis-datasource/commands.md"
       - "Streaming": "redis-datasource/streaming.md"
       - "Variables": "redis-datasource/variables.md"
-      - "Commands":
+      - "Commands": "redis-datasource/commands.md"
+      - "Redis":
+          - "GET": "redis-datasource/redis/GET.md"
           - "INFO": "redis-datasource/redis/INFO.md"
           - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
-          - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
-          - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
           - "XLEN": "redis-datasource/redis/XLEN.md"
+      - "RedisGears":
+          - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
+          - "RG.PYSTATS": "redis-datasource/redis-gears/RG-PYSTATS.md"
+      - "RedisTimeSeries":
+          - "TS.GET": "redis-datasource/redis-timeseries/TS-GET.md"
+          - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
   - "Redis Application plug-in":
+      - "Dashboards": "redis-app/dashboards.md"
       - "Data Sources": "redis-app/datasources.md"
       - "Custom Panels": "redis-app/panels.md"
-      - "Dashboards": "redis-app/dashboards.md"
       - "Panels":
           - "Command line interface (CLI)": "redis-app/redis-cli-panel.md"
           - "Command Latency": "redis-app/redis-latency-panel.md"
@@ -69,7 +74,9 @@ nav:
       - "Redis Data Source": "development/redis-datasource.md"
       - "Redis Application plug-in": "development/redis-app.md"
       - "Redis Explorer plug-in": "development/redis-explorer.md"
-  - "Projects": "projects.md"
+  - "Projects":
+      - "Pop-up Store": "projects/pop-up-store.md"
+      - "Plug-ins Statistics": "projects/grafana-stats.md"
   - "FAQ": "faq.md"
 
 markdown_extensions:

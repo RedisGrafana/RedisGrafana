@@ -27,13 +27,13 @@ Returns information and statistics about the server.
 | CPU                      | CPU consumption statistics                 | Yes                         | Any           |
 | Command Stats            | Redis command statistics                   | Number of calls per command | Any           |
 | Cluster                  | Redis Cluster                              | Yes                         | Any           |
-| Modules (not supported)  | Modules                                    | N/A                         | N/A           |
-| Keyspace (not supported) | Database related statistics                | N/A                         | N/A           |
+| Modules (not supported)  | Modules                                    | -                           | -             |
+| Keyspace (not supported) | Database related statistics                | -                           | -             |
 | Error Stats              | Redis error statistics (Redis 6.2)         | Yes                         | Any           |
 
 !!! note "Command Latency"
 
-    To see Latency per command, take a look at [Command Latency](../../redis-app/redis-latency-panel.md) panel.
+    To see Latency per command based on **Command Stats**, take a look at [Command Latency](../../redis-app/redis-latency-panel.md) panel.
 
 ## Streaming
 
@@ -43,18 +43,9 @@ Streaming is supported as **Time Series** and **Data frame** for the most sectio
 
 Any standard visualization should work. Check **Visualization** column for specific section.
 
-## Example
+![INFO](../../images/redis-datasource/commands/info-memory.png)
 
-??? example "Clients"
+## Dashboards
 
-    Dashboard contains formatted table with Streaming enabled.
-
-    ---8<-- "includes/redis-datasource/commands/info-clients.md"
-
-??? example "Memory"
-
-    ![INFO](../../images/redis-datasource/commands/info-memory.png)
-
-    Dashboard contains bar gauge with Streaming enabled.
-
-    ---8<-- "includes/redis-datasource/commands/info-memory.md"
+- [Redis CLI](../../../redis-app/dashboards/#cli-command-line-interface) includes Graph panels using this command.
+- [Redis Overview](../../../redis-app/dashboards/#redis-overview) includes Stats, Bar gauge, Table panels using this command.
