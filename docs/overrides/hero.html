@@ -1,0 +1,293 @@
+<!-- Additional styles for landing page -->
+<style>
+  .md-main {
+    flex-grow: 0;
+  }
+
+  .md-main__inner {
+    display: flex;
+    height: 100%;
+  }
+
+  .tx-container {
+    padding-top: 1rem;
+    background: linear-gradient(
+      to bottom,
+      var(--md-primary-fg-color),
+      lightgray 99%,
+      #fff 99%
+    );
+  }
+
+  .tx-hero {
+    margin: 32px 2.8rem;
+    color: var(--md-primary-bg-color);
+    justify-content: center;
+  }
+
+  .tx-hero h1 {
+    margin-bottom: 1rem;
+    color: currentColor;
+    font-weight: 700;
+  }
+
+  .tx-hero__content {
+    padding-bottom: 1rem;
+    margin: 0 auto;
+  }
+
+  .tx-hero__image {
+    width: 17rem;
+    height: 17rem;
+    order: 1;
+  }
+
+  .tx-hero .md-button {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    color: var(--md-primary-bg-color);
+  }
+
+  .tx-hero .md-button--primary {
+    background-color: var(--md-primary-bg-color);
+    color: var(--md-accent-fg-color);
+    border-color: var(--md-primary-bg-color);
+  }
+
+  .tx-hero .md-button:focus,
+  .tx-hero .md-button:hover {
+    background-color: var(--md-accent-fg-color);
+    color: var(--md-default-bg-color);
+    border-color: var(--md-accent-fg-color);
+  }
+
+  .feature-item h2 img {
+    height: 32px;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .top-hr {
+    margin-top: 42px;
+  }
+
+  .feature-item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    box-sizing: border-box;
+    padding: 0 15px;
+    word-break: break-word;
+  }
+
+  .feature-item h2 {
+    color: var(--md-default-fg-color);
+    font-weight: 300;
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+  }
+
+  .feature-item p {
+    font-size: 16px;
+    line-height: 1.8em;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: var(--md-default-fg-color);
+    margin: 0 0 10px;
+    display: block;
+  }
+
+  @media screen and (max-width: 30em) {
+    .tx-hero h1 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media screen and (min-width: 60em) {
+    .md-sidebar--secondary {
+      display: none;
+    }
+
+    .tx-hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .tx-hero__content {
+      max-width: 22rem;
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
+      margin-left: 1rem;
+      margin-right: 4rem;
+      align-items: center;
+    }
+  }
+
+  @media screen and (min-width: 76.25em) {
+    .md-sidebar--primary {
+      display: none;
+    }
+
+    .top-hr {
+      width: 100%;
+      display: flex;
+      max-width: 61rem;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 0.2rem;
+    }
+
+    .bottom-hr {
+      margin-top: 10px;
+      width: 100%;
+      display: flex;
+      max-width: 61rem;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0 0.2rem;
+    }
+
+    .feature-item {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+
+  .hr {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .text-center {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    font-family: "Lato", sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    padding-bottom: 10px;
+  }
+
+  .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .logos img {
+    flex: 1 1 auto;
+    padding: 25px;
+    max-height: 130px;
+    vertical-align: middle;
+  }
+
+  .hr-logos {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .md-footer-meta__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+
+  .md-footer-social {
+    padding-top: 20px;
+  }
+</style>
+
+<section class="tx-container">
+  <div class="md-grid md-typeset">
+    <div class="tx-hero">
+      <div class="tx-hero__image">
+        <img src="images/logo.png" />
+      </div>
+
+      <div class="tx-hero__content">
+        <h1>{{ config.site_name }}</h1>
+        <p>{{ config.site_description }}</p>
+        <a
+          href="intro/"
+          title="Introduction"
+          class="md-button md-button--primary"
+          >Introduction</a
+        >
+        <a href="quickstart/" title="Quickstart" class="md-button md-button"
+          >Quickstart</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="top-hr">
+  <div class="feature-item">
+    <h2><img src="images/logo.png" /> Redis Data Source</h2>
+    <p>Allows users to connect to the Redis databases.</p>
+    <a
+      href="https://github.com/RedisGrafana/grafana-redis-datasource"
+      rel="noopener"
+      target="_blank"
+      title="Redis Data Source"
+    >
+      <img
+        src="https://img.shields.io/github/v/release/redisgrafana/grafana-redis-datasource.svg"
+      />
+      <img
+        src="https://img.shields.io/github/stars/RedisGrafana/grafana-redis-datasource.svg?style=social&amp;label=Star&amp;maxAge=2592000"
+      />
+    </a>
+  </div>
+
+  <div class="feature-item">
+    <h2><img src="images/redis-app/logo.png" /> Redis Application plug-in</h2>
+    <p>Provides application pages and custom panels for Redis Data Source.</p>
+    <a
+      href="https://github.com/RedisGrafana/grafana-redis-app"
+      rel="noopener"
+      target="_blank"
+      title="Redis Explorer plug-in"
+    >
+      <img
+        src="https://img.shields.io/github/v/release/redisgrafana/grafana-redis-app.svg"
+      />
+      <img
+        src="https://img.shields.io/github/stars/RedisGrafana/grafana-redis-app.svg?style=social&amp;label=Star&amp;maxAge=2592000"
+      />
+    </a>
+  </div>
+  <div class="feature-item">
+    <h2><img src="images/redis-explorer/logo.png" /> Redis Explorer plug-in</h2>
+    <p>
+      Allows users to connect to Redis Enterprise software clusters using REST
+      API.
+    </p>
+    <a
+      href="https://github.com/RedisGrafana/grafana-redis-explorer"
+      rel="noopener"
+      target="_blank"
+      title="Redis Explorer plug-in"
+    >
+      <img
+        src="https://img.shields.io/github/v/release/redisgrafana/grafana-redis-explorer.svg"
+      />
+      <img
+        src="https://img.shields.io/github/stars/RedisGrafana/grafana-redis-explorer.svg?style=social&amp;label=Star&amp;maxAge=2592000"
+      />
+    </a>
+  </div>
+</div>
