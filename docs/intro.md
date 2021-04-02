@@ -38,4 +38,4 @@ If you have questions or feedback, or want to report an issue, here's where you 
 
 ## License
 
-Redis plug-ins for Grafana are licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/grafana-redis-datasource/blob/master/LICENSE).
+Redis plug-ins for Grafana are licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/RedisGrafana/blob/main/LICENSE).
