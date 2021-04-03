@@ -57,7 +57,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 | Command                                  | Description                                                    |
 | ---------------------------------------- | -------------------------------------------------------------- |
 | [TS.GET](redis-timeseries/TS-GET.md)     | Returns the last sample                                        |
-| TS.INFO                                  | Returns information and statistics on the time-series          |
+| [TS.INFO](redis-timeseries/TS-INFO.md)   | Returns information and statistics on the time-series          |
 | TS.MRANGE                                | Query a timestamp range across multiple time-series by filters |
 | TS.QUERYINDEX                            | Query all the keys matching the filter list                    |
 | [TS.RANGE](redis-timeseries/TS-RANGE.md) | Query a range                                                  |
