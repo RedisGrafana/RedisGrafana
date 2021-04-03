@@ -1,6 +1,6 @@
 # Keys consuming a lot of memory
 
-Do you want to know which keys consume a lot of memory in your Redis database? This panel is based on [TMSCAN](../redis-datasource/custom/TMSCAN.md) to scan keys and sort results based on memory usage in the table format.
+Do you want to know which keys consume a lot of memory in your Redis database? This panel is based on [TMSCAN](../../redis-datasource/custom/TMSCAN.md) to scan keys and sort results based on memory usage in the table format.
 
 !!! warning "Latency"
 
@@ -8,7 +8,7 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
     Interval and count for SCAN command is configurable to keep latency under control.
 
-![Keys](../images/redis-app/panels/keys-panel.png)
+![Keys](../../images/redis-app/panels/keys-panel.png)
 
 ## Query Editor
 
@@ -26,4 +26,4 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
 ## Dashboard
 
-- [Redis CLI](dashboards.md) includes this panel.
+- [Redis CLI](../dashboards/cli.md) includes this panel.

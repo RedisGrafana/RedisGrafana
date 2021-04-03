@@ -2,7 +2,7 @@
 
 This panel provides [Redis command line interface](https://redis.io/topics/rediscli) that allows to send commands to Redis, and read the replies sent by the server, directly from the Grafana.
 
-![CLI](../images/redis-app/panels/cli-panel.png)
+![CLI](../../images/redis-app/panels/cli-panel.png)
 
 ## Help
 
@@ -30,4 +30,4 @@ When typing any Redis command or module name, brief description will appear on t
 
 ## Dashboard
 
-- [Redis CLI](dashboards.md) includes this panel.
+- [Redis CLI](../dashboards/cli.md) includes this panel.

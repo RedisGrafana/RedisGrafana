@@ -2,7 +2,7 @@
 
 ## Install using `grafana-cli`
 
-Use the `grafana-cli` tool to install from the commandline:
+Use the `grafana-cli` tool to install from the command-line:
 
 === "Redis Application plug-in and Redis Data Source"
 
@@ -34,15 +34,15 @@ Use the `grafana-cli` tool to install from the commandline:
 
 !!! note "Docker Images"
 
-    Interested to try the latest features and verify bug fixes? Start nightly built [Docker image](development/images.md).
+    Interested in the latest features and updates? Start nightly built [Docker image](development/images.md).
 
 ## Install without Internet access
 
 ### Redis Data Source
 
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-datasource/releases).
-- Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
-- Check permissions for `redis-datasource` binaries:
+- Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
+- Check permissions for the `redis-datasource` binaries:
 
 !!! important "Permissions"
 
@@ -57,7 +57,7 @@ Use the `grafana-cli` tool to install from the commandline:
 ### Redis Application plug-in
 
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-app/releases).
-- Unzip archive to `plugins/` folder for local Grafana installation or Docker plug-ins volume.
+- Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
 
 --8<-- "includes/redis-app/enable.md"
 
@@ -69,4 +69,4 @@ The [Configuration](redis-datasource/configuration.md) page explains how to conn
 
 ### Redis Application plug-in
 
-The [Data Sources](redis-app/datasources.md) page explains how to add and manage multiple Redis Data Sources.
+The [Overview](redis-app/overview.md) page explains how to add and manage multiple Redis Data Sources.

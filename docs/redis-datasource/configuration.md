@@ -8,7 +8,7 @@ Redis accepts clients connections on the configured [listening TCP port](#standa
 
 !!! tip "Redis Application plug-in"
 
-    Redis Application plug-in helps to manage multiple [Redis Data Sources](../redis-app/datasources.md) and provides [Custom panels](../redis-app/panels.md).
+    [Redis Application plug-in](../redis-app/overview.md) helps to manage multiple Redis Data Sources and provides Custom panels.
 
 ## Main configuration
 
