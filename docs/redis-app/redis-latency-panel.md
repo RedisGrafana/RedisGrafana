@@ -20,12 +20,12 @@ This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-dat
 
 ### Graph view
 
-![Latency-Graph](../images/redis-app/latency-panel-graph.png)
+![Latency-Graph](../images/redis-app/panels/latency-panel-graph.png)
 
 ### Table view
 
-![Latency-Table](../images/redis-app/latency-panel-table.png)
+![Latency-Table](../images/redis-app/panels/latency-panel-table.png)
 
 ## Dashboard
 
-This panel is included in the [Redis CLI dashboard](dashboards.md).
+- [Redis CLI](dashboards.md) includes this panel.

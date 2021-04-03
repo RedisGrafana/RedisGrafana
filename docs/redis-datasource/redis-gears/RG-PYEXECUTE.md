@@ -8,7 +8,7 @@ Executes a Python function.
 
     [https://oss.redislabs.com/redisgears/commands.html#rgpyexecute](https://oss.redislabs.com/redisgears/commands.html#rgpyexecute)
 
-![RG.PYEXECUTE](../../images/redis-app/gears-panel.png)
+![RG.PYEXECUTE](../../images/redis-app/panels/gears-panel.png)
 
 ## Parameters
 

@@ -2,7 +2,7 @@
 
 Data Source can connect to any Redis database On-Premises or in the Cloud. You can add as many data sources as you want to support multiple Redis databases.
 
-![Datasource](../images/redis-datasource/config-editor.png)
+![Datasource](../images/redis-datasource/config/config-editor.png)
 
 Redis accepts clients connections on the configured [listening TCP port](#standalone) and the [Unix socket](#unix-socket) if enabled. [Cluster](#cluster) is a distributed implementation of OSS Redis and [Sentinel](#sentinel) provides high availability.
 
@@ -28,7 +28,7 @@ In Cluster mode **Address** can contain multiple values (`host:port` address or 
 
 In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. **Master Name** is required to connect to Sentinel.
 
-![Sentinel configuration](../images/redis-datasource/sentinel.png)
+![Sentinel configuration](../images/redis-datasource/config/sentinel.png)
 
 #### Unix socket
 
@@ -38,7 +38,7 @@ In Unix socket mode **Address** should contain path to the socket file.
 
 Available since [Redis 6.0](https://redis.io/topics/acl) and allows to specify **Username** to authenticate.
 
-![ACL enabled](../images/redis-datasource/acl.png)
+![ACL enabled](../images/redis-datasource/config/acl.png)
 
 ### Password
 
@@ -70,7 +70,7 @@ Sets the duration in microseconds after which internal pipelines will be flushed
 
 To support SSL/TLS authentication enable it and provide all required parameters.
 
-![TLS enabled](../images/redis-datasource/tls.png)
+![TLS enabled](../images/redis-datasource/config/tls.png)
 
 ### Skip Verify
 

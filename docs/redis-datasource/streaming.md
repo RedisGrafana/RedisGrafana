@@ -6,7 +6,7 @@ Redis Data Source supports Streaming. Please take a look at specific command in 
 
     Since Grafana 7.4 a dot in the top right corner means that Streaming is enabled.
 
-![Streaming](../images/redis-datasource/streaming.png)
+![Streaming](../images/redis-datasource/commands/info-ops-sec.png)
 
 ## Parameters
 

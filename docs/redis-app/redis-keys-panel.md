@@ -8,7 +8,7 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
     Interval and count for SCAN command is configurable to keep latency under control.
 
-![Keys](../images/redis-app/keys-panel.png)
+![Keys](../images/redis-app/panels/keys-panel.png)
 
 ## Query Editor
 
@@ -26,4 +26,4 @@ Do you want to know which keys consume a lot of memory in your Redis database? T
 
 ## Dashboard
 
-This panel is included in the [Redis CLI dashboard](dashboards.md).
+- [Redis CLI](dashboards.md) includes this panel.
