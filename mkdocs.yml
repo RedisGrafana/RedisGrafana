@@ -63,14 +63,16 @@ nav:
           - "TS.INFO": "redis-datasource/redis-timeseries/TS-INFO.md"
           - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
   - "Redis Application plug-in":
-      - "Dashboards": "redis-app/dashboards.md"
-      - "Data Sources": "redis-app/datasources.md"
-      - "Custom Panels": "redis-app/panels.md"
+      - "Overview": "redis-app/overview.md"
+      - "Dashboards":
+          - "Redis CLI": "redis-app/dashboards/cli.md"
+          - "Redis Overview": "redis-app/dashboards/overview.md"
+          - "RedisGears": "redis-app/dashboards/redis-gears.md"
       - "Panels":
-          - "Command line interface (CLI)": "redis-app/redis-cli-panel.md"
-          - "Command Latency": "redis-app/redis-latency-panel.md"
-          - "Keys consuming a lot of memory": "redis-app/redis-keys-panel.md"
-          - "RedisGears Script Editor": "redis-app/redis-gears-panel.md"
+          - "Command line interface (CLI)": "redis-app/panels/redis-cli-panel.md"
+          - "Command Latency": "redis-app/panels/redis-latency-panel.md"
+          - "Keys consuming a lot of memory": "redis-app/panels/redis-keys-panel.md"
+          - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
   - "Development":
       - "Docker Images": "development/images.md"
       - "Redis Data Source": "development/redis-datasource.md"

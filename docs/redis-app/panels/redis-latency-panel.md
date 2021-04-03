@@ -1,6 +1,6 @@
 # Command Latency
 
-This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-datasource/redis/INFO.md).
+This panel provides commands's latency based on [INFO COMMANDSTATS](../../redis-datasource/redis/INFO.md).
 
 > Redis is often used in the context of demanding use cases, where it serves a large number of queries per second per instance, and at the same time, there are very strict latency requirements both for the average response time and for the worst case latency.
 
@@ -20,12 +20,12 @@ This panel provides commands's latency based on [INFO COMMANDSTATS](../redis-dat
 
 ### Graph view
 
-![Latency-Graph](../images/redis-app/panels/latency-panel-graph.png)
+![Latency-Graph](../../images/redis-app/panels/latency-panel-graph.png)
 
 ### Table view
 
-![Latency-Table](../images/redis-app/panels/latency-panel-table.png)
+![Latency-Table](../../images/redis-app/panels/latency-panel-table.png)
 
 ## Dashboard
 
-- [Redis CLI](dashboards.md) includes this panel.
+- [Redis CLI](../dashboards/cli.md) includes this panel.

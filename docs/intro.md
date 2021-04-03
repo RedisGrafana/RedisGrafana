@@ -10,9 +10,9 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 
 - The [Quickstart](quickstart.md) is the recommended starting point.
 - The [Commands](redis-datasource/commands.md) reference all supported commands in Redis Data Source.
-- The [Custom Panels](redis-app/panels.md) page provides information about all custom panels included in Redis Application plug-in.
+- The [Overview](redis-app/overview.md) page provides information about Application pages, dashboard, and custom panels included in the Redis Application plug-in.
 - The **Development** section has more information about the nightly built [Docker Images](development/images.md) and developing plug-ins.
-- The **Projects** section has some interesting use cases for using Redis plug-in for Grafana.
+- The **Projects** section has some interesting use cases for using the Redis plug-in for Grafana.
 
 ## Grafana Repository
 
@@ -30,7 +30,7 @@ Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/
 
 ## Contact Us
 
-If you have questions or feedback, or want to report an issue, here's where you can get in touch:
+If you have questions, feedback, or want to report an issue, here's where you can get in touch:
 
 - [Redis Data Source](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
 - [Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
@@ -38,8 +38,8 @@ If you have questions or feedback, or want to report an issue, here's where you 
 
 !!! tip "Contribute"
 
-    To contibute your project or propose Documentation updates, open an [issue](https://github.com/RedisGrafana/redisgrafana/issues/new/choose) or click the "Edit this page" button at the top to submit a Pull Request.
+    To contribute your project or propose Documentation updates, open an [issue](https://github.com/RedisGrafana/redisgrafana/issues/new/choose) or click the "Edit this page" button at the top to submit a Pull Request.
 
 ## License
 
-Redis plug-ins for Grafana are licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/RedisGrafana/blob/main/LICENSE).
+Redis plug-ins for Grafana licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/RedisGrafana/blob/main/LICENSE).

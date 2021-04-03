@@ -33,7 +33,7 @@ Returns information and statistics about the server.
 
 !!! note "Command Latency"
 
-    To see Latency per command based on **Command Stats**, take a look at [Command Latency](../../redis-app/redis-latency-panel.md) panel.
+    To see Latency per command based on **Command Stats**, take a look at [Command Latency](../../redis-app/panels/redis-latency-panel.md) panel.
 
 ## Streaming
 

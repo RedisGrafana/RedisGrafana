@@ -31,4 +31,4 @@ Streaming is not supported.
 ## Visualization
 
 - Table
-- [Keys consuming a lot of memory](../../redis-app/redis-keys-panel.md) panel
+- [Keys consuming a lot of memory](../../redis-app/panels/redis-keys-panel.md) panel

@@ -24,8 +24,8 @@ Streaming is not supported.
 
 ## Visualization
 
-This command is not available in Query Editor and can be used only using [RedisGears Script Editor](../../redis-app/redis-gears-panel.md) panel.
+This command is not available in Query Editor and can be used only using [RedisGears Script Editor](../../redis-app/panels/redis-gears-panel.md) panel.
 
 ## Dashboards
 
-- [RedisGears](../../redis-app/dashboards.md#redisgears) includes RedisGears Script Editor panel **Python function** using this command.
+- [RedisGears](../../redis-app/dashboards/redis-gears.md) includes RedisGears Script Editor panel **Python function** using this command.

@@ -1,6 +1,6 @@
 # Streaming Data Source
 
-Redis Data Source supports Streaming. Please take a look at specific command in the list for details.
+Redis Data Source supports Streaming. Please take a look at the [specific command](commands.md) for details.
 
 !!! note "A dot in the top right corner"
 
@@ -28,7 +28,7 @@ When selected, `time` field will be added or replaced to allow visualize values 
 
 !!! important "Multi-line results"
 
-    If command returns more than one line, the last line of data will be returned.
+    If the command returns more than one line, the last line of data will be returned.
 
 !!! example "[XLEN](redis/XLEN.md)"
 
