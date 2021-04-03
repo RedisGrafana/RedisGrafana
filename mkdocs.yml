@@ -56,6 +56,7 @@ nav:
           - "XLEN": "redis-datasource/redis/XLEN.md"
       - "RedisGears":
           - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
+          - "RG.PYEXECUTE": "redis-datasource/redis-gears/RG-PYEXECUTE.md"
           - "RG.PYSTATS": "redis-datasource/redis-gears/RG-PYSTATS.md"
       - "RedisTimeSeries":
           - "TS.GET": "redis-datasource/redis-timeseries/TS-GET.md"

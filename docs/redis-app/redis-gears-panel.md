@@ -15,9 +15,10 @@ This panel support Python syntax and allows to execute functions in blocking and
 
 | Option       | Description                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------------- |
+| Function     | Python function                                                                                          |
 | Requirements | Ensures that list of dependencies it is given as an argument is installed on each shard before execution |
 | Unblocking   | Doesn't block the client during execution                                                                |
 
 ## Dashboard
 
-This panel is included in the [Redis Gears dashboard](dashboards.md).
+- [RedisGears](dashboards.md) includes this panel.

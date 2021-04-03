@@ -24,4 +24,4 @@ Streaming is supported as **Data frame**.
 
 ## Dashboards
 
-- [RedisGears](../../redis-app/dashboards.md#redisgears) includes Table panel "Registrations" using this command.
+- [RedisGears](../../redis-app/dashboards.md#redisgears) includes Table panel **Registrations** using this command.

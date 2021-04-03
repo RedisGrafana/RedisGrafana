@@ -69,6 +69,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 | Command                                                     | Description                                                 |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
 | [RG.DUMPREGISTRATIONS](redis-gears/RG-DUMPREGISTRATIONS.md) | Outputs the list of function registrations                  |
+| [RG.PYEXECUTE](redis-gears/RG-PYEXECUTE.md)                 | Executes a Python function                                  |
 | [RG.PYSTATS](redis-gears/RG-PYSTATS.md)                     | Returns memory usage statistics from the Python interpreter |
 
 ### RedisGraph

@@ -24,4 +24,4 @@ Any standard visualization should work.
 
 ## Dashboards
 
-- [RedisGears](../../redis-app/dashboards.md#redisgears) includes Graph panel "Memory Usage" using this command.
+- [RedisGears](../../redis-app/dashboards.md#redisgears) includes Graph panel **Memory Usage** using this command.
