@@ -67,16 +67,4 @@ The [Configuration](redis-datasource/configuration.md) page explains how to conn
 
 ### Redis Application plug-in
 
-The [Overview](redis-app/overview.md) page explains how to add and manage multiple Redis Data Sources.
-
-!!! note "Enable Plug-in"
-
-    The Redis Application plug-in is disabled after installation by default. To enable:
-
-    - Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
-
-    ![Grafana plug-ins](images/redis-app/grafana-plugins.png)
-
-    - Click **Enable** to add side menu, Custom panels and import Dashboards.
-
-    ![Enable Redis Application plug-in](images/redis-app/enable.png)
+The [Overview](redis-app/overview.md) page explains how to enable plug-in and manage multiple Redis Data Sources.

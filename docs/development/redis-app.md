@@ -85,17 +85,9 @@ yarn build
     tail -100 /var/log/grafana/grafana.log
     ```
 
-## Enable Redis Application plug-in
+## Configuration
 
-Redis Application plug-in is disabled by default. To enable:
-
-- Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
-
-![Grafana plug-ins](../images/redis-app/grafana-plugins.png)
-
-- Click **Enable** to add side menu, Custom panels and import Dashboards.
-
-![Enable Redis Application plug-in](../images/redis-app/enable.png)
+The [Overview](../redis-app/overview.md) page explains how to enable plug-in and manage multiple Redis Data Sources.
 
 ## Contact Us
 

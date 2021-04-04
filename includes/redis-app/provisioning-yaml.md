@@ -1,0 +1,7 @@
+```yaml
+apiVersion: 1
+
+apps:
+  - type: redis-app
+    disabled: false
+```

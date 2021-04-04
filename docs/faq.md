@@ -6,9 +6,7 @@
 
 Redis Data Source binaries should have executable permissions for Grafana to be able to execute it. Check out [Quickstart](quickstart.md#install-without-internet-access) page for more information.
 
-### `Redis_datasource_darwin_amd64` cannot be opened because the developer cannot be verified
-
-Go to `System Preferences` > `Security & Privacy` and set to allow `redis-datasource_darwin_amd64`.
+--8<-- "includes/redis-datasource/darwin-privacy.md"
 
 ### Does Redis Data Source support Redis Cluster and Sentinel?
 
