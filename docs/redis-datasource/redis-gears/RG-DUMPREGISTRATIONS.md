@@ -1,6 +1,6 @@
 # RG.DUMPREGISTRATIONS
 
-Outputs the list of function registrations.
+This command outputs the list of function registrations.
 
 > The representation of an event-driven function is called a [registration](https://oss.redislabs.com/redisgears/functions.html#registration).
 
@@ -16,7 +16,7 @@ No parameters is required.
 
 ## Streaming
 
-Streaming is supported as **Data frame**.
+Streaming supported as **Data frame**.
 
 ## Visualization
 

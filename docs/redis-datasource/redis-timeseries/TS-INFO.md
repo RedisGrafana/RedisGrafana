@@ -1,6 +1,6 @@
 # TS.INFO
 
-Returns information and statistics on the time-series.
+This command returns information and statistics on the time series.
 
 !!! info "RedisTimeSeries"
 
@@ -16,7 +16,7 @@ Returns information and statistics on the time-series.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame**.
+Streaming supported as **Time Series** and **Data frame**.
 
 ## Visualization
 

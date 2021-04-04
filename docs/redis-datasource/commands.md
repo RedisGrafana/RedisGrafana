@@ -54,13 +54,13 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 
 > [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
 
-| Command                                  | Description                                                    |
-| ---------------------------------------- | -------------------------------------------------------------- |
-| [TS.GET](redis-timeseries/TS-GET.md)     | Returns the last sample                                        |
-| [TS.INFO](redis-timeseries/TS-INFO.md)   | Returns information and statistics on the time-series          |
-| TS.MRANGE                                | Query a timestamp range across multiple time-series by filters |
-| TS.QUERYINDEX                            | Query all the keys matching the filter list                    |
-| [TS.RANGE](redis-timeseries/TS-RANGE.md) | Query a range                                                  |
+| Command                                            | Description                                                    |
+| -------------------------------------------------- | -------------------------------------------------------------- |
+| [TS.GET](redis-timeseries/TS-GET.md)               | Returns the last sample                                        |
+| [TS.INFO](redis-timeseries/TS-INFO.md)             | Returns information and statistics on the time-series          |
+| [TS.MRANGE](redis-timeseries/TS-MRANGE.md)         | Query a timestamp range across multiple time-series by filters |
+| [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) | Query all the keys matching the filter list                    |
+| [TS.RANGE](redis-timeseries/TS-RANGE.md)           | Query a range                                                  |
 
 ### RedisGears
 

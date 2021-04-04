@@ -46,9 +46,7 @@ yarn build
 
 === "Docker Compose"
 
-    !!! important "Prerequisite"
-
-        Docker Compose should be pre-installed following [documentation](https://docs.docker.com/compose/install/).
+    --8<-- "includes/docker-prerequisite.md"
 
     ```bash
     yarn start:dev

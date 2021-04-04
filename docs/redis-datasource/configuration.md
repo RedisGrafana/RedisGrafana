@@ -1,4 +1,4 @@
-# Redis Data Source configuration
+# Redis Data Source
 
 Data Source can connect to any Redis database On-Premises or in the Cloud. You can add as many data sources as you want to support multiple Redis databases.
 
