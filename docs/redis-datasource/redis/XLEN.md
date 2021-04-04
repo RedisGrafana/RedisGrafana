@@ -1,6 +1,6 @@
 # XLEN
 
-Returns the number of entries inside a stream.
+This command returns the number of entries inside a stream.
 
 !!! info "Redis Core"
 
@@ -16,7 +16,7 @@ Returns the number of entries inside a stream.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame**.
+Streaming supported as **Time Series** and **Data frame**.
 
 ## Visualization
 

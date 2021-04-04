@@ -1,6 +1,6 @@
 # GET
 
-Returns the value of key.
+This command returns the value of key.
 
 !!! info "Redis Core"
 
@@ -16,7 +16,7 @@ Returns the value of key.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame**.
+Streaming supported as **Time Series** and **Data frame**.
 
 ## Visualization
 

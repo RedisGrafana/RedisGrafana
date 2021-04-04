@@ -1,6 +1,6 @@
 # TS.GET
 
-Returns the last sample.
+This command returns the last sample.
 
 !!! info "RedisTimeSeries"
 
@@ -16,7 +16,7 @@ Returns the last sample.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame**.
+Streaming supported as **Time Series** and **Data frame**.
 
 ## Visualization
 

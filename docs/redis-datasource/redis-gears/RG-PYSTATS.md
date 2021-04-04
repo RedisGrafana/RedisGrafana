@@ -1,6 +1,6 @@
 # RG.PYSTATS
 
-Returns memory usage statistics from the Python interpreter.
+This command returns memory usage statistics from the Python interpreter.
 
 > RedisGears embeds a Python version 3.7.2+ [interpreter](https://oss.redislabs.com/redisgears/runtime.html#python-interpreter).
 
@@ -8,7 +8,7 @@ Returns memory usage statistics from the Python interpreter.
 
     [https://oss.redislabs.com/redisgears/commands.html#rgpystats](https://oss.redislabs.com/redisgears/commands.html#rgpystats)
 
-![RG.DUMPREGISTRATIONS](../../images/redis-datasource/commands/rg-pystats.png)
+![RG.PYSTATS](../../images/redis-datasource/commands/rg-pystats.png)
 
 ## Parameters
 
@@ -16,7 +16,7 @@ No parameters is required.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame**.
+Streaming supported as **Time Series** and **Data frame**.
 
 ## Visualization
 

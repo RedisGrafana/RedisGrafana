@@ -8,14 +8,14 @@ Template variables can query command and use other variables as parameters.
 
 Variables will be replaced in the following parameters:
 
-| Parameter | Description  | Command                                  |
-| --------- | ------------ | ---------------------------------------- |
-| Key       | Key name     | [GET](redis/GET.md), XRANGE, etc.        |
-| Query     | CLI query    | Any                                      |
-| Field     | Hash Field   | HGET, HMGET                              |
-| Filter    | Filter       | TS.MRANGE, TS.QUERYINDEX                 |
-| Legend    | Frame's name | [TS.RANGE](redis-timeseries/TS-RANGE.md) |
-| Value     | Serie's name | [TS.RANGE](redis-timeseries/TS-RANGE.md) |
+| Parameter | Description  | Command                                                                                        |
+| --------- | ------------ | ---------------------------------------------------------------------------------------------- |
+| Key       | Key name     | [GET](redis/GET.md), XRANGE, etc.                                                              |
+| Query     | CLI query    | Any                                                                                            |
+| Field     | Hash Field   | HGET, HMGET                                                                                    |
+| Filter    | Filter       | [TS.MRANGE](redis-timeseries/TS-MRANGE.md), [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) |
+| Legend    | Frame's name | [TS.RANGE](redis-timeseries/TS-RANGE.md)                                                       |
+| Value     | Serie's name | [TS.RANGE](redis-timeseries/TS-RANGE.md)                                                       |
 
 ## Examples
 

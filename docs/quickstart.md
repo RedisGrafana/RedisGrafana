@@ -59,8 +59,6 @@ Use the `grafana-cli` tool to install from the command-line:
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-app/releases).
 - Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
 
---8<-- "includes/redis-app/enable.md"
-
 ## Configuration
 
 ### Redis Data Source
@@ -70,3 +68,15 @@ The [Configuration](redis-datasource/configuration.md) page explains how to conn
 ### Redis Application plug-in
 
 The [Overview](redis-app/overview.md) page explains how to add and manage multiple Redis Data Sources.
+
+!!! note "Enable Plug-in"
+
+    The Redis Application plug-in is disabled after installation by default. To enable:
+
+    - Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
+
+    ![Grafana plug-ins](images/redis-app/grafana-plugins.png)
+
+    - Click **Enable** to add side menu, Custom panels and import Dashboards.
+
+    ![Enable Redis Application plug-in](images/redis-app/enable.png)

@@ -1,6 +1,6 @@
 # RG.PYEXECUTE
 
-Executes a Python function.
+This command executes a Python function.
 
 > A RedisGears [function](https://oss.redislabs.com/redisgears/functions.html#function) is a formal description of the processing steps in the data flow.
 

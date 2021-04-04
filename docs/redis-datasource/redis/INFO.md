@@ -1,6 +1,6 @@
 # INFO
 
-Returns information and statistics about the server.
+This command returns information and statistics about the server.
 
 !!! info "Redis Core"
 
@@ -37,7 +37,7 @@ Returns information and statistics about the server.
 
 ## Streaming
 
-Streaming is supported as **Time Series** and **Data frame** for the most sections. Check **Streaming** column for specific section.
+Streaming supported as **Time Series** and **Data frame** for the most sections. Check **Streaming** column for specific section.
 
 ## Visualization
 
