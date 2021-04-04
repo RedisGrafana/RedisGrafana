@@ -88,12 +88,25 @@ Client Certificate and Key should be provided when client authentication is enfo
 
 Provide certificate to validate server's certificate or enable **Skip Verify**.
 
+## Privisioning
+
+Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
+
+- Each config file can contain a list of datasources that will get added or updated during start up.
+- If the data source already exists, then Grafana updates it to match the configuration file.
+
+=== "Standalone"
+
+    ---8<-- "includes/redis-datasource/config/standalone-yaml.md"
+
+=== "Sentinel"
+
+    ---8<-- "includes/redis-datasource/config/sentinel-yaml.md"
+
 ## Known issues
 
 ### Plugin health check failed
 
 Redis Data Source binaries should have executable permissions for Grafana to be able to execute it. Check out [Quickstart](../quickstart.md#install-without-internet-access) page for more information.
 
-### `Redis_datasource_darwin_amd64` cannot be opened because the developer cannot be verified
-
-Go to `System Preferences` > `Security & Privacy` and set to allow `redis-datasource_darwin_amd64`.
+--8<-- "includes/redis-datasource/darwin-privacy.md"

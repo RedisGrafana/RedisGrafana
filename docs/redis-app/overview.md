@@ -7,6 +7,18 @@ The Redis Application is a plug-in for Grafana that provides application pages a
 
 Plug-in's **Home** page helps to manage Redis Data Sources and provides quick access to dashboards.
 
+## Enable Plug-in
+
+The Redis Application plug-in is disabled after installation by default. To enable:
+
+- Go to `Configuration` -> `Plugins` and choose Redis Application plug-in.
+
+![Grafana plug-ins](../images/redis-app/grafana-plugins.png)
+
+- Click **Enable** to add side menu, Custom panels and import Dashboards.
+
+![Enable Redis Application plug-in](../images/redis-app/enable.png)
+
 ## Home
 
 The **Home** page connects to every configured data source and checks available Redis Modules using the `command` command.
@@ -43,3 +55,12 @@ Redis Application plug-in provides custom panels for Redis Data Source:
 - [Command Latency](panels/redis-latency-panel.md)
 - [Keys consuming a lot of memory](panels/redis-keys-panel.md)
 - [RedisGears Script Editor](panels/redis-gears-panel.md)
+
+## Privisioning
+
+Grafana supports managing plugins in Grafana by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/plugins** directory:
+
+- Each config file can contain a list of apps that will be updated during start up.
+- Grafana updates each app to match the configuration file.
+
+---8<-- "includes/redis-app/provisioning-yaml.md"

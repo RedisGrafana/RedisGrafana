@@ -104,7 +104,7 @@ yarn build:backend
 
     --8<-- "includes/redis-datasource/grafana-log.md"
 
-## Configure Redis Data Source
+## Configuration
 
 The [Redis Data Source Configuration](../redis-datasource/configuration.md) page explains how to connect data source to Redis database.
 
