@@ -83,6 +83,7 @@ nav:
   - "Projects":
       - "Pop-up Store": "projects/pop-up-store.md"
       - "Plug-ins Statistics": "projects/grafana-stats.md"
+  - "Timeline": "timeline.md"
   - "FAQ": "faq.md"
 
 markdown_extensions:
