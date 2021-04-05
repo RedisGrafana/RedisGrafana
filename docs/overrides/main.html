@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+<!-- Extra header -->
+{% block extrahead %} {% set title = config.site_name %} {% if page and
+page.title and not page.is_homepage %} {% set title = config.site_name ~ " - " ~
+page.title | striptags %} {% endif %} {% set image = config.site_url ~
+'images/logo.png' %}
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ config.site_description }}" />
+<meta property="og:url" content="{{ page.canonical_url }}" />
+<meta property="og:image" content="{{ image }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ title }}" />
+<meta name="twitter:site" content="@mikhailvolkov" />
+<meta name="twitter:creator" content="@mikhailvolkov" />
+<meta name="twitter:description" content="{{ config.site_description }}" />
+<meta name="twitter:image" content="{{ image }}" />
+{% endblock %}
+
+<!-- Announce -->
+{% block announce %} Elevate your Redis experience with Redis plugins for
+Grafana at
+<a class="redisconf" target="_blank" href="https://redislabs.com/redisconf/"
+  >RedisConf 2021</a
+>. {% endblock %}

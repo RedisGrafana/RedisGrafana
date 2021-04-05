@@ -13,6 +13,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 - The [Overview](redis-app/overview.md) page provides information about Application pages, dashboard, and custom panels included in the Redis Application plug-in.
 - The **Development** section has more information about the nightly built [Docker Images](development/images.md) and developing plug-ins.
 - The **Projects** section has some interesting use cases for using the Redis plug-in for Grafana.
+- The [Timeline](timeline.md) page lists all major dates in the plug-ins development.
 
 ## Grafana Repository
 
