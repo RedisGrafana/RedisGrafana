@@ -76,15 +76,15 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 
 > [RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
 
-| Command       | Description                                                                                 |
-| ------------- | ------------------------------------------------------------------------------------------- |
-| GRAPH.QUERY   | Executes the given query against a specified graph                                          |
-| GRAPH.SLOWLOG | Returns a list containing up to 10 of the slowest queries issued against the given graph ID |
+| Command                                       | Description                                                                                 |
+| --------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| [GRAPH.QUERY](redis-graph/GRAPH-QUERY.md)     | Executes the given query against a specified graph                                          |
+| [GRAPH.SLOWLOG](redis-graph/GRAPH-SLOWLOG.md) | Returns a list containing up to 10 of the slowest queries issued against the given graph ID |
 
 ### RediSearch
 
 > [RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
-| Command | Description                                     |
-| ------- | ----------------------------------------------- |
-| FT.INFO | Returns information and statistics on the index |
+| Command                            | Description                                     |
+| ---------------------------------- | ----------------------------------------------- |
+| [FT.INFO](redis-search/FT-INFO.md) | Returns information and statistics on the index |
