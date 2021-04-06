@@ -51,8 +51,13 @@ nav:
       - "Commands": "redis-datasource/commands.md"
       - "Redis":
           - "GET": "redis-datasource/redis/GET.md"
+          - "HLEN": "redis-datasource/redis/HLEN.md"
           - "INFO": "redis-datasource/redis/INFO.md"
+          - "LLEN": "redis-datasource/redis/LLEN.md"
+          - "SCARD": "redis-datasource/redis/SCARD.md"
           - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
+          - "TYPE": "redis-datasource/redis/TYPE.md"
+          - "TTL": "redis-datasource/redis/TTL.md"
           - "XLEN": "redis-datasource/redis/XLEN.md"
       - "RedisGears":
           - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
