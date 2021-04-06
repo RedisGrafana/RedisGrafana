@@ -14,10 +14,6 @@ This command returns information and statistics on the index.
 | --------- | ----------- |
 | Key       | Index       |
 
-## Streaming
+--8<-- "includes/redis-datasource/streaming-any.md"
 
-Streaming supported as **Time Series** and **Data frame**.
-
-## Visualization
-
-Any standard visualization should work.
+--8<-- "includes/redis-datasource/visualization-any.md"

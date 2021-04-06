@@ -1,12 +1,12 @@
-# GET
+# HKEYS
 
-This command returns the value of key.
+This command returns all field names in the hash stored at key.
 
 !!! info "Redis Core"
 
-    [https://redis.io/commands/GET](https://redis.io/commands/GET)
+    [https://redis.io/commands/HKEYS](https://redis.io/commands/HKEYS)
 
-![GET](../../images/redis-datasource/commands/get.png)
+![HKEYS](../../images/redis-datasource/commands/hkeys.png)
 
 ## Parameters
 

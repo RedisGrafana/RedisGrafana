@@ -27,11 +27,11 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 | CLUSTER INFO                        | Provides INFO style information about Redis Cluster vital parameters              |
 | CLUSTER NODES                       | Provides current cluster configuration, given by the set of known nodes           |
 | [GET](redis/GET.md)                 | Returns the value of key                                                          |
-| HGET                                | Returns the value associated with field in the hash stored at key                 |
-| HGETALL                             | Returns all fields and values of the hash stored at key                           |
-| HKEYS                               | Returns all field names in the hash stored at key                                 |
+| [HGET](redis/HGET.md)               | Returns the value associated with field in the hash stored at key                 |
+| [HGETALL](redis/HGETALL.md)         | Returns all fields and values of the hash stored at key                           |
+| [HKEYS](redis/HKEYS.md)             | Returns all field names in the hash stored at key                                 |
 | [HLEN](redis/HLEN.md)               | Returns the number of fields contained in the hash stored at key                  |
-| HMGET                               | Returns the values associated with the specified fields in the hash stored at key |
+| [HMGET](redis/HMGET.md)             | Returns the values associated with the specified fields in the hash stored at key |
 | [INFO](redis/INFO.md)               | Returns information and statistics about the server                               |
 | [LLEN](redis/LLEN.md)               | Returns the length of the list stored at key                                      |
 | [SCARD](redis/SCARD.md)             | Returns the set cardinality (number of elements) of the set stored at key         |

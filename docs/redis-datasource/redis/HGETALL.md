@@ -1,12 +1,12 @@
-# GET
+# HGETALL
 
-This command returns the value of key.
+This command returns all fields and values of the hash stored at key.
 
 !!! info "Redis Core"
 
-    [https://redis.io/commands/GET](https://redis.io/commands/GET)
+    [https://redis.io/commands/HGETALL](https://redis.io/commands/HGETALL)
 
-![GET](../../images/redis-datasource/commands/get.png)
+![HGETALL](../../images/redis-datasource/commands/hgetall.png)
 
 ## Parameters
 

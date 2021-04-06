@@ -14,10 +14,6 @@ This command returns the set cardinality (number of elements) of the set stored 
 | --------- | ----------- |
 | Key       | Key name    |
 
-## Streaming
+--8<-- "includes/redis-datasource/streaming-any.md"
 
-Streaming supported as **Time Series** and **Data frame**.
-
-## Visualization
-
-Any standard visualization should work.
+--8<-- "includes/redis-datasource/visualization-any.md"

@@ -52,7 +52,11 @@ nav:
       - "Redis":
           - "CLIENT LIST": "redis-datasource/redis/CLIENT-LIST.md"
           - "GET": "redis-datasource/redis/GET.md"
+          - "HGET": "redis-datasource/redis/HGET.md"
+          - "HGETALL": "redis-datasource/redis/HGETALL.md"
+          - "HKEYS": "redis-datasource/redis/HKEYS.md"
           - "HLEN": "redis-datasource/redis/HLEN.md"
+          - "HMGET": "redis-datasource/redis/HMGET.md"
           - "INFO": "redis-datasource/redis/INFO.md"
           - "LLEN": "redis-datasource/redis/LLEN.md"
           - "SCARD": "redis-datasource/redis/SCARD.md"

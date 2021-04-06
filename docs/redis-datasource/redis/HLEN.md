@@ -14,10 +14,6 @@ This command returns the number of fields contained in the hash stored at key.
 | --------- | ----------- |
 | Key       | Key name    |
 
-## Streaming
+--8<-- "includes/redis-datasource/streaming-any.md"
 
-Streaming supported as **Time Series** and **Data frame**.
-
-## Visualization
-
-Any standard visualization should work.
+--8<-- "includes/redis-datasource/visualization-any.md"
