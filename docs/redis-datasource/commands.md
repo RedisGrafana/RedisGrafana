@@ -21,28 +21,28 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands to use 
 
 ### Redis (Hashes, Sets, Lists, Strings, Streams, etc.)
 
-| Command                 | Description                                                                       |
-| ----------------------- | --------------------------------------------------------------------------------- |
-| CLIENT LIST             | Returns information and statistics about the client connections server            |
-| CLUSTER INFO            | Provides INFO style information about Redis Cluster vital parameters              |
-| CLUSTER NODES           | Provides current cluster configuration, given by the set of known nodes           |
-| [GET](redis/GET.md)     | Returns the value of key                                                          |
-| HGET                    | Returns the value associated with field in the hash stored at key                 |
-| HGETALL                 | Returns all fields and values of the hash stored at key                           |
-| HKEYS                   | Returns all field names in the hash stored at key                                 |
-| [HLEN](redis/HLEN.md)   | Returns the number of fields contained in the hash stored at key                  |
-| HMGET                   | Returns the values associated with the specified fields in the hash stored at key |
-| [INFO](redis/INFO.md)   | Returns information and statistics about the server                               |
-| [LLEN](redis/LLEN.md)   | Returns the length of the list stored at key                                      |
-| [SCARD](redis/SCARD.md) | Returns the set cardinality (number of elements) of the set stored at key         |
-| SLOWLOG GET             | Returns the Redis slow queries log                                                |
-| SMEMBERS                | Returns all the members of the set value stored at key                            |
-| [TTL](redis/TTL.md)     | Returns the remaining time to live of a key that has a timeout                    |
-| [TYPE](redis/TYPE.md)   | Returns the string representation of the type of the value stored at key          |
-| XINFO STREAM            | Returns general information about the stream stored at the specified key          |
-| [XLEN](redis/XLEN.md)   | Returns the number of entries inside a stream                                     |
-| XRANGE                  | Returns the stream entries matching a given range of IDs                          |
-| XREVRANGE               | Returns the stream entries matching a given range of IDs in reverse order         |
+| Command                             | Description                                                                       |
+| ----------------------------------- | --------------------------------------------------------------------------------- |
+| [CLIENT LIST](redis/CLIENT-LIST.md) | Returns information and statistics about the client connections server            |
+| CLUSTER INFO                        | Provides INFO style information about Redis Cluster vital parameters              |
+| CLUSTER NODES                       | Provides current cluster configuration, given by the set of known nodes           |
+| [GET](redis/GET.md)                 | Returns the value of key                                                          |
+| HGET                                | Returns the value associated with field in the hash stored at key                 |
+| HGETALL                             | Returns all fields and values of the hash stored at key                           |
+| HKEYS                               | Returns all field names in the hash stored at key                                 |
+| [HLEN](redis/HLEN.md)               | Returns the number of fields contained in the hash stored at key                  |
+| HMGET                               | Returns the values associated with the specified fields in the hash stored at key |
+| [INFO](redis/INFO.md)               | Returns information and statistics about the server                               |
+| [LLEN](redis/LLEN.md)               | Returns the length of the list stored at key                                      |
+| [SCARD](redis/SCARD.md)             | Returns the set cardinality (number of elements) of the set stored at key         |
+| [SLOWLOG GET](redis/SLOWLOG-GET.md) | Returns the Redis slow queries log                                                |
+| [SMEMBERS](redis/SMEMBERS.md)       | Returns all the members of the set value stored at key                            |
+| [TTL](redis/TTL.md)                 | Returns the remaining time to live of a key that has a timeout                    |
+| [TYPE](redis/TYPE.md)               | Returns the string representation of the type of the value stored at key          |
+| XINFO STREAM                        | Returns general information about the stream stored at the specified key          |
+| [XLEN](redis/XLEN.md)               | Returns the number of entries inside a stream                                     |
+| XRANGE                              | Returns the stream entries matching a given range of IDs                          |
+| XREVRANGE                           | Returns the stream entries matching a given range of IDs in reverse order         |
 
 ### Custom
 
