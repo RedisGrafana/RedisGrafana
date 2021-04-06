@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TYPE
 
 This command returns the string representation of the type of the value stored at key.

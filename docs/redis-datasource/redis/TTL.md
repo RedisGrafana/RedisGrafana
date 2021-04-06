@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TTL
 
 This command returns the remaining time to live of a key that has a timeout.

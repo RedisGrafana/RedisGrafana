@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # SCARD
 
 This command returns the set cardinality (number of elements) of the set stored at key.

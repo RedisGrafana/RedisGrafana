@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # RG.PYEXECUTE
 
 This command executes a Python function.

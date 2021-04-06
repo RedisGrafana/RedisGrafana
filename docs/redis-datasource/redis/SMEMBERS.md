@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # SMEMBERS
 
 This command returns all the members of the set stored at key.

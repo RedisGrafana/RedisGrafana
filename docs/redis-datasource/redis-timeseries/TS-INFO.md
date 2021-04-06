@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TS.INFO
 
 This command returns information and statistics on the time series.

@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # RG.DUMPREGISTRATIONS
 
 This command outputs the list of function registrations.

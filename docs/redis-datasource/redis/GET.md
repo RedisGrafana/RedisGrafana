@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # GET
 
 This command returns the value of key.

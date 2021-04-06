@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # XLEN
 
 This command returns the number of entries inside a stream.

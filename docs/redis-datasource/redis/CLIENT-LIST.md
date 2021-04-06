@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # CLIENT LIST
 
 This command returns information and statistics about the client connections server.

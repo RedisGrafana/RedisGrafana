@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # HGETALL
 
 This command returns all fields and values of the hash stored at key.

@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Redis Overview
 
 !!! note "Refresh"

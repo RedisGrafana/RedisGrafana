@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Pop-up store demo using RedisTimeSeries, RedisGears and Redis Data Source
 
 The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-intro), [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/), [RedisGears](https://oss.redislabs.com/redisgears/) and [Redis Data Source](https://github.com/RedisTimeSeries/grafana-redis-datasource) to visualize real-time data pipeline in Grafana.

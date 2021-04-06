@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # RedisGears Script Editor
 
 This panel support Python syntax and allows to execute functions in blocking and unblocking modes using RG.PYEXECUTE command.

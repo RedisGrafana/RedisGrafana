@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TS.RANGE
 
 This command query a range in a forward direction.

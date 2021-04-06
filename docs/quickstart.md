@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Quickstart
 
 ## Install using `grafana-cli`
@@ -44,7 +48,7 @@ Use the `grafana-cli` tool to install from the command-line:
 - Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
 - Check permissions for the `redis-datasource` binaries:
 
-!!! important "Permissions"
+??? important "Permissions"
 
     Redis Data Source binaries should have executable permissions for Grafana to be able to execute it.
 

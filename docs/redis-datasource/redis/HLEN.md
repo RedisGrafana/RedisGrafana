@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # HLEN
 
 This command returns the number of fields contained in the hash stored at key.
