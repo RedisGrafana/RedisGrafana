@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # HKEYS
 
 This command returns all field names in the hash stored at key.

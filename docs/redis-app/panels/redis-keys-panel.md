@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Keys consuming a lot of memory
 
 Do you want to know which keys consume a lot of memory in your Redis database? This panel is based on [TMSCAN](../../redis-datasource/custom/TMSCAN.md) to scan keys and sort results based on memory usage in the table format.

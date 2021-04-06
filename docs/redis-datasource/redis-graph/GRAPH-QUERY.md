@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # GRAPH.QUERY
 
 This command executes the given query against a specified graph.

@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Command Latency
 
 This panel provides commands's latency based on [INFO COMMANDSTATS](../../redis-datasource/redis/INFO.md).

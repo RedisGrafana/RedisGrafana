@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Docker Images
 
 Interested in the latest features and updates? Start nightly built Docker image. Supported platforms are:

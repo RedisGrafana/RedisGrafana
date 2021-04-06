@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TS.QUERYINDEX
 
 This command query all the keys matching the filter list.

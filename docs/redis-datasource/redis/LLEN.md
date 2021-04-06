@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # LLEN
 
 This command returns the length of the list stored at key.

@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # HGET
 
 This command returns the value associated with field in the hash stored at key.

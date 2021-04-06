@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # Streaming Data Source
 
 Redis Data Source supports Streaming. Please take a look at the [specific command](commands.md) for details.
@@ -10,34 +14,24 @@ Redis Data Source supports Streaming. Please take a look at the [specific comman
 
 ## Parameters
 
-### Interval
+| Parameter | Description                                                              | Default     |
+| --------- | ------------------------------------------------------------------------ | ----------- |
+| Interval  | Streaming interval in milliseconds                                       | 1000 ms     |
+| Capacity  | Values will be constantly added and will never exceed the given capacity | 1000 ms     |
+| Data type | Streaming data supported as Time series and Data frames                  | Time series |
 
-Streaming interval in milliseconds. Default is 1000ms.
+## Time series
 
-### Capacity
-
-Values will be constantly added and will never exceed the given capacity. Default is 1000ms.
-
-## Data type
-
-Streaming data supported as Time series and Data frames.
-
-### Time series
-
-When selected, `time` field will be added or replaced to allow visualize values using Graph or Time Series (Grafana 7.4+).
+When selected, `time` field will be added or replaced to allow visualize values using Graph or Time Series (Grafana 7.4+) panels.
 
 !!! important "Multi-line results"
 
     If the command returns more than one line, the last line of data will be returned.
 
-!!! example "[XLEN](redis/XLEN.md)"
+![XLEN](../images/redis-datasource/commands/xlen.png)
 
-    ![XLEN](../images/redis-datasource/commands/xlen.png)
-
-### Data frame
+## Data frame
 
 When selected, data will be refreshed as is.
 
-!!! example "[RG.DUMPREGISTRATIONS](redis-gears/RG-DUMPREGISTRATIONS.md)"
-
-    ![RG.DUMPREGISTRATIONS](../images/redis-datasource/commands/rg-dumpregistrations.png)
+![RG.DUMPREGISTRATIONS](../images/redis-datasource/commands/rg-dumpregistrations.png)

@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # HMGET
 
 This command returns the values associated with the specified fields in the hash stored at key.

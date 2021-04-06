@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # RG.PYSTATS
 
 This command returns memory usage statistics from the Python interpreter.

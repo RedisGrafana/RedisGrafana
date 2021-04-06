@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TS.GET
 
 This command returns the last sample.

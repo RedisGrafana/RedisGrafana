@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TS.MRANGE
 
 This command query a timestamp range across multiple time series by a filter.

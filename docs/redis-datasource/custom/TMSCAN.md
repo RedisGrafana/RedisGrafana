@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # TMSCAN
 
 Returns keys with types and memory usage. This custom command is based on SCAN and MEMORY USAGE commands and is not a part of Redis server.

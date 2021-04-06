@@ -1,10 +1,14 @@
+---
+hide: toc
+---
+
 # RedisGears
+
+> [RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 !!! note "Streaming"
 
     **Memory Usage** and **Registrations** panels are running in [Streaming](../../redis-datasource/streaming.md) mode.
-
-> [RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 ![RedisGears Dashboard](../../images/redis-app/dashboards/gears-dashboard.png)
 

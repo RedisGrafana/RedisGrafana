@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # CLI (Command Line Interface)
 
 !!! note "Streaming"

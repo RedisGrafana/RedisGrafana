@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # FT.INFO
 
 This command returns information and statistics on the index.

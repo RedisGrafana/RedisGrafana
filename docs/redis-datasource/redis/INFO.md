@@ -1,3 +1,7 @@
+---
+hide: toc
+---
+
 # INFO
 
 This command returns information and statistics about the server.
