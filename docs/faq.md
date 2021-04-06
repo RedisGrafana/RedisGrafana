@@ -6,8 +6,6 @@
 
 Redis Data Source binaries should have executable permissions for Grafana to be able to execute it. Check out [Quickstart](quickstart.md#install-without-internet-access) page for more information.
 
---8<-- "includes/redis-datasource/darwin-privacy.md"
-
 ### Does Redis Data Source support Redis Cluster and Sentinel?
 
 Redis Cluster and Sentinel supported since version Redis Data Source version 1.2.0. Check out [Configuration](redis-datasource/configuration.md) page for detailed information.
