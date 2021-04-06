@@ -58,6 +58,11 @@ nav:
           - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
           - "RG.PYEXECUTE": "redis-datasource/redis-gears/RG-PYEXECUTE.md"
           - "RG.PYSTATS": "redis-datasource/redis-gears/RG-PYSTATS.md"
+      - "RedisGraph":
+          - "GRAPH.QUERY": "redis-datasource/redis-graph/GRAPH-QUERY.md"
+          - "GRAPH.SLOWLOG": "redis-datasource/redis-graph/GRAPH-SLOWLOG.md"
+      - "RediSearch":
+          - "FT.INFO": "redis-datasource/redis-search/FT-INFO.md"
       - "RedisTimeSeries":
           - "TS.GET": "redis-datasource/redis-timeseries/TS-GET.md"
           - "TS.INFO": "redis-datasource/redis-timeseries/TS-INFO.md"
