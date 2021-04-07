@@ -1,14 +1,10 @@
-# Redis Data Source
+# Configuration
 
-Data Source can connect to any Redis database On-Premises or in the Cloud. You can add as many data sources as you want to support multiple Redis databases.
+You can add as many data sources as you want to support multiple Redis databases.
 
 ![Datasource](../images/redis-datasource/config/config-editor.png)
 
 Redis accepts clients connections on the configured [listening TCP port](#standalone) and the [Unix socket](#unix-socket) if enabled. [Cluster](#cluster) is a distributed implementation of OSS Redis and [Sentinel](#sentinel) provides high availability.
-
-!!! tip "Redis Application plug-in"
-
-    [Redis Application plug-in](../redis-app/overview.md) helps to manage multiple Redis Data Sources and provides Custom panels.
 
 ## Main configuration
 
@@ -87,26 +83,3 @@ Client Certificate and Key should be provided when client authentication is enfo
 ### Certification Authority
 
 Provide certificate to validate server's certificate or enable **Skip Verify**.
-
-## Privisioning
-
-Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
-
-- Each config file can contain a list of datasources that will get added or updated during start up.
-- If the data source already exists, then Grafana updates it to match the configuration file.
-
-=== "Standalone"
-
-    ---8<-- "includes/redis-datasource/config/standalone-yaml.md"
-
-=== "Sentinel"
-
-    ---8<-- "includes/redis-datasource/config/sentinel-yaml.md"
-
-## Known issues
-
-### Plugin health check failed
-
-Redis Data Source binaries should have executable permissions for Grafana to be able to execute it. Check out [Quickstart](../quickstart.md#install-without-internet-access) page for more information.
-
---8<-- "includes/redis-datasource/darwin-privacy.md"

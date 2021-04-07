@@ -1,10 +1,14 @@
+---
+hide: toc
+---
+
 The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to observe and interact with Redis and Application data.
 
 !!! important "Requirements"
 
     Only **Grafana 7.1+** with a new Backend plug-in platform supports Redis plug-ins.
 
-![Redis plug-ins for Grafana](images/redis-app.gif)
+![Redis plug-ins for Grafana](images/redis-app/redis-app.png)
 
 ## Where Next?
 

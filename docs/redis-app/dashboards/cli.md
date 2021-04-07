@@ -6,7 +6,7 @@ hide: toc
 
 !!! note "Streaming"
 
-    All panels are running in [Streaming](../../redis-datasource/streaming.md) mode.
+    All panels are running in [Streaming](../../redis-datasource/overview.md#streaming) mode.
 
 ![Redis CLI Dashboard](../../images/redis-app/dashboards/cli-dashboard.png)
 
