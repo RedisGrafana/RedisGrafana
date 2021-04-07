@@ -1,4 +1,4 @@
-# Developing Redis Explorer plug-in for Grafana
+# Developing Redis Explorer plug-in
 
 ![CI](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/CI/badge.svg)
 ![Docker](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)

@@ -119,6 +119,13 @@ markdown_extensions:
 
 plugins:
   - search
+  - minify:
+      minify_html: true
+      minify_js: true
+      htmlmin_opts:
+        remove_comments: true
+      js_files:
+        - javascripts/extra.js
 
 extra_javascript:
   - javascripts/extra.js
