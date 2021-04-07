@@ -1,4 +1,4 @@
-# Developing Redis Data Source for Grafana
+# Developing Redis Data Source
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/RedisGrafana/grafana-redis-datasource)](https://goreportcard.com/report/github.com/RedisGrafana/grafana-redis-datasource)
 ![CI](https://github.com/RedisGrafana/grafana-redis-datasource/workflows/CI/badge.svg)

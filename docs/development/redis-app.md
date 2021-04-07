@@ -1,4 +1,4 @@
-# Developing Redis Application plug-in for Grafana
+# Developing Redis Application plug-in
 
 ![CI](https://github.com/RedisGrafana/grafana-redis-app/workflows/CI/badge.svg)
 ![Docker](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)

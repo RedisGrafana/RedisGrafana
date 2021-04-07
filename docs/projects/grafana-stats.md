@@ -10,7 +10,7 @@ This project collect plug-ins statistics from Grafana repository using [RedisTim
 
     [https://github.com/RedisGrafana/grafana-plugin-stats](https://github.com/RedisGrafana/grafana-plugin-stats)
 
-![How many times Redis Data Source for Grafana was downloaded?](../images/projects/redis-grafana-stats.gif)
+![How many times Redis Data Source for Grafana was downloaded?](../images/projects/redis-grafana-stats.png)
 
 ## Description
 
