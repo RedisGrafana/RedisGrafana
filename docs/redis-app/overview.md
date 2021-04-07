@@ -3,9 +3,9 @@
 ![Release](https://img.shields.io/github/v/release/redisgrafana/grafana-redis-app.svg) [![Plugin Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=downloads&query=%24.downloads&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 [![Docker](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)](https://github.com/orgs/RedisGrafana/packages/container/package/redis-app)
 
-The Redis Application is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source.
+The Redis Application is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source. The **Home** page helps to manage Redis Data Sources and provides quick access to dashboards.
 
-Plug-in's **Home** page helps to manage Redis Data Sources and provides quick access to dashboards.
+![Redis plug-ins for Grafana](../images/redis-app/redis-app.png)
 
 ## Enable Plug-in
 
