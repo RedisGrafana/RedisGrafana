@@ -21,3 +21,9 @@ This command returns the remaining time to live of a key that has a timeout.
 --8<-- "includes/redis-datasource/streaming-any.md"
 
 --8<-- "includes/redis-datasource/visualization-any.md"
+
+!!! example "The Clock is Ticking"
+
+    TTL can be used to display countdown until the event.
+
+    ![Countdown](../../images/showcase/ttl.png)
