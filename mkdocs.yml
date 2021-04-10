@@ -48,7 +48,10 @@ nav:
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
       - "Configuration": "redis-datasource/configuration.md"
-      - "Commands": "redis-datasource/commands.md"
+      - "Features":
+          - "Streaming": "redis-datasource/streaming.md"
+          - "Variables": "redis-datasource/variables.md"
+          - "Commands": "redis-datasource/commands.md"
       - "Redis":
           - "CLIENT LIST": "redis-datasource/redis/CLIENT-LIST.md"
           - "CLUSTER INFO": "redis-datasource/redis/CLUSTER-INFO.md"

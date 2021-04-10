@@ -8,7 +8,7 @@ hide: toc
 
 !!! note "Streaming"
 
-    **Memory Usage** and **Registrations** panels are running in [Streaming](../../redis-datasource/overview.md#streaming) mode.
+    **Memory Usage** and **Registrations** panels are running in [Streaming](../../redis-datasource/streaming.md) mode.
 
 ![RedisGears Dashboard](../../images/redis-app/dashboards/gears-dashboard.png)
 
