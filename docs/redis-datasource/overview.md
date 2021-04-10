@@ -19,86 +19,9 @@ The [Configuration](configuration.md) page explains how to connect data source t
 1. Choose **Type** to select core Redis, Custom or Redis Module
 2. Select one of supported [Commands](commands.md)
 3. Provide all required parameters, depends on selected **Command**
-4. Enable [Streaming](#streaming) to visualize data on Graph, Time-Series (Grafana 7.4+) panels
+4. Enable [Streaming](streaming.md) to visualize data on Graph, Time-Series (Grafana 7.4+) panels
 
 ![Query Editor](../images/redis-datasource/query.png)
-
-## Streaming
-
-Redis Data Source supports Streaming. Please take a look at the [specific command](commands.md) for details.
-
-!!! note "A dot in the top right corner"
-
-    Since Grafana 7.4 a dot in the top right corner means that Streaming is enabled.
-
-![Streaming](../images/redis-datasource/commands/info-ops-sec.png)
-
-### Parameters
-
-| Parameter | Description                                                              | Default     |
-| --------- | ------------------------------------------------------------------------ | ----------- |
-| Interval  | Streaming interval in milliseconds                                       | 1000 ms     |
-| Capacity  | Values will be constantly added and will never exceed the given capacity | 1000 ms     |
-| Data type | Streaming data supported as Time series and Data frames                  | Time series |
-
-### Time series
-
-When selected, `time` field will be added or replaced to allow visualize values using Graph or Time Series (Grafana 7.4+) panels.
-
-!!! important "Multi-line results"
-
-    If the command returns more than one line, the last line of data will be returned.
-
-![XLEN](../images/redis-datasource/commands/xlen.png)
-
-### Data frame
-
-When selected, data will be refreshed as is.
-
-![RG.DUMPREGISTRATIONS](../images/redis-datasource/commands/rg-dumpregistrations.png)
-
-## Variables
-
-Template variables can query [Commands](commands.md) and use other variables as parameters.
-
-![Variables](../images/redis-datasource/variables.png)
-
-### Supported Parameters
-
-Variables will be replaced in the following parameters:
-
-| Parameter | Description  | Command                                                                                        |
-| --------- | ------------ | ---------------------------------------------------------------------------------------------- |
-| Key       | Key name     | [GET](redis/GET.md), XRANGE, etc.                                                              |
-| Query     | CLI query    | Any                                                                                            |
-| Field     | Hash Field   | HGET, HMGET                                                                                    |
-| Filter    | Filter       | [TS.MRANGE](redis-timeseries/TS-MRANGE.md), [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) |
-| Legend    | Frame's name | [TS.RANGE](redis-timeseries/TS-RANGE.md)                                                       |
-| Value     | Serie's name | [TS.RANGE](redis-timeseries/TS-RANGE.md)                                                       |
-
-### How to use SUNION for multi-select variable?
-
-=== "LUA"
-
-    The LUA script should work fine on a single shard deployment:
-
-    ```bash
-    eval "return redis.call('sunion',${region:singlequote})" 0
-    ```
-
-=== "Redis Gears"
-
-    Another option is to utilize [RedisGears](https://redisgears.io) module:
-
-    --8<-- "includes/redis-datasource/gears-sunion.md"
-
-    To execute the trigger in Grafana:
-
-    ```bash
-    RG.TRIGGER SUNION ${region:csv}
-    ```
-
-![SUNION Example](../images/redis-datasource/variables-example.png)
 
 ## Privisioning
 
