@@ -5,6 +5,11 @@
 
 The Redis Application is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source. The [Home](#home) page helps to manage Redis Data Sources and provides quick access to dashboards.
 
+<figure>
+  <img src="/images/redis-app/redis-app.png"/>
+  <figcaption>Redis Application plug-in architecture</figcaption>
+</figure>
+
 ## Enable Plug-in
 
 The Redis Application plug-in is disabled after installation by default. To enable:

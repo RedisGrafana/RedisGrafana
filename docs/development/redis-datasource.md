@@ -20,7 +20,9 @@ Grafana can be started in Docker or installed locally:
 git clone https://github.com/RedisGrafana/grafana-redis-datasource.git
 ```
 
-## Build Data Source Frontend
+## Build
+
+### Frontend
 
 - Install the latest version of Node.js using [Node Version Manager](https://github.com/nvm-sh/nvm) or [download binaries](https://nodejs.org/en/download/)
 
@@ -42,7 +44,7 @@ yarn install
 yarn build
 ```
 
-## Build Data Source Backend
+### Backend
 
 - Install [Golang](https://golang.org/dl/) for your platform
 

@@ -1,6 +1,6 @@
 {
   "name": "redisgrafana",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Redis plug-ins for Grafana",
   "keywords": [
     "redisgrafana",
@@ -13,6 +13,7 @@
   "scripts": {
     "build": "mkdocs build --strict",
     "clean": "mkdocs build --clean",
-    "serve": "mkdocs serve"
+    "serve": "mkdocs serve",
+    "upgrade": "pip3 install -U -r requirements.txt"
   }
 }
