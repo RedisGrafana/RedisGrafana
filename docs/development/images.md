@@ -16,9 +16,11 @@ Interested in the latest features and updates? Start nightly built Docker image.
 
 ![Nightly built Docker images](../images/development/docker.png)
 
+## Grafana
+
 --8<-- "includes/login-grafana.md"
 
-## Redis Application plug-in
+### Redis Application plug-in
 
 ![Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
 
@@ -28,7 +30,7 @@ The Redis Application is a plug-in for Grafana that provides application pages a
 docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
 ```
 
-## Redis Explorer plug-in
+### Redis Explorer plug-in
 
 ![Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
 
@@ -36,4 +38,16 @@ The Redis Explorer is a plug-in for Grafana that allows users to connect to Redi
 
 ```bash
 docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
+```
+
+## Redis
+
+### Redis-Prophet
+
+[![Docker](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml/badge.svg)](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml)
+
+The Redis-Prophet Docker image based on the latest version of RedisTimeSeries, RedisGears with Prophet pre-installed and can be used for any project for time series forecasting.
+
+```bash
+$ docker run -p 6379:6379 --name=redis-prophet ghcr.io/redisgrafana/redis-prophet:latest
 ```

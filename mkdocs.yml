@@ -67,7 +67,6 @@ nav:
           - "SCARD": "redis-datasource/redis/SCARD.md"
           - "SLOWLOG": "redis-datasource/redis/SLOWLOG.md"
           - "SMEMBERS": "redis-datasource/redis/SMEMBERS.md"
-          - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
           - "TTL": "redis-datasource/redis/TTL.md"
           - "TYPE": "redis-datasource/redis/TYPE.md"
           - "XINFO": "redis-datasource/redis/XINFO.md"
@@ -89,6 +88,8 @@ nav:
           - "TS.MRANGE": "redis-datasource/redis-timeseries/TS-MRANGE.md"
           - "TS.QUERYINDEX": "redis-datasource/redis-timeseries/TS-QUERYINDEX.md"
           - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
+      - "Redis Custom":
+          - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
   - "Redis Application plug-in":
       - "Overview": "redis-app/overview.md"
       - "Dashboards":
@@ -102,12 +103,14 @@ nav:
           - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
   - "Development":
       - "Docker Images": "development/images.md"
-      - "Redis Data Source": "development/redis-datasource.md"
-      - "Redis Application plug-in": "development/redis-app.md"
-      - "Redis Explorer plug-in": "development/redis-explorer.md"
-  - "Projects":
-      - "Pop-up Store": "projects/pop-up-store.md"
-      - "Plug-ins Statistics": "projects/grafana-stats.md"
+      - "Plug-ins":
+          - "Redis Data Source": "development/redis-datasource.md"
+          - "Redis Application": "development/redis-app.md"
+          - "Redis Explorer": "development/redis-explorer.md"
+      - "Use Cases":
+          - "Plug-ins Statistics": "projects/grafana-stats.md"
+          - "Pop-up Store": "projects/pop-up-store.md"
+          - "Forecasting Stocks": "projects/finance-prophet.md"
 
 markdown_extensions:
   - admonition

@@ -4,7 +4,7 @@ hide: toc
 
 # Grafana Plug-ins Statistics
 
-This project collect plug-ins statistics from Grafana repository using [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/).
+This project collects plug-ins statistics from Grafana repository using [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/).
 
 !!! important "GitHub Repository"
 
