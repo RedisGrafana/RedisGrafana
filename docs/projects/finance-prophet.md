@@ -10,7 +10,7 @@ This project demonstrates how to analyze Stocks and Crypto historical data store
 
     [https://github.com/RedisGrafana/redis-finance-prophet](https://github.com/RedisGrafana/redis-finance-prophet)
 
-![Redis Pop-up store](../images/projects/redis-prophet.png)
+![Finance Prophet](../images/projects/redis-prophet.png)
 
 ## Description
 
