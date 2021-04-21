@@ -30,6 +30,14 @@ The Redis Application is a plug-in for Grafana that provides application pages a
 docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
 ```
 
+??? bug "Master build"
+
+    Special build based on the Grafana's Master branch.
+
+    ```bash
+    docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:master
+    ```
+
 ### Redis Explorer plug-in
 
 ![Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
@@ -39,6 +47,14 @@ The Redis Explorer is a plug-in for Grafana that allows users to connect to Redi
 ```bash
 docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
 ```
+
+??? bug "Master build"
+
+    Special build based on the Grafana's Master branch.
+
+    ```bash
+    docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-explorer:master
+    ```
 
 ## Redis
 
