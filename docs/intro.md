@@ -12,7 +12,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 
 <figure>
   <img class="sandwich" src="/images/redis-plugins.png"/>
-  <figcaption>Redis plug-ins is a meat in your Grafana-Redis sandwich.</figcaption>
+  <figcaption>Redis plug-ins architecture.</figcaption>
 </figure>
 
 ## Where Next?
