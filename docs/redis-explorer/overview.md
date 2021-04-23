@@ -22,7 +22,7 @@ The **Home** page connects to every configured data source and retrieve cluster'
 
 !!! important "Loading Time"
 
-    Page load can take a long time if clusters locate far away from Grafana or data source can't connect (timeout).
+    Page load can take a long time if clusters located far away from Grafana or data source can't connect (timeout).
 
 ![Manage Redis Data Sources](../images/redis-explorer/home.png)
 

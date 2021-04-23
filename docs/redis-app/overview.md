@@ -28,7 +28,7 @@ The **Home** page connects to every configured data source and checks available 
 
 !!! important "Loading Time"
 
-    Page load can take a long time if databases locate far away from Grafana or data source can't connect (timeout).
+    Page load can take a long time if databases located far away from Grafana or data source can't connect (timeout).
 
 ![Manage Redis Data Sources](../images/redis-app/home.png)
 
