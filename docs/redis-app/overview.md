@@ -3,7 +3,7 @@
 ![Release](https://img.shields.io/github/v/release/redisgrafana/grafana-redis-app.svg) [![Plugin Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=downloads&query=%24.downloads&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 [![Docker](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)](https://github.com/orgs/RedisGrafana/packages/container/package/redis-app)
 
-The Redis Application is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source. The [Home](#home) page helps to manage Redis Data Sources and provides quick access to dashboards.
+The Redis Application is a plug-in for Grafana that provides application pages, dashboards and custom panels for Redis Data Source. The [Home](#home) page helps to manage Redis Data Sources and provides quick access to dashboards.
 
 <figure>
   <img src="/images/redis-app/redis-app.png"/>
@@ -28,7 +28,7 @@ The **Home** page connects to every configured data source and checks available 
 
 !!! important "Loading Time"
 
-    Page load can take a long time if data sources located far away from Grafana or Redis Data Source can't connect to the database.
+    Page load can take a long time if databases locate far away from Grafana or data source can't connect (timeout).
 
 ![Manage Redis Data Sources](../images/redis-app/home.png)
 

@@ -60,7 +60,7 @@ yarn build
     mv dist/ /var/lib/grafana/plugins/redis-explorer
     ```
 
-    Add `redis-explorer` to allowed unsigned plugins
+    Add `redis-explorer-app` to allowed unsigned plugins
 
     ```bash
     vi /etc/grafana/grafana.ini

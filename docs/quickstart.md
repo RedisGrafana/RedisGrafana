@@ -2,7 +2,7 @@
 
 ## Architecture
 
-The Redis plug-ins for Grafana build an Ecosystem of custom panels and application pages on top of Redis Data Source.
+The Redis plug-ins for Grafana ecosystem buid on top of Redis Data Source.
 
 ![Architecture](/images/redis-plugins-arch.png)
 
