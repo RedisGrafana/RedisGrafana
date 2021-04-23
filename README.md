@@ -1,8 +1,7 @@
 # Redis plug-ins for Grafana
 
 [![Grafana 7](https://img.shields.io/badge/Grafana-7-orange)](https://www.grafana.com)
-[![Radix](https://img.shields.io/badge/Radix-powered-darkblue)](https://github.com/mediocregopher/radix)
-[![Redis Enterprise](https://img.shields.io/badge/Redis%20Enterprise-supported-green)](https://redislabs.com/redis-enterprise/)
+[![Redis Enterprise](https://img.shields.io/badge/Redis%20Enterprise-supported-darkgreen)](https://redislabs.com/redis-enterprise/)
 [![Redis Data Source](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Data%20Source&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
 [![Redis Application plug-in](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Application%20plug-in&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 
@@ -10,7 +9,11 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 
 ![Redis plug-ins for Grafana](docs/images/redis-table.png)
 
-Data Source can connect to any Redis database On-Premises or in the Cloud.
+## Architecture
+
+Data Source can connect to any Redis database On-Premises or in the Cloud. The Redis plug-ins for Grafana ecosystem buid on top of the Redis Data Source.
+
+![Redis plug-ins for Grafana](docs/images/redis-plugins-arch.png)
 
 ## Quick Links
 
