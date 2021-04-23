@@ -10,10 +10,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 
     Only **Grafana 7.1+** with a new Backend plug-in platform supports Redis plug-ins.
 
-<figure>
-  <img class="sandwich" src="/images/redis-plugins.png"/>
-  <figcaption>Redis plug-ins in the Redis-Grafana sandwich.</figcaption>
-</figure>
+![Plugins](/images/redis-table.png)
 
 ## Where Next?
 
@@ -35,20 +32,15 @@ Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/
 - [Introducing the Redis Data Source Plug-in for Grafana](https://redislabs.com/blog/introducing-the-redis-data-source-plug-in-for-grafana/)
 - [How to Use the New Redis Data Source for Grafana Plug-in](https://redislabs.com/blog/how-to-use-the-new-redis-data-source-for-grafana-plug-in/)
 - [3 Real-Life Apps Built with Redis Data Source for Grafana](https://redislabs.com/blog/3-real-life-apps-built-with-redis-data-source-for-grafana/)
-- [Real-time observability with Redis and Grafana](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
 
 ## Contact Us
+
+!!! tip "Contribute"
+
+    To contribute your project or propose Documentation updates, open an [issue](https://github.com/RedisGrafana/redisgrafana/issues/new/choose) or click the "Edit this page" button at the top to submit a Pull Request.
 
 If you have questions, feedback, or want to report an issue, here's where you can get in touch:
 
 - [Redis Data Source](https://github.com/RedisGrafana/grafana-redis-datasource/issues/new/choose)
 - [Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/issues/new/choose)
 - [Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/issues/new/choose)
-
-!!! tip "Contribute"
-
-    To contribute your project or propose Documentation updates, open an [issue](https://github.com/RedisGrafana/redisgrafana/issues/new/choose) or click the "Edit this page" button at the top to submit a Pull Request.
-
-## License
-
-Redis plug-ins for Grafana licensed under the [Apache License Version 2.0](https://github.com/RedisGrafana/RedisGrafana/blob/main/LICENSE).
