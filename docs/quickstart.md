@@ -1,5 +1,11 @@
 # Quickstart
 
+## Architecture
+
+The Redis plug-ins for Grafana build an Ecosystem of custom panels and application pages on top of Redis Data Source.
+
+![Architecture](/images/redis-plugins-arch.png)
+
 ## Install using `grafana-cli`
 
 Use the `grafana-cli` tool to install from the command-line:
