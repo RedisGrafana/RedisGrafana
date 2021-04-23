@@ -8,7 +8,7 @@
 
 The Redis plug-ins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to observe and interact with Redis and Application data.
 
-![Redis plug-ins for Grafana](docs/images/redis-plugins.png)
+![Redis plug-ins for Grafana](docs/images/redis-table.png)
 
 Data Source can connect to any Redis database On-Premises or in the Cloud.
 
