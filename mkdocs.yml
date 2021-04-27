@@ -87,7 +87,7 @@ nav:
           - "TS.MRANGE": "redis-datasource/redis-timeseries/TS-MRANGE.md"
           - "TS.QUERYINDEX": "redis-datasource/redis-timeseries/TS-QUERYINDEX.md"
           - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
-      - "Redis Custom":
+      - "Custom Commands":
           - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
   - "Redis Application plug-in":
       - "Overview": "redis-app/overview.md"

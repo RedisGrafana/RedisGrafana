@@ -14,6 +14,8 @@ Returns keys with types and memory usage. This custom command is based on SCAN a
 
     Please use this command in OFF-PEAK as it cause latency increase.
 
+![Schema](../../images/redis-datasource/commands/tmscan-schema.png)
+
 Found results and Cursor returns in separate frames.
 
 ![TMSCAN](../../images/redis-datasource/commands/tmscan.png)
