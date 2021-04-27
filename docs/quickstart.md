@@ -4,7 +4,7 @@
 
 The Redis plug-ins for Grafana ecosystem buid on top of the Redis Data Source.
 
-![Architecture](/images/redis-plugins-arch.png)
+![Architecture](/images/redis-plugins.png)
 
 ## Install using `grafana-cli`
 
