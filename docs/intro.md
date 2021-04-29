@@ -17,6 +17,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 - The [Quickstart](quickstart.md) is the recommended starting point.
 - The [Commands](redis-datasource/commands.md) reference all supported commands in the Redis Data Source.
 - The [Redis Application plug-in](redis-app/overview.md) page provides information about the Application pages, dashboards, and custom panels.
+- The [Redis Explorer plug-in](redis-explorer/overview.md) page provides information about the Explorer pages, dashboards, and Redis Enterprise Software data source.
 - The **Development** section has more information about the nightly built [Docker Images](development/images.md), developing plug-ins and interesting use cases.
 - The **Presentation** section consists links to the recent video presentations.
 - The [Timeline](timeline.md) page lists all major dates in the plug-ins development.
