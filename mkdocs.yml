@@ -6,9 +6,9 @@ site_description: >-
   and build dashboards in Grafana to observe and interact with Redis and Application data.
 
 # Repository
-repo_name: RedisGrafana/grafana-redis-datasource
-repo_url: https://github.com/RedisGrafana/grafana-redis-datasource
-edit_uri: https://github.com/RedisGrafana/redisgrafana/edit/main/docs/
+repo_name: RedisGrafana/RedisGrafana
+repo_url: https://github.com/RedisGrafana/RedisGrafana
+edit_uri: https://github.com/RedisGrafana/RedisGrafana/edit/main/docs/
 
 # Configuration
 theme:
@@ -102,6 +102,16 @@ nav:
           - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
   - "Redis Explorer plug-in":
       - "Overview": "redis-explorer/overview.md"
+      - "Redis Enterprise Software":
+          - "Overview": "redis-explorer/re-software/overview.md"
+          - "Configuration": "redis-explorer/re-software/configuration.md"
+          - "Metrics": "redis-explorer/re-software/metrics.md"
+          - "Information": "redis-explorer/re-software/info.md"
+      - "Dashboards":
+          - "Enterprise Clusters": "redis-explorer/dashboards/explorer.md"
+          - "Cluster Overview": "redis-explorer/dashboards/overview.md"
+          - "Cluster Nodes": "redis-explorer/dashboards/nodes.md"
+          - "Cluster Databases": "redis-explorer/dashboards/databases.md"
   - "Development":
       - "Docker Images": "development/images.md"
       - "Plug-ins":

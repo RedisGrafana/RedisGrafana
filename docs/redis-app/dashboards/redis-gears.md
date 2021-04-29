@@ -12,7 +12,7 @@ hide: toc
 
 ![RedisGears Dashboard](../../images/redis-app/dashboards/gears-dashboard.png)
 
-### Panels
+## Panels
 
 - RedisGears Memory Usage using [RG.PYSTATS](../../redis-datasource/redis-gears/RG-PYSTATS.md) command
 - Registrations using [RG.DUMPREGISTRATIONS](../../redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md) command

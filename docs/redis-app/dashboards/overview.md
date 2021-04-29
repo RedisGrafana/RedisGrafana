@@ -10,7 +10,7 @@ hide: toc
 
 ![Redis Overview Dashboard](../../images/redis-app/dashboards/overview-dashboard.png)
 
-### Panels
+## Panels
 
 - Operations per second
 - Connected clients
