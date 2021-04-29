@@ -14,7 +14,7 @@ The [Configuration](configuration.md) page explains how to connect data source t
 
 ## Query Editor
 
-1. Choose **Type** to select required data (Alerts, Cluster, License, etc.)
+1. Choose **Type** to select [Information](info.md) (Alerts, Cluster, License, etc.) or [Metrics](metrics.md)
 2. Provide all required parameters, depends on selected **Type**
 
 ![Query Editor](../../images/redis-explorer/re-software/query-editor.png)

@@ -8,7 +8,7 @@ Redis Enterprise Software Data Source provides various information available in 
 
 ![Info](../../images/redis-explorer/re-software/info.png)
 
-| Information  | Description                                    |
+| Type         | Description                                    |
 | ------------ | ---------------------------------------------- |
 | Alerts       | Database and Nodes alerts                      |
 | Cluster      | Cluster information                            |

@@ -73,4 +73,8 @@ The [Configuration](redis-datasource/configuration.md) page explains how to conn
 
 ### Redis Application plug-in
 
-The [Overview](redis-app/overview.md) page explains how to enable plug-in and manage multiple Redis Data Sources.
+The [Overview](redis-app/overview.md) page explains how to enable plug-in and manage Redis Data Sources.
+
+### Redis Explorer plug-in
+
+The [Overview](redis-explorer/overview.md) page explains how to enable plug-in and manage Redis Enterprise Software Data Sources.
