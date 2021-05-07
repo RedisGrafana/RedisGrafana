@@ -44,6 +44,7 @@ nav:
   - "Home": "index.md"
   - "Introduction": "intro.md"
   - "Quickstart": "quickstart.md"
+  - "Learn More": "learn-more.md"
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
       - "Configuration": "redis-datasource/configuration.md"
@@ -123,9 +124,6 @@ nav:
           - "Pop-up Store": "projects/pop-up-store.md"
           - "Forecasting Stocks": "projects/finance-prophet.md"
       - "Timeline": "timeline.md"
-  - "Presentations":
-      - "Elevate your Redis experience": "https://redisconf.com/redisconf21/modules/85406/agenda/session/265347"
-      - "Real-time observability": "https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/"
 
 markdown_extensions:
   - admonition
