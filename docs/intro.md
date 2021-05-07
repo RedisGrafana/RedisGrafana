@@ -19,8 +19,8 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 - The [Redis Application plug-in](redis-app/overview.md) page provides information about the Application pages, dashboards, and custom panels.
 - The [Redis Explorer plug-in](redis-explorer/overview.md) page provides information about the Explorer pages, dashboards, and Redis Enterprise Software data source.
 - The **Development** section has more information about the nightly built [Docker Images](development/images.md), developing plug-ins and interesting use cases.
-- The **Presentation** section consists links to the recent video presentations.
-- The [Timeline](timeline.md) page lists all major dates in the plug-ins development.
+- The [Learn more](learn-more.md) page consists links to the recent blog posts and video presentations.
+- The [Timeline](timeline.md) page lists all major dates and plans in the plug-ins development.
 
 ## Grafana Repository
 
@@ -28,12 +28,7 @@ Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/
 
 - [Redis Data Source for Grafana](https://grafana.com/grafana/plugins/redis-datasource/)
 - [Redis Application plug-in](https://grafana.com/grafana/plugins/redis-app/)
-
-## Learn More
-
-- [Introducing the Redis Data Source Plug-in for Grafana](https://redislabs.com/blog/introducing-the-redis-data-source-plug-in-for-grafana/)
-- [How to Use the New Redis Data Source for Grafana Plug-in](https://redislabs.com/blog/how-to-use-the-new-redis-data-source-for-grafana-plug-in/)
-- [3 Real-Life Apps Built with Redis Data Source for Grafana](https://redislabs.com/blog/3-real-life-apps-built-with-redis-data-source-for-grafana/)
+- Redis Explorer plug-in is under review
 
 ## Contact Us
 

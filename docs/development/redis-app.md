@@ -3,6 +3,7 @@
 ![CI](https://github.com/RedisGrafana/grafana-redis-app/workflows/CI/badge.svg)
 ![Docker](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
 [![codecov](https://codecov.io/gh/RedisGrafana/grafana-redis-app/branch/master/graph/badge.svg?token=15SIRGU8SX)](https://codecov.io/gh/RedisGrafana/grafana-redis-app)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/RedisGrafana/grafana-redis-app.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/RedisGrafana/grafana-redis-app/context:javascript)
 
 Developing Application plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
