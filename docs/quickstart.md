@@ -2,13 +2,13 @@
 
 ## Architecture
 
-The Redis plug-ins for Grafana ecosystem buid on top of the Redis Data Source.
+The Redis plug-ins for the Grafana ecosystem build on top of the Redis Data Source.
 
 ![Architecture](/images/redis-plugins.png)
 
 ## Install using `grafana-cli`
 
-Use the `grafana-cli` tool to install from the command-line:
+Use the `grafana-cli` tool to install from the command line:
 
 ### Redis Application plug-in and Redis Data Source
 
@@ -24,7 +24,7 @@ grafana-cli plugins install redis-datasource
 
 ### Redis Explorer
 
-Is under review and will be available shortly.
+It is under review and will be available shortly.
 
 ## Run using `Docker`
 
@@ -64,7 +64,7 @@ docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:late
 
 ??? important "Permissions"
 
-    Redis Data Source binaries should have executable permissions for Grafana to be able to execute it.
+    Redis Data Source binaries should have executable permissions for Grafana to execute them.
 
     --8<-- "includes/redis-datasource/binaries.md"
 
@@ -90,7 +90,7 @@ docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:late
 
 ### Redis Data Source
 
-The [Configuration](redis-datasource/configuration.md) page explains how to connect data source to Redis database.
+The [Configuration](redis-datasource/configuration.md) page explains how to connect the data source to the Redis database.
 
 ### Redis Application plug-in
 
