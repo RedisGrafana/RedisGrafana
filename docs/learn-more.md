@@ -23,7 +23,7 @@ hide: toc
 
     Redis Data Source and Application plug-ins enable users to connect to a Redis database and build dashboards in Grafana to easily observe Redis and application data. Elevate your Redis experience with custom dashboard panels that add Redis CLI, Latency Monitor, biggest keys, and other useful functionality.
 
-[![Plugins](/images/learn-more/redis-conf-2021.png)](https://redisconf.com/redisconf21/modules/85406/agenda/session/265347)
+<a title="Elevate your Redis experience with Redis plugins for Grafana" href="https://redisconf.com/redisconf21/modules/85406/agenda/session/265347"><img class="sandwich" src="/images/learn-more/redis-conf-2021.png"></a>
 
 ### [Real-time observability with Redis and Grafana](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
 
@@ -31,4 +31,4 @@ hide: toc
 
     Do you want to learn how to combine Grafana streaming capabilities with interactivity to take Grafana beyond observability? In this session, you’ll learn about the integration of Grafana and Redis, the most loved in-memory database. We will present 3 real-life applications built with Redis Data Source for Grafana. Additionally, we’ll show you how to use the Redis Data Source and demonstrate the new Application plugin with custom panel and dashboards. Finally, we will touch on the new features of Grafana 7: data frames, transformations, and streaming.
 
-[![Plugins](/images/learn-more/observability-con-2020.png)](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
+<a title="Real-time observability with Redis and Grafana" href="https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/"><img class="sandwich" src="/images/learn-more/observability-con-2020.png"></a>

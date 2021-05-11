@@ -23,6 +23,12 @@ The [Configuration](configuration.md) page explains how to connect data source t
 
 ![Query Editor](../images/redis-datasource/query.png)
 
+## Variables
+
+[Template variables](variables.md) can query any command which return list of values and use other variables as parameters.
+
+![Variables](../images/redis-datasource/variables.png)
+
 ## Privisioning
 
 Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:

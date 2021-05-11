@@ -75,6 +75,7 @@ nav:
           - "XREVRANGE": "redis-datasource/redis/XREVRANGE.md"
       - "RedisGears":
           - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
+          - "RG.PYDUMPREQS": "redis-datasource/redis-gears/RG-PYDUMPREQS.md"
           - "RG.PYEXECUTE": "redis-datasource/redis-gears/RG-PYEXECUTE.md"
           - "RG.PYSTATS": "redis-datasource/redis-gears/RG-PYSTATS.md"
       - "RedisGraph":
