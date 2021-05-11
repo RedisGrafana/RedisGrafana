@@ -12,6 +12,10 @@ This command returns the stream entries matching a given range of IDs.
 
 ![XRANGE](../../images/redis-datasource/commands/xrange.png)
 
+!!! note "$time"
+
+    Column **$time** was added in Redis Data Source 1.4.0 based on the $streamId.
+
 ## Parameters
 
 | Parameter | Description       | Default     |
