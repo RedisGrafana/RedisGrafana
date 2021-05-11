@@ -12,6 +12,10 @@ This command returns the stream entries matching a given range of IDs in reverse
 
 ![XREVRANGE](../../images/redis-datasource/commands/xrevrange.png)
 
+!!! note "$time"
+
+    Column **$time** was added in Redis Data Source 1.4.0 based on the $streamId.
+
 ## Parameters
 
 | Parameter | Description       | Default     |
