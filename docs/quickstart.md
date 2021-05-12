@@ -16,43 +16,51 @@ Use the `grafana-cli` tool to install from the command line:
 grafana-cli plugins install redis-app
 ```
 
-### "Redis Data Source
+### Redis Explorer plug-in
+
+!!! important "Dependencies"
+
+    Redis Application plug-in and Redis Data Source will be auto-installed as dependencies.
 
 ```bash
-grafana-cli plugins install redis-datasource
-```
-
-### Redis Explorer
-
-It is under review and will be available shortly.
-
-## Run using `Docker`
-
---8<-- "includes/login-grafana.md"
-
-### Redis Application plug-in and Redis Data Source
-
-```bash
-docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
+grafana-cli plugins install redis-explorer-app
 ```
 
 ### Redis Data Source
 
 ```bash
-docker run -d -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
+grafana-cli plugins install redis-datasource
+```
+
+## Run using `Docker`
+
+--8<-- "includes/login-grafana.md"
+
+!!! note "Run container in background"
+
+    Use `-d` option to run container in background and print container ID.
+
+### Redis Application plug-in and Redis Data Source
+
+```bash
+docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
+```
+
+### Redis Data Source
+
+```bash
+docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
 ```
 
 ### Redis Explorer
 
-Available as **Nightly build** while under review.
-
 ```bash
-docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
+docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-explorer-app" grafana/grafana
 ```
 
 !!! note "Docker Images"
 
-    Interested in the latest features and updates? Start nightly built [Docker image](development/images.md).
+    Are you interested in the latest features and updates? Start nightly built [Docker image](development/images.md).
 
 ## Install without Internet access
 
@@ -102,4 +110,4 @@ The [Overview](redis-explorer/overview.md) page explains how to enable plug-in a
 
 ## Learn more
 
-Take a look at [Learn More](learn-more.md) page to read recent blog posts and view presentations from conferences.
+Please look at [Learn More](learn-more.md) page to read recent blog posts and view presentations from conferences.
