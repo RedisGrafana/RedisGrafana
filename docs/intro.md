@@ -28,7 +28,7 @@ Plug-ins are registered in the [Grafana repository](https://grafana.com/grafana/
 
 - [Redis Data Source for Grafana](https://grafana.com/grafana/plugins/redis-datasource/)
 - [Redis Application plug-in](https://grafana.com/grafana/plugins/redis-app/)
-- Redis Explorer plug-in is under review
+- [Redis Explorer plug-in](https://grafana.com/grafana/plugins/redis-explorer-app/)
 
 ## Contact Us
 
