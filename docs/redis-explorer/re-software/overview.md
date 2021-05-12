@@ -19,7 +19,7 @@ The [Configuration](configuration.md) page explains how to connect data source t
 
 ![Query Editor](../../images/redis-explorer/re-software/query-editor.png)
 
-## Privisioning
+## Provisioning
 
 Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
 

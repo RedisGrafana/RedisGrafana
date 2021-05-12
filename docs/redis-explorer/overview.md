@@ -60,7 +60,7 @@ Redis Explorer plug-in includes predefined dashboards:
 
 ![Redis Application plug-ins](../images/redis-explorer/menu.png)
 
-## Privisioning
+## Provisioning
 
 Grafana supports managing plugins in Grafana by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/plugins** directory:
 

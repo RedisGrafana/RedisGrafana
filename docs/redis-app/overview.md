@@ -59,7 +59,7 @@ Redis Application plug-in provides custom panels for Redis Data Source:
 - [Keys consuming a lot of memory](panels/redis-keys-panel.md)
 - [RedisGears Script Editor](panels/redis-gears-panel.md)
 
-## Privisioning
+## Provisioning
 
 Grafana supports managing plugins in Grafana by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/plugins** directory:
 

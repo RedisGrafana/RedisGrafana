@@ -29,7 +29,7 @@ The [Configuration](configuration.md) page explains how to connect data source t
 
 ![Variables](../images/redis-datasource/variables.png)
 
-## Privisioning
+## Provisioning
 
 Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
 
