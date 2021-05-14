@@ -1,6 +1,6 @@
 # Redis Enterprise Software Data Source
 
-Redis Enterprise Software Data Source allows to connect to Redis Enterprise software clusters using REST API.
+Redis Enterprise Software Data Source allows connecting to Redis Enterprise software clusters using REST API.
 
 !!! quote "REST API [Specification](https://storage.googleapis.com/rlecrestapi/rest-html/http_rest_api.html)"
 
