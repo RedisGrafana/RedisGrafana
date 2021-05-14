@@ -36,9 +36,7 @@ grafana-cli plugins install redis-datasource
 
 --8<-- "includes/login-grafana.md"
 
-!!! note "Run container in background"
-
-    Use `-d` option to run container in background and print container ID.
+--8<-- "includes/docker-background.md"
 
 ### Redis Application plug-in and Redis Data Source
 
