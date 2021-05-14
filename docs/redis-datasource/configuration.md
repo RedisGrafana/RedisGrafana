@@ -18,11 +18,16 @@ redis://redis-server:6379/0
 
 #### Cluster
 
-In Cluster mode **Address** can contain multiple values (`host:port` address or a URI) with comma.
+- For redundancy provide multiple `host:port` addresses or URIs comma separated.
 
 #### Sentinel
 
-In Sentinel mode **Address** can contain multiple values (`host:port` address or a URI) with comma. **Master Name** is required to connect to Sentinel.
+- **Address** can contain multiple values (`host:port` address or a URI) with comma.
+- **Master Name** is required to connect to the Sentinel and open Redis connections.
+
+!!! important "Authentication"
+
+    Redis Data Source 1.5.0 will introduce separate password and ACL settings for Sentinel. Prior version has limitation of the same password for Sentinel and Redis instances.
 
 ![Sentinel configuration](../images/redis-datasource/config/sentinel.png)
 

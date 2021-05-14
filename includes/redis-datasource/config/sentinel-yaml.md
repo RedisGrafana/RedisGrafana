@@ -8,10 +8,10 @@ datasources:
     orgId: 1
     isDefault: true
     version: 1
-    url: redis://host.docker.internal:6379
+    url: redis://cluster.remote:8001
     jsonData:
       client: sentinel
-      sentinelName: Test
+      sentinelName: Test@internal
       poolSize: 5
       timeout: 10
       pingInterval: 0
