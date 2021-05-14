@@ -10,7 +10,7 @@ The Redis plug-ins for Grafana allow users to connect to the Redis databases and
 
     Only **Grafana 7.1+** with a new Backend plug-in platform supports Redis plug-ins.
 
-![Plugins](/images/redis-table.png)
+<img class="sandwich" title="Plugins" src="/images/redis-table.png">
 
 ## Where Next?
 
