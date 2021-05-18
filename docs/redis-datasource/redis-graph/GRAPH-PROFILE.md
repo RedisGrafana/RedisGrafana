@@ -4,7 +4,7 @@ hide: toc
 
 # GRAPH.PROFILE
 
-This command constructs a query execution plan but does not run it.
+This command executes a query and produces an execution plan augmented with metrics for each operation's execution.
 
 !!! info "RedisGraph"
 
