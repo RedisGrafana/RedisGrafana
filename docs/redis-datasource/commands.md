@@ -66,6 +66,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 | Command                                       | Description                                                                                           |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [GRAPH.CONFIG](redis-graph/GRAPH-CONFIG.md)   | Retrieves or updates a RedisGraph configuration                                                       |
 | [GRAPH.EXPLAIN](redis-graph/GRAPH-EXPLAIN.md) | Constructs a query execution plan but does not run it                                                 |
 | [GRAPH.PROFILE](redis-graph/GRAPH-PROFILE.md) | Executes a query and produces an execution plan augmented with metrics for each operation's execution |
 | [GRAPH.QUERY](redis-graph/GRAPH-QUERY.md)     | Executes the given query against a specified graph                                                    |
