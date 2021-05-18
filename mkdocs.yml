@@ -79,6 +79,8 @@ nav:
           - "RG.PYEXECUTE": "redis-datasource/redis-gears/RG-PYEXECUTE.md"
           - "RG.PYSTATS": "redis-datasource/redis-gears/RG-PYSTATS.md"
       - "RedisGraph":
+          - "GRAPH.EXPLAIN": "redis-datasource/redis-graph/GRAPH-EXPLAIN.md"
+          - "GRAPH.PROFILE": "redis-datasource/redis-graph/GRAPH-PROFILE.md"
           - "GRAPH.QUERY": "redis-datasource/redis-graph/GRAPH-QUERY.md"
           - "GRAPH.SLOWLOG": "redis-datasource/redis-graph/GRAPH-SLOWLOG.md"
       - "RediSearch":
