@@ -18,7 +18,7 @@ This command executes a query and produces an execution plan augmented with metr
 
 | Parameter | Description                                                                                                                                           |
 | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key       | Key name                                                                                                                                              |
+| Key       | RedisGraph key                                                                                                                                        |
 | Cypher    | The [syntax is based on Cypher](https://oss.redislabs.com/redisgraph/commands/#query-language), and only a subset of the language currently supported |
 
 ## Streaming

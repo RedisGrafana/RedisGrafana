@@ -14,7 +14,9 @@ This command returns a list containing up to 10 of the slowest queries issued ag
 
 ## Parameters
 
-No parameters is required.
+| Parameter | Description    |
+| --------- | -------------- |
+| Key       | RedisGraph key |
 
 ## Streaming
 
