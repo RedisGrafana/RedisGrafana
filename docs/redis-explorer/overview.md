@@ -1,29 +1,31 @@
-# Redis Explorer plug-in
+# Redis Explorer plugin
 
-![Release](https://img.shields.io/github/v/release/redisgrafana/grafana-redis-explorer.svg) [![Plugin Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=downloads&query=%24.downloads&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-explorer-app)](https://grafana.com/grafana/plugins/redis-explorer-app) [![Docker](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)](https://github.com/orgs/RedisGrafana/packages/container/package/redis-explorer)
+The Redis Explorer is a plugin for Grafana that allows connecting to Redis Enterprise software clusters using REST API. It provides application pages to add Redis Data Sources for managed databases and dashboards to see cluster configuration.
 
-The Redis Explorer is a plug-in for Grafana that allows connecting to Redis Enterprise software clusters using REST API. It provides application pages to add Redis Data Sources for managed databases and dashboards to see cluster configuration.
+## Features
 
-## Features comparison
+| Plugins \ Database                                   | Redis endpoint (open-source)                                                                                       | Redis Enterprise                                                                                                                   |
+| ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
+| [Redis Data Source](../redis-datasource/overview.md) | [Stats](../redis-datasource/redis/INFO.md), [Streaming](../redis-datasource/streaming.md), Data                    |                                                                                                                                    |
+| [Redis Application plugin](../redis-app/overview.md) | [Dashboards](../redis-app/overview.md#dashboards), [Custom Panels](../redis-app/overview.md#custom-panels)         |                                                                                                                                    |
+| Redis Explorer plugin                                | Use Redis Data Source                                                                                              | [Metrics](re-software/metrics.md), [Information](re-software/info.md)                                                              |
+| Prometheus                                           | [Redis Exporter for metrics](https://grafana.com/oss/prometheus/exporters/redis-exporter/?pg=prod-cloud-resources) | [Redis Enterprise metrics exporter](https://docs.redislabs.com/latest/rs/administering/monitoring-metrics/prometheus-integration/) |
 
-|                                                       | Redis endpoint (open-source)                                                                                       | Redis Enterprise                                                                                                                   |
-| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [Redis Data Source](../redis-datasource/overview.md)  | [Stats](../redis-datasource/redis/INFO.md), [Streaming](../redis-datasource/streaming.md), Data                    |                                                                                                                                    |
-| [Redis Application plug-in](../redis-app/overview.md) | [Dashboards](../redis-app/overview.md#dashboards), [Custom Panels](../redis-app/overview.md#custom-panels)         |                                                                                                                                    |
-| Redis Explorer plug-in                                | Use Redis Data Source                                                                                              | [Metrics](re-software/metrics.md), [Information](re-software/info.md)                                                              |
-| Prometheus                                            | [Redis Exporter for metrics](https://grafana.com/oss/prometheus/exporters/redis-exporter/?pg=prod-cloud-resources) | [Redis Enterprise metrics exporter](https://docs.redislabs.com/latest/rs/administering/monitoring-metrics/prometheus-integration/) |
+## Quickstart
 
-## Enable Plug-in
+To learn how to install Redis Explorer plugin using `grafana-cli`, run using Docker or manually without Internet access follow the [Quickstart](../quickstart.md) page.
 
-The Redis Explorer plug-in is disabled after installation by default. To enable:
+## Enable Plugin
 
-- Go to `Configuration` -> `Plugins` and choose Redis Explorer plug-in.
+The Redis Explorer plugin is disabled after installation by default. To enable:
 
-![Grafana plug-ins](../images/redis-explorer/grafana-plugins.png)
+- Go to `Configuration` -> `Plugins` and choose Redis Explorer plugin.
+
+![Grafana plugins](../images/redis-explorer/grafana-plugins.png)
 
 - Click **Enable** to add side menu, add Redis Enterprise software data source and import Dashboards.
 
-![Enable Redis Explorer plug-in](../images/redis-explorer/enable.png)
+![Enable Redis Explorer plugin](../images/redis-explorer/enable.png)
 
 ## Home
 
@@ -47,7 +49,7 @@ To add databases managed by Redis Enterprise cluster as Data Sources click on th
 
 ## Dashboards
 
-Redis Explorer plug-in includes predefined dashboards:
+Redis Explorer plugin includes predefined dashboards:
 
 - [Enterprise Clusters](dashboards/explorer.md)
 - [Cluster Overview](dashboards/overview.md)
@@ -58,7 +60,7 @@ Redis Explorer plug-in includes predefined dashboards:
 
     All dashboards are accessible from the Application's icon in the left side menu.
 
-![Redis Application plug-ins](../images/redis-explorer/menu.png)
+![Redis Application plugins](../images/redis-explorer/menu.png)
 
 ## Provisioning
 

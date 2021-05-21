@@ -1,11 +1,11 @@
-# Developing Redis Explorer plug-in
+# Developing Redis Explorer plugin
 
 ![CI](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/CI/badge.svg)
 ![Docker](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
 [![codecov](https://codecov.io/gh/RedisGrafana/grafana-redis-explorer/branch/master/graph/badge.svg?token=15SIRGU8SX)](https://codecov.io/gh/RedisGrafana/grafana-redis-explorer)
 [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/RedisGrafana/grafana-redis-explorer.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/RedisGrafana/grafana-redis-explorer/context:javascript)
 
-Developing Explorer plug-in involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
+Developing Explorer plugin involves setting up the development environment (which can be either Linux-based or macOS-based), building and running tests.
 
 ## Install Grafana
 
@@ -77,7 +77,7 @@ yarn build
 
 ## Configuration
 
-The [Overview](../redis-explorer/overview.md) page explains how to enable plug-in and manage multiple Redis Enterprise Software data sources.
+The [Overview](../redis-explorer/overview.md) page explains how to enable plugin and manage multiple Redis Enterprise Software data sources.
 
 ## Contact Us
 
