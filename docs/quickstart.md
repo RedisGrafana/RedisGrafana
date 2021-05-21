@@ -2,7 +2,7 @@
 
 ## Architecture
 
-The Redis plug-ins for the Grafana ecosystem build on top of the Redis Data Source.
+The Redis plugins for the Grafana ecosystem build on top of the Redis Data Source.
 
 ![Architecture](/images/redis-plugins.png)
 
@@ -10,17 +10,17 @@ The Redis plug-ins for the Grafana ecosystem build on top of the Redis Data Sour
 
 Use the `grafana-cli` tool to install from the command line:
 
-### Redis Application plug-in and Redis Data Source
+### Redis Application plugin and Redis Data Source
 
 ```bash
 grafana-cli plugins install redis-app
 ```
 
-### Redis Explorer plug-in
+### Redis Explorer plugin
 
 !!! important "Dependencies"
 
-    Redis Application plug-in and Redis Data Source will be auto-installed as dependencies.
+    Redis Application plugin and Redis Data Source will be auto-installed as dependencies.
 
 ```bash
 grafana-cli plugins install redis-explorer-app
@@ -38,7 +38,7 @@ grafana-cli plugins install redis-datasource
 
 --8<-- "includes/docker-background.md"
 
-### Redis Application plug-in and Redis Data Source
+### Redis Application plugin and Redis Data Source
 
 ```bash
 docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
@@ -74,20 +74,20 @@ docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-explorer-app
 
     --8<-- "includes/redis-datasource/binaries.md"
 
-- Check that plug-in was registered:
+- Check that plugin was registered:
 
 --8<-- "includes/redis-datasource/grafana-log.md"
 
-### Redis Application plug-in
+### Redis Application plugin
 
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-app/releases).
 - Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
 
-### Redis Explorer plug-in
+### Redis Explorer plugin
 
 !!! important "Dependencies"
 
-    Redis Explorer plug-in requires Redis Data Source and Redis Application plug-in.
+    Redis Explorer plugin requires Redis Data Source and Redis Application plugin.
 
 - Download the latest version from [Releases](https://github.com/RedisGrafana/grafana-redis-explorer/releases).
 - Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
@@ -98,13 +98,13 @@ docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-explorer-app
 
 The [Configuration](redis-datasource/configuration.md) page explains how to connect the data source to the Redis database.
 
-### Redis Application plug-in
+### Redis Application plugin
 
-The [Overview](redis-app/overview.md) page explains how to enable plug-in and manage Redis Data Sources.
+The [Overview](redis-app/overview.md) page explains how to enable plugin and manage Redis Data Sources.
 
-### Redis Explorer plug-in
+### Redis Explorer plugin
 
-The [Overview](redis-explorer/overview.md) page explains how to enable plug-in and manage Redis Enterprise Software Data Sources.
+The [Overview](redis-explorer/overview.md) page explains how to enable plugin and manage Redis Enterprise Software Data Sources.
 
 ## Learn more
 

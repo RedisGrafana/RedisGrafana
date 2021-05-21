@@ -1,16 +1,18 @@
 # Redis Data Source
 
-![Release](https://img.shields.io/github/v/release/redisgrafana/grafana-redis-datasource.svg) [![Plugin Downloads](https://img.shields.io/badge/dynamic/json?color=green&label=downloads&query=%24.downloads&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
-
 Data Source allows connecting to any Redis database On-Premises or in the Cloud.
 
-!!! tip "Redis Application plug-in"
+!!! tip "Redis Application plugin"
 
-    The [Redis Application plug-in](../redis-app/overview.md) helps manage multiple Redis Data Sources and provides Custom panels.
+    The [Redis Application plugin](../redis-app/overview.md) helps manage multiple Redis Data Sources and provides Custom panels.
 
-!!! note "Redis Explorer plug-in"
+!!! note "Redis Explorer plugin"
 
-    The [Redis Explorer plug-in](https://grafana.com/grafana/plugins/redis-explorer-app) connects to Redis Enterprise software clusters using REST API. It provides application pages to add Redis Data Sources for managed databases and dashboards to see cluster configuration.
+    The [Redis Explorer plugin](https://grafana.com/grafana/plugins/redis-explorer-app) connects to Redis Enterprise software clusters using REST API. It provides application pages to add Redis Data Sources for managed databases and dashboards to see cluster configuration.
+
+## Quickstart
+
+To learn how to install Redis Data Source using `grafana-cli`, run using Docker or manually without Internet access follow the [Quickstart](../quickstart.md) page.
 
 ## Configuration
 

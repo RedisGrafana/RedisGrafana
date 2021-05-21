@@ -1,8 +1,8 @@
 # Project information
-site_name: Redis plug-ins for Grafana
+site_name: Redis plugins for Grafana
 site_url: http://redisgrafana.github.io/
 site_description: >-
-  The Redis plug-ins for Grafana allow users to connect to the Redis databases
+  The Redis plugins for Grafana allow users to connect to the Redis databases
   and build dashboards in Grafana to observe and interact with Redis and Application data.
 
 # Repository
@@ -38,13 +38,26 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.top
+    - navigation.tabs
   custom_dir: docs/overrides
 
 nav:
   - "Home": "index.md"
-  - "Introduction": "intro.md"
-  - "Quickstart": "quickstart.md"
-  - "Learn More": "learn-more.md"
+  - "Redis plugins":
+      - "Introduction": "intro.md"
+      - "Quickstart": "quickstart.md"
+      - "Timeline": "timeline.md"
+      - "Learn More": "learn-more.md"
+      - "Docker Images": "development/images.md"
+      - "Development":
+          - "Redis Data Source": "development/redis-datasource.md"
+          - "Redis Application": "development/redis-app.md"
+          - "Redis Explorer": "development/redis-explorer.md"
+      - "Use Cases":
+          - "Plugins Statistics": "projects/grafana-stats.md"
+          - "Pop-up Store": "projects/pop-up-store.md"
+          - "Forecasting Stocks": "projects/finance-prophet.md"
+
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
       - "Configuration": "redis-datasource/configuration.md"
@@ -94,7 +107,7 @@ nav:
           - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
       - "Custom Commands":
           - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
-  - "Redis Application plug-in":
+  - "Redis Application":
       - "Overview": "redis-app/overview.md"
       - "Dashboards":
           - "Redis CLI": "redis-app/dashboards/cli.md"
@@ -105,7 +118,7 @@ nav:
           - "Command Latency": "redis-app/panels/redis-latency-panel.md"
           - "Keys consuming a lot of memory": "redis-app/panels/redis-keys-panel.md"
           - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
-  - "Redis Explorer plug-in":
+  - "Redis Explorer":
       - "Overview": "redis-explorer/overview.md"
       - "Redis Enterprise Software":
           - "Overview": "redis-explorer/re-software/overview.md"
@@ -117,17 +130,6 @@ nav:
           - "Cluster Overview": "redis-explorer/dashboards/overview.md"
           - "Cluster Nodes": "redis-explorer/dashboards/nodes.md"
           - "Cluster Databases": "redis-explorer/dashboards/databases.md"
-  - "Development":
-      - "Docker Images": "development/images.md"
-      - "Plug-ins":
-          - "Redis Data Source": "development/redis-datasource.md"
-          - "Redis Application": "development/redis-app.md"
-          - "Redis Explorer": "development/redis-explorer.md"
-      - "Use Cases":
-          - "Plug-ins Statistics": "projects/grafana-stats.md"
-          - "Pop-up Store": "projects/pop-up-store.md"
-          - "Forecasting Stocks": "projects/finance-prophet.md"
-      - "Timeline": "timeline.md"
 
 markdown_extensions:
   - admonition

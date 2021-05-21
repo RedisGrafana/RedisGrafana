@@ -22,11 +22,11 @@ Interested in the latest features and updates? Start nightly built Docker image.
 
 --8<-- "includes/docker-background.md"
 
-### Redis Application plug-in
+### Redis Application plugin
 
-![Redis Application plug-in](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
+![Redis Application plugin](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
 
-The Redis Application is a plug-in for Grafana that provides application pages and custom panels for Redis Data Source.
+The Redis Application is a plugin for Grafana that provides application pages and custom panels for Redis Data Source.
 
 ```bash
 docker pull ghcr.io/redisgrafana/redis-app:latest && \
@@ -42,11 +42,11 @@ docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
     docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:master
     ```
 
-### Redis Explorer plug-in
+### Redis Explorer plugin
 
-![Redis Explorer plug-in](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
+![Redis Explorer plugin](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
 
-The Redis Explorer is a plug-in for Grafana that allows users to connect to Redis Enterprise software clusters using REST API and build dashboards to observe their status.
+The Redis Explorer is a plugin for Grafana that allows users to connect to Redis Enterprise software clusters using REST API and build dashboards to observe their status.
 
 ```bash
 docker pull ghcr.io/redisgrafana/redis-explorer:latest && \

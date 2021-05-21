@@ -21,9 +21,11 @@ hide: toc
 
 !!! quote "April 20-21, 2021 at RedisConf 2021"
 
-    Redis Data Source and Application plug-ins enable users to connect to a Redis database and build dashboards in Grafana to easily observe Redis and application data. Elevate your Redis experience with custom dashboard panels that add Redis CLI, Latency Monitor, biggest keys, and other useful functionality.
+    Redis Data Source and Application plugins enable users to connect to a Redis database and build dashboards in Grafana to easily observe Redis and application data. Elevate your Redis experience with custom dashboard panels that add Redis CLI, Latency Monitor, biggest keys, and other useful functionality.
 
-<a title="Elevate your Redis experience with Redis plugins for Grafana" href="https://redisconf.com/redisconf21/modules/85406/agenda/session/265347"><img class="sandwich" src="/images/learn-more/redis-conf-2021.png"></a>
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LquDQyEncLE" title="Elevate your Redis experience with Redis plugins for Grafana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ### [Real-time observability with Redis and Grafana](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
 
