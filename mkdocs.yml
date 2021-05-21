@@ -41,6 +41,7 @@ theme:
     - navigation.tabs
   custom_dir: docs/overrides
 
+# Navigation
 nav:
   - "Home": "index.md"
   - "Redis plugins":
@@ -131,6 +132,7 @@ nav:
           - "Cluster Nodes": "redis-explorer/dashboards/nodes.md"
           - "Cluster Databases": "redis-explorer/dashboards/databases.md"
 
+# Extensions
 markdown_extensions:
   - admonition
   - pymdownx.highlight
@@ -142,6 +144,7 @@ markdown_extensions:
   - toc:
       permalink: true
 
+# Plugins
 plugins:
   - search
   - minify:
@@ -152,8 +155,22 @@ plugins:
       js_files:
         - javascripts/extra.js
 
+# Custom JavaScript
 extra_javascript:
   - javascripts/extra.js
 
+# Custom CSS
 extra_css:
   - css/extra.css
+
+## Social Media
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/redisgrafana
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/volkovlabs
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/volkovlabs/
+    - icon: fontawesome/brands/docker
+      link: https://github.com/orgs/RedisGrafana/packages
