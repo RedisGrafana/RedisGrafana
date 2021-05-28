@@ -64,7 +64,7 @@ docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:late
 
 ## Redis
 
-### Redis-Prophet
+### Redis-Prophet (Time series forecasting)
 
 [![Docker](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml/badge.svg)](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml)
 
@@ -75,7 +75,7 @@ docker pull ghcr.io/redisgrafana/redis-prophet:latest && \
 docker run -p 6379:6379 --name=redis-prophet ghcr.io/redisgrafana/redis-prophet:latest
 ```
 
-### Redis-OpenCV
+### Redis-OpenCV (Real-time computer vision)
 
 [![Docker](https://github.com/RedisGrafana/redis-camera-ai/actions/workflows/docker.yml/badge.svg)](https://github.com/RedisGrafana/redis-camera-ai/actions/workflows/docker.yml)
 
