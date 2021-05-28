@@ -15,6 +15,8 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 
 Redis Data Source can connect to any Redis database On-Premises or in the Cloud. The Redis plugins for Grafana ecosystem build on top of the Redis Data Source.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LquDQyEncLE" title="Elevate your Redis experience with Redis plugins for Grafana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Quick Links
 
 - [Redis Data Source for Grafana](https://github.com/RedisGrafana/grafana-redis-datasource)

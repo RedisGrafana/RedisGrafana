@@ -5,11 +5,6 @@ site_description: >-
   The Redis plugins for Grafana allow users to connect to the Redis databases
   and build dashboards in Grafana to observe and interact with Redis and Application data.
 
-# Repository
-repo_name: RedisGrafana/RedisGrafana
-repo_url: https://github.com/RedisGrafana/RedisGrafana
-edit_uri: https://github.com/RedisGrafana/RedisGrafana/edit/main/docs/
-
 # Configuration
 theme:
   name: "material"
@@ -49,15 +44,16 @@ nav:
       - "Quickstart": "quickstart.md"
       - "Timeline": "timeline.md"
       - "Learn More": "learn-more.md"
-      - "Docker Images": "development/images.md"
       - "Development":
+          - "Docker Images": "development/images.md"
           - "Redis Data Source": "development/redis-datasource.md"
           - "Redis Application": "development/redis-app.md"
           - "Redis Explorer": "development/redis-explorer.md"
-      - "Use Cases":
+      - "Projects":
           - "Plugins Statistics": "projects/grafana-stats.md"
           - "Pop-up Store": "projects/pop-up-store.md"
           - "Forecasting Stocks": "projects/finance-prophet.md"
+          - "Camera feed with AI": "projects/camera-ai.md"
 
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
