@@ -24,6 +24,6 @@ The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-i
 
 ## Streaming
 
-Dashboard with streaming Time Series (Grafana 7.4+) panels was recently added to the project:
+A new dashboard with streaming Time Series (Grafana 7.4+) panels was recently added to the project:
 
 ![Streaming](../images/projects/redis-pop-up-store-streaming.png)
