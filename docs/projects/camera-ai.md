@@ -18,4 +18,10 @@ This project demonstrates how to analyze camera feed stored as [Redis Streams](h
 
     Two years ago, Redis Labs published an article "My Other Stack Is RedisEdge" introducing real-time video analysis in Redis. Since then, we introduced Redis plugins for Grafana to visualize RedisTimeSeries directly without adapters for Prometheus. Also, a recently developed Image panel can display analyzed with AI encoded image on the dashboard, eliminating the Video server.
 
+![Camera AI](../images/projects/camera-ai-batman.jpg)
+
+## Dashboard
+
+Camera processing dashboard with panels vizualizing Frames Queue, Processing Queue, Profile and allows to monitor and update RegisGears script.
+
 ![Camera AI](../images/projects/camera-ai.png)
