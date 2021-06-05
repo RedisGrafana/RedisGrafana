@@ -1,4 +1,4 @@
-```bash
+```ini
 [plugins]
 ;enable_alpha = false
 ;app_tls_skip_verify_insecure = false

@@ -16,13 +16,17 @@ Interested in the latest features and updates? Start nightly built Docker image.
 
 ![Nightly built Docker images](../images/development/docker.png)
 
-## Grafana
-
 --8<-- "includes/login-grafana.md"
 
 --8<-- "includes/docker-background.md"
 
-### Redis Application plugin
+!!! tip "Docker Compose"
+
+    Start docker containers using [Docker Compose](https://docs.docker.com/compose/):
+
+    --8<-- "includes/docker-compose.md"
+
+## Redis Application plugin [Grafana image]
 
 ![Redis Application plugin](https://github.com/RedisGrafana/grafana-redis-app/workflows/Docker/badge.svg)
 
@@ -42,7 +46,7 @@ docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
     docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:master
     ```
 
-### Redis Explorer plugin
+## Redis Explorer plugin [Grafana image]
 
 ![Redis Explorer plugin](https://github.com/RedisGrafana/grafana-redis-explorer/workflows/Docker/badge.svg)
 
@@ -62,9 +66,7 @@ docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:late
     docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-explorer:master
     ```
 
-## Redis
-
-### Redis-Prophet (Time series forecasting)
+## Redis-Prophet for Time series forecasting [Redis image]
 
 [![Docker](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml/badge.svg)](https://github.com/RedisGrafana/redis-finance-prophet/actions/workflows/docker.yml)
 
@@ -75,7 +77,7 @@ docker pull ghcr.io/redisgrafana/redis-prophet:latest && \
 docker run -p 6379:6379 --name=redis-prophet ghcr.io/redisgrafana/redis-prophet:latest
 ```
 
-### Redis-OpenCV (Real-time computer vision)
+## Redis-OpenCV for Real-time computer vision [Redis image]
 
 [![Docker](https://github.com/RedisGrafana/redis-camera-ai/actions/workflows/docker.yml/badge.svg)](https://github.com/RedisGrafana/redis-camera-ai/actions/workflows/docker.yml)
 
