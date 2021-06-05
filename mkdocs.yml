@@ -50,9 +50,9 @@ nav:
           - "Redis Application": "development/redis-app.md"
           - "Redis Explorer": "development/redis-explorer.md"
       - "Projects":
-          - "Plugins Statistics": "projects/grafana-stats.md"
+          - "Grafana Plugins Statistics": "projects/grafana-stats.md"
           - "Pop-up Store": "projects/pop-up-store.md"
-          - "Forecasting Stocks": "projects/finance-prophet.md"
+          - "Forecasting Stocks with Prophet": "projects/finance-prophet.md"
           - "Analyzing camera feed with AI": "projects/camera-ai.md"
 
   - "Redis Data Source":

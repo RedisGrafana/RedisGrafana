@@ -17,9 +17,17 @@ hide: toc
 | May 24, 2021       | [New plugins connect almost all of Redis for monitoring and visualization in Grafana](https://grafana.com/blog/2021/05/24/new-plugins-connect-almost-all-of-redis-for-monitoring-and-visualization-in-grafana)                     | Grafana Labs |
 | June 4, 2021       | [Analyzing camera feed in real-time using RedisAI, OpenCV-Python, and Redis plugins for Grafana](https://volkovlabs.com/analyzing-camera-feed-in-real-time-using-redisai-opencv-python-and-redis-plugins-for-grafana-1c23ef0a042c) | Volkov Labs  |
 
-## Presentations
+## Redis DevOps with Grafana
 
-### [Elevate your Redis experience with Redis plugins for Grafana](https://redisconf.com/redisconf21/modules/85406/agenda/session/265347)
+!!! quote "Jun, 4 2021"
+
+    The Redis Grafana plugin gives you real-time insights for your Redis servers and Redis applications. In this video you'll see how Grafana displays a server's workload, how to use the Grafana command line widget to interact with your Redis server, and a custom dashboard built to monitor an application built on Redis.
+
+<div class="video-wrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y127A_MGb6k" title="Redis DevOps with Grafana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## [Elevate your Redis experience with Redis plugins for Grafana](https://redisconf.com/redisconf21/modules/85406/agenda/session/265347)
 
 !!! quote "April 20-21, 2021 at RedisConf 2021"
 
@@ -29,10 +37,12 @@ hide: toc
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LquDQyEncLE" title="Elevate your Redis experience with Redis plugins for Grafana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-### [Real-time observability with Redis and Grafana](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
+## [Real-time observability with Redis and Grafana](https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/)
 
 !!! quote "October 26, 2020 at ObservabilityCON"
 
     Do you want to learn how to combine Grafana streaming capabilities with interactivity to take Grafana beyond observability? In this session, you’ll learn about the integration of Grafana and Redis, the most loved in-memory database. We will present 3 real-life applications built with Redis Data Source for Grafana. Additionally, we’ll show you how to use the Redis Data Source and demonstrate the new Application plugin with custom panel and dashboards. Finally, we will touch on the new features of Grafana 7: data frames, transformations, and streaming.
 
-<a title="Real-time observability with Redis and Grafana" href="https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/"><img class="sandwich" src="/images/learn-more/observability-con-2020.png"></a>
+<div class="video-wrapper">
+<a target="_blank" title="Real-time observability with Redis and Grafana" href="https://grafana.com/go/observabilitycon/real-time-observability-with-redis-and-grafana/"><img src="/images/learn-more/observability-con-2020.png"></a>
+</div>

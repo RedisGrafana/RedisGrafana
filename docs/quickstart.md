@@ -108,4 +108,4 @@ The [Overview](redis-explorer/overview.md) page explains how to enable plugin an
 
 ## Learn more
 
-Please look at [Learn More](learn-more.md) page to read recent blog posts and view presentations from conferences.
+Please look at [Learn More](learn-more.md) page to read recent blog posts and view video presentations from the conferences.
