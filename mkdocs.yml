@@ -42,9 +42,9 @@ nav:
   - "Redis plugins":
       - "Introduction": "intro.md"
       - "Quickstart": "quickstart.md"
-      - "Timeline": "timeline.md"
       - "Learn More": "learn-more.md"
       - "Development":
+          - "Timeline": "timeline.md"
           - "Docker Images": "development/images.md"
           - "Redis Data Source": "development/redis-datasource.md"
           - "Redis Application": "development/redis-app.md"
@@ -53,7 +53,7 @@ nav:
           - "Plugins Statistics": "projects/grafana-stats.md"
           - "Pop-up Store": "projects/pop-up-store.md"
           - "Forecasting Stocks": "projects/finance-prophet.md"
-          - "Camera feed with AI": "projects/camera-ai.md"
+          - "Analyzing camera feed with AI": "projects/camera-ai.md"
 
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
