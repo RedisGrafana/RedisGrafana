@@ -17,7 +17,15 @@ hide: toc
 | May 24, 2021       | [New plugins connect almost all of Redis for monitoring and visualization in Grafana](https://grafana.com/blog/2021/05/24/new-plugins-connect-almost-all-of-redis-for-monitoring-and-visualization-in-grafana)                     | Grafana Labs |
 | June 4, 2021       | [Analyzing camera feed in real-time using RedisAI, OpenCV-Python, and Redis plugins for Grafana](https://volkovlabs.com/analyzing-camera-feed-in-real-time-using-redisai-opencv-python-and-redis-plugins-for-grafana-1c23ef0a042c) | Volkov Labs  |
 
-## Redis DevOps with Grafana
+## [Plugin showcase: Building a single pane of observability glass](https://grafana.com/go/grafanaconline/2021/plugins/)
+
+!!! quote "Jun, 9 2021"
+
+    Plugins allow users to extend and customize their Grafana experience with their choice of data sources, dashboards, and apps. But what makes a good data source plugin? In this session, we’ll go over the key elements of popular and effective plugins; show how to use features such as alerts, annotations, and query caching; and demo some new and improved plugins available now.
+
+Will be available on-demand soon...
+
+## [Redis DevOps with Grafana](https://www.youtube.com/embed/Y127A_MGb6k)
 
 !!! quote "Jun, 4 2021"
 
