@@ -37,7 +37,7 @@ docker pull ghcr.io/redisgrafana/redis-app:latest && \
 docker run -p 3000:3000 --name=redis-app ghcr.io/redisgrafana/redis-app:latest
 ```
 
-??? bug "Master build"
+!!! bug "Master build"
 
     Based on Grafana's Master branch.
 
@@ -57,7 +57,7 @@ docker pull ghcr.io/redisgrafana/redis-explorer:latest && \
 docker run -p 3000:3000 --name=explorer ghcr.io/redisgrafana/redis-explorer:latest
 ```
 
-??? bug "Master build"
+!!! bug "Master build"
 
     Based on Grafana's Master branch.
 
