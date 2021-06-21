@@ -6,6 +6,10 @@ hide: toc
 
 The Redis plugins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to observe and interact with Redis and Application data.
 
+!!! note "What is Grafana?"
+
+    If you’re not familiar with [Grafana](grafana.md), it’s a very popular tool used to build dashboards to monitor applications, infrastructures, and software components.
+
 !!! important "Requirements"
 
     Only **Grafana 7.1+** with a new Backend plugin platform supports Redis plugins.
@@ -16,11 +20,12 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 
 - The [Quickstart](quickstart.md) is the recommended starting point.
 - The [Learn more](learn-more.md) page consists of links to the recent blog posts and video presentations.
+- Interested in the latest features and updates? Start nightly built [Docker Images](development/images.md).
 - The [Commands](redis-datasource/commands.md) reference all supported commands in the Redis Data Source.
 - The [Redis Application plugin](redis-app/overview.md) page provides information about the Application pages, dashboards, and custom panels.
 - The [Redis Explorer plugin](redis-explorer/overview.md) page offers information about the Explorer pages, dashboards, and Redis Enterprise Software data source.
 - The [Timeline](timeline.md) page lists all significant dates and plans in the plugin's development.
-- The **Development** section has more details on the developing plugins and nightly build docker images.
+- The **Development** section has more details on the developing plugins.
 
 ## Grafana Repository
 

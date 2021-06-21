@@ -43,9 +43,11 @@ nav:
       - "Introduction": "intro.md"
       - "Quickstart": "quickstart.md"
       - "Learn More": "learn-more.md"
+      - "Docker Images": "development/images.md"
+      - "Grafana":
+          - "Overview": "grafana.md"
       - "Development":
           - "Timeline": "timeline.md"
-          - "Docker Images": "development/images.md"
           - "Redis Data Source": "development/redis-datasource.md"
           - "Redis Application": "development/redis-app.md"
           - "Redis Explorer": "development/redis-explorer.md"
@@ -148,12 +150,6 @@ plugins:
       minify_js: true
       htmlmin_opts:
         remove_comments: true
-      js_files:
-        - javascripts/extra.js
-
-# Custom JavaScript
-extra_javascript:
-  - javascripts/extra.js
 
 # Custom CSS
 extra_css:
@@ -170,3 +166,6 @@ extra:
       link: https://www.linkedin.com/company/volkovlabs/
     - icon: fontawesome/brands/docker
       link: https://github.com/orgs/RedisGrafana/packages
+  analytics:
+    provider: google
+    property: G-8E4J019JNF
