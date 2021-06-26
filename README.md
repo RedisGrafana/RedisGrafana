@@ -2,18 +2,25 @@
 
 ![Redis plugins for Grafana](docs/images/redis-plugins.png)
 
-[![Grafana 7](https://img.shields.io/badge/Grafana-7-orange)](https://www.grafana.com)
+[![Grafana 8](https://img.shields.io/badge/Grafana-8-orange)](https://www.grafana.com)
 [![Redis Data Source](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Data%20Source&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-datasource)](https://grafana.com/grafana/plugins/redis-datasource)
 [![Redis Application plugin](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Application%20plugin&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-app)](https://grafana.com/grafana/plugins/redis-app)
 [![Redis Explorer plugin](https://img.shields.io/badge/dynamic/json?color=blue&label=Redis%20Explorer%20plugin&query=%24.version&url=https%3A%2F%2Fgrafana.com%2Fapi%2Fplugins%2Fredis-explorer-app)](https://grafana.com/grafana/plugins/redis-explorer-app)
 
 ## Introduction
 
-The Redis plugins for Grafana allow users to connect to the Redis databases and build dashboards in Grafana to observe and interact with Redis and Application data.
+The Redis plugins for Grafana let you connect Grafana to Redis to visualize more types of data in more ways than otherwise would be possible.
+
+All the increased functionality comes with a more streamlined workflow.
 
 ![Redis plugins for Grafana](docs/images/redis-table.png)
 
 Redis Data Source can connect to any Redis database On-Premises or in the Cloud. The Redis plugins for Grafana ecosystem build on top of the Redis Data Source.
+
+## Requirements
+
+- **Grafana 8.0+** is required for Redis Application 2.X.
+- **Grafana 7.1+** is required for Redis Application 1.X.
 
 ## Quick Links
 

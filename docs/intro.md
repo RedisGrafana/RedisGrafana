@@ -12,7 +12,8 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 
 !!! important "Requirements"
 
-    Only **Grafana 7.1+** with a new Backend plugin platform supports Redis plugins.
+    - Grafana 8.0+ is required for Redis plugins 2.X.
+    - Grafana 7.1+ is required for Redis plugins 1.X.
 
 <img class="sandwich" title="Plugins" src="/images/redis-table.png">
 
