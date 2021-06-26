@@ -19,8 +19,8 @@ Redis Data Source can connect to any Redis database On-Premises or in the Cloud.
 
 ## Requirements
 
-- **Grafana 8.0+** is required for Redis Application 2.X.
-- **Grafana 7.1+** is required for Redis Application 1.X.
+- Grafana 8.0+ is required for Redis plugins 2.X.
+- Grafana 7.1+ is required for Redis plugins 1.X.
 
 ## Quick Links
 
