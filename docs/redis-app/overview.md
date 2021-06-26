@@ -17,7 +17,7 @@ The Redis Application plugin is disabled after installation by default. To enabl
 
 - Go to `Configuration` -> `Plugins` and choose Redis Application plugin.
 
-![Grafana plugins](../images/redis-app/grafana-plugins.png)
+![Grafana plugins](../images/select-plugins.png)
 
 - Click **Enable** to add side menu, Custom panels and import Dashboards.
 

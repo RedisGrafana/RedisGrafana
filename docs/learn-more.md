@@ -16,6 +16,7 @@ hide: toc
 | April 13, 2021     | [Forecasting Stocks and Crypto prices using Redis, Prophet, and Grafana](https://volkovlabs.com/forecasting-stocks-and-crypto-prices-using-redis-prophet-and-grafana-b1630638d469)                                                 | Volkov Labs  |
 | May 24, 2021       | [New plugins connect almost all of Redis for monitoring and visualization in Grafana](https://grafana.com/blog/2021/05/24/new-plugins-connect-almost-all-of-redis-for-monitoring-and-visualization-in-grafana)                     | Grafana Labs |
 | June 4, 2021       | [Analyzing camera feed in real-time using RedisAI, OpenCV-Python, and Redis plugins for Grafana](https://volkovlabs.com/analyzing-camera-feed-in-real-time-using-redisai-opencv-python-and-redis-plugins-for-grafana-1c23ef0a042c) | Volkov Labs  |
+| June 22, 2021      | [Processing Time-Series Data with Redis and Apache Kafka](https://redislabs.com/blog/processing-time-series-data-with-redis-and-apache-kafka/)                                                                                     | Redis Labs   |
 
 ## [Plugin showcase: Building a single pane of observability glass](https://grafana.com/go/grafanaconline/2021/plugins/)
 

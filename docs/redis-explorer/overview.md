@@ -12,7 +12,7 @@ The Redis Explorer plugin is disabled after installation by default. To enable:
 
 - Go to `Configuration` -> `Plugins` and choose Redis Explorer plugin.
 
-![Grafana plugins](../images/redis-explorer/grafana-plugins.png)
+![Grafana plugins](../images/select-plugins.png)
 
 - Click **Enable** to add side menu, add Redis Enterprise software data source and import Dashboards.
 
