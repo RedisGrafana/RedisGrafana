@@ -1,6 +1,6 @@
 # Redis Data Source
 
-Data Source allows connecting to any Redis database On-Premises or in the Cloud.
+Data Source allows connecting to any Redis database On-Premises and in the Cloud.
 
 !!! tip "Redis Application plugin"
 

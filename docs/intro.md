@@ -34,7 +34,7 @@ Plugins are registered in the [Grafana repository](https://grafana.com/grafana/p
 
 | Plugin                                                                           | Description                                                            | Repository                                                                          |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [Redis Data Source](https://grafana.com/grafana/plugins/redis-datasource/)       | Allows connecting to any Redis database On-Premises or in the Cloud    | [grafana-redis-datasoure](https://github.com/RedisGrafana/grafana-redis-datasource) |
+| [Redis Data Source](https://grafana.com/grafana/plugins/redis-datasource/)       | Allows connecting to any Redis database On-Premises and in the Cloud   | [grafana-redis-datasoure](https://github.com/RedisGrafana/grafana-redis-datasource) |
 | [Redis Application plugin](https://grafana.com/grafana/plugins/redis-app/)       | Provides Application pages and custom panels for Redis Data Source     | [grafana-redis-app](https://github.com/RedisGrafana/grafana-redis-app)              |
 | [Redis Explorer plugin](https://grafana.com/grafana/plugins/redis-explorer-app/) | Allows connecting to Redis Enterprise software clusters using REST API | [grafana-redis-explorer](https://github.com/RedisGrafana/grafana-redis-explorer)    |
 
