@@ -27,7 +27,7 @@ Redis Data Source can connect to any Redis database On-Premises and in the Cloud
 - [Redis Data Source for Grafana](https://github.com/RedisGrafana/grafana-redis-datasource)
 - [Redis Application plugin](https://github.com/RedisGrafana/grafana-redis-app)
 - [Redis Explorer plugin](https://github.com/RedisGrafana/grafana-redis-explorer)
-- [Docker images for Development](https://github.com/orgs/RedisGrafana/packages)
+- [Docker images for Redis and Grafana](https://github.com/orgs/RedisGrafana/packages)
 
 ## Documentation
 
