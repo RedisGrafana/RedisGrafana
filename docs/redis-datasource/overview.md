@@ -31,9 +31,7 @@ The [Configuration](configuration.md) page explains how to connect a data source
 
 ## Variables
 
-[Template variables](variables.md) can query any command which returns a list of values and use other variables as parameters.
-
-![Variables](../images/redis-datasource/variables.png)
+Template variables can query any command which returns a list of values and use other variables as parameters. Look at [Variables](variables.md) page for examples.
 
 ## Supported platforms
 
@@ -47,18 +45,7 @@ Other platforms are not supported and may be introduced in future.
 
 ## Provisioning
 
-Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
-
-- Each config file can contain a list of data sources that will get added or updated during start up.
-- If the data source already exists, Grafana updates it to match the configuration file.
-
-=== "Standalone"
-
-    ---8<-- "includes/redis-datasource/config/standalone-yaml.md"
-
-=== "Sentinel"
-
-    ---8<-- "includes/redis-datasource/config/sentinel-yaml.md"
+To learn how to provision Redis Data Source using YAML config files follow the [Provisioning](provisioning.md) page.
 
 ## Known issues
 

@@ -16,4 +16,6 @@ datasources:
       pingInterval: 0
       pipelineWindow: 0
     editable: true
+    secureJsonData:
+      password: $PASSWORD
 ```

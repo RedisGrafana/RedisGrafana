@@ -60,6 +60,7 @@ nav:
   - "Redis Data Source":
       - "Overview": "redis-datasource/overview.md"
       - "Configuration": "redis-datasource/configuration.md"
+      - "Provisioning": "redis-datasource/provisioning.md"
       - "Features":
           - "Streaming": "redis-datasource/streaming.md"
           - "Variables": "redis-datasource/variables.md"
@@ -108,6 +109,7 @@ nav:
           - "TMSCAN": "redis-datasource/custom/TMSCAN.md"
   - "Redis Application":
       - "Overview": "redis-app/overview.md"
+      - "Provisioning": "redis-app/provisioning.md"
       - "Dashboards":
           - "Redis CLI": "redis-app/dashboards/cli.md"
           - "Redis Overview": "redis-app/dashboards/overview.md"
@@ -119,6 +121,7 @@ nav:
           - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
   - "Redis Explorer":
       - "Overview": "redis-explorer/overview.md"
+      - "Provisioning": "redis-explorer/provisioning.md"
       - "Redis Enterprise Software":
           - "Overview": "redis-explorer/re-software/overview.md"
           - "Configuration": "redis-explorer/re-software/configuration.md"
