@@ -62,9 +62,4 @@ Redis Application plugin provides custom panels for Redis Data Source:
 
 ## Provisioning
 
-Grafana supports managing plugins in Grafana by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/plugins** directory:
-
-- Each config file can contain a list of apps that will be updated during start up.
-- Grafana updates each app to match the configuration file.
-
----8<-- "includes/redis-app/provisioning-yaml.md"
+To learn how to provision Redis Application using YAML config files follow the [Provisioning](provisioning.md) page.

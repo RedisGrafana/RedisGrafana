@@ -21,9 +21,4 @@ The [Configuration](configuration.md) page explains how to connect data source t
 
 ## Provisioning
 
-Grafana supports managing data sources by [adding one or more YAML config files](https://grafana.com/docs/grafana/latest/administration/provisioning/) in the **provisioning/datasources** directory:
-
-- Each config file can contain a list of datasources that will get added or updated during start up.
-- If the data source already exists, then Grafana updates it to match the configuration file.
-
----8<-- "includes/redis-explorer/re-software/provisioning-yaml.md"
+To learn how to provision Redis Enterprise Software Data Source using YAML config files follow the [Redis Explorer provisioning](../provisioning.md) page.

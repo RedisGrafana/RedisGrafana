@@ -2,9 +2,11 @@
 
 You can add as many data sources as you want to support multiple Redis databases.
 
-![Datasource](../images/redis-datasource/config/config-editor.png)
+!!! important
 
-Redis accepts clients connections on the configured [listening TCP port](#standalone) and the [Unix socket](#unix-socket) if enabled. [Cluster](#cluster) is a distributed implementation of OSS Redis and [Sentinel](#sentinel) provides high availability.
+    Redis accepts clients connections on the configured [listening TCP port](#standalone) and the [Unix socket](#unix-socket) if enabled. [Cluster](#cluster) is a distributed implementation of OSS Redis and [Sentinel](#sentinel) provides high availability.
+
+![Datasource](../images/redis-datasource/config/config-editor.png)
 
 ## Main configuration
 
