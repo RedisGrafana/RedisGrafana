@@ -39,19 +39,20 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisTimeSeries
 
-> [RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
+[RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
 
 | Command                                            | Description                                                    |
 | -------------------------------------------------- | -------------------------------------------------------------- |
 | [TS.GET](redis-timeseries/TS-GET.md)               | Returns the last sample                                        |
 | [TS.INFO](redis-timeseries/TS-INFO.md)             | Returns information and statistics on the time-series          |
+| [TS.MGET](redis-timeseries/TS-MGET.md)             | Returns the last samples matching the specific filter          |
 | [TS.MRANGE](redis-timeseries/TS-MRANGE.md)         | Query a timestamp range across multiple time-series by filters |
 | [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) | Query all the keys matching the filter list                    |
 | [TS.RANGE](redis-timeseries/TS-RANGE.md)           | Query a range                                                  |
 
 ## RedisGears
 
-> [RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
+[RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 | Command                                                     | Description                                                 |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
@@ -62,7 +63,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisGraph
 
-> [RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
+[RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
 
 | Command                                       | Description                                                                                           |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -74,7 +75,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RediSearch
 
-> [RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
+[RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
 | Command                            | Description                                     |
 | ---------------------------------- | ----------------------------------------------- |

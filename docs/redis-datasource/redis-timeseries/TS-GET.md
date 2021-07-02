@@ -10,7 +10,7 @@ This command returns the last sample.
 
     [https://oss.redislabs.com/redistimeseries/commands/#tsget](https://oss.redislabs.com/redistimeseries/commands/#tsget)
 
-![TS.RANGE](../../images/redis-datasource/commands/ts-get.png)
+![TS.GET](../../images/redis-datasource/commands/ts-get.png)
 
 ## Parameters
 

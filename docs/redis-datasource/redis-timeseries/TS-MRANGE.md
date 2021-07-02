@@ -16,9 +16,8 @@ This command query a timestamp range across multiple time series by a filter.
 
 | Parameter                          | Description                                                                                                               |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Key                                | Key name                                                                                                                  |
 | Label Filter                       | [Filters](https://oss.redislabs.com/redistimeseries/commands/#filtering). A minimum of one **l=v** filter must be applied |
-| Legend Label                       | Label for Frame's name. Will be displayed for two or more Time-series.                                                    |
+| Legend Label                       | Label for Frame's name. Will be displayed for two or more time series                                                     |
 | Value Label                        | Label for Serie's name. Will be displayed in the legend                                                                   |
 | Aggregation                        | Aggregation type                                                                                                          |
 | Time Bucket (Aggregation enabled)  | Time bucket for Aggregation in milliseconds                                                                               |
@@ -34,11 +33,7 @@ This command query a timestamp range across multiple time series by a filter.
 
 ## Streaming
 
-Streaming supported as **Time Series** and **Data frame**.
-
-!!! important "Value Label"
-
-    Provide the **Value Label** to merge streaming results.
+Streaming is not supported.
 
 ## Visualization
 

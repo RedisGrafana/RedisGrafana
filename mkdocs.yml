@@ -102,6 +102,7 @@ nav:
       - "RedisTimeSeries":
           - "TS.GET": "redis-datasource/redis-timeseries/TS-GET.md"
           - "TS.INFO": "redis-datasource/redis-timeseries/TS-INFO.md"
+          - "TS.MGET": "redis-datasource/redis-timeseries/TS-MGET.md"
           - "TS.MRANGE": "redis-datasource/redis-timeseries/TS-MRANGE.md"
           - "TS.QUERYINDEX": "redis-datasource/redis-timeseries/TS-QUERYINDEX.md"
           - "TS.RANGE": "redis-datasource/redis-timeseries/TS-RANGE.md"
