@@ -46,13 +46,3 @@ Other platforms are not supported and may be introduced in future.
 ## Provisioning
 
 To learn how to provision Redis Data Source using YAML config files follow the [Provisioning](provisioning.md) page.
-
-## Known issues
-
-### Plugin health check failed
-
-Redis Data Source binaries should have executable permissions for Grafana to execute it. Check out the [Quickstart](../quickstart.md#install-without-internet-access) page for more information.
-
-### `Redis_datasource_darwin_amd64` cannot be opened because the developer cannot be verified
-
-Go to `System Preferences` > `Security & Privacy` and set to allow `redis-datasource_darwin_amd64`.

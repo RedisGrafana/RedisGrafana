@@ -61,6 +61,7 @@ nav:
       - "Overview": "redis-datasource/overview.md"
       - "Configuration": "redis-datasource/configuration.md"
       - "Provisioning": "redis-datasource/provisioning.md"
+      - "FAQ": "redis-datasource/faq.md"
       - "Features":
           - "Streaming": "redis-datasource/streaming.md"
           - "Variables": "redis-datasource/variables.md"
