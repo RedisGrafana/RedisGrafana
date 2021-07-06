@@ -68,11 +68,7 @@ docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-explorer-app
 - Unzip an archive to the `plugins/` folder for local Grafana installation or Docker's volume.
 - Check permissions for the `redis-datasource` binaries:
 
-??? important "Permissions"
-
-    Redis Data Source binaries should have executable permissions for Grafana to execute them.
-
-    --8<-- "includes/redis-datasource/binaries.md"
+--8<-- "includes/redis-datasource/permissions.md"
 
 - Check that plugin was registered:
 
