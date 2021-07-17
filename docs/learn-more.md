@@ -24,7 +24,9 @@ hide: toc
 
     Plugins allow users to extend and customize their Grafana experience with their choice of data sources, dashboards, and apps. But what makes a good data source plugin? In this session, we’ll go over the key elements of popular and effective plugins; show how to use features such as alerts, annotations, and query caching; and demo some new and improved plugins available now.
 
-Will be available on-demand soon...
+<div class="video-wrapper">
+<a target="_blank" title="Plugin showcase: Building a single pane of observability glass" href="https://grafana.com/go/grafanaconline/2021/plugins/"><img src="/images/learn-more/grafana-conline-2021.png"></a>
+</div>
 
 ## [Redis DevOps with Grafana](https://www.youtube.com/embed/Y127A_MGb6k)
 
