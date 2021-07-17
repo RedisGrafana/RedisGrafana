@@ -32,7 +32,7 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 
 Plugins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/), and [Grafana Cloud](https://grafana.com/products/cloud/).
 
-| Plugin                                                                           | Description                                                            | Repository                                                                          |
+| Plugin                                                                           | Description                                                            | GitHub                                                                              |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
 | [Redis Data Source](https://grafana.com/grafana/plugins/redis-datasource/)       | Allows connecting to any Redis database On-Premises and in the Cloud   | [grafana-redis-datasoure](https://github.com/RedisGrafana/grafana-redis-datasource) |
 | [Redis Application plugin](https://grafana.com/grafana/plugins/redis-app/)       | Provides Application pages and custom panels for Redis Data Source     | [grafana-redis-app](https://github.com/RedisGrafana/grafana-redis-app)              |
