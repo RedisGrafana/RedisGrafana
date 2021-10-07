@@ -8,7 +8,7 @@ This command returns a list containing up to 10 of the slowest queries issued ag
 
 !!! info "RedisGraph"
 
-    [https://oss.redislabs.com/redisgraph/commands/#graphslowlog](https://oss.redislabs.com/redisgraph/commands/#graphslowlog)
+    [https://oss.redis.com/redisgraph/commands/#graphslowlog](https://oss.redis.com/redisgraph/commands/#graphslowlog)
 
 ![GRAPH.SLOWLOG](../../images/redis-datasource/commands/graph-slowlog.png)
 

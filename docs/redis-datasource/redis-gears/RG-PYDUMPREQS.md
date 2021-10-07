@@ -8,7 +8,7 @@ This command returns a list of all the python requirements available (with infor
 
 !!! info "RedisGears"
 
-    [https://oss.redislabs.com/redisgears/commands.html#rgpydumpreqs](https://oss.redislabs.com/redisgears/commands.html#rgpydumpreqs)
+    [https://oss.redis.com/redisgears/commands.html#rgpydumpreqs](https://oss.redis.com/redisgears/commands.html#rgpydumpreqs)
 
 ![RG.PYDUMPREQS](../../images/redis-datasource/commands/rg-pydumpreqs.png)
 

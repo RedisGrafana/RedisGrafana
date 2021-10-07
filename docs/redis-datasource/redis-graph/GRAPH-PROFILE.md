@@ -8,7 +8,7 @@ This command executes a query and produces an execution plan augmented with metr
 
 !!! info "RedisGraph"
 
-    [https://oss.redislabs.com/redisgraph/commands/#graphprofile](https://oss.redislabs.com/redisgraph/commands/#graphprofile)
+    [https://oss.redis.com/redisgraph/commands/#graphprofile](https://oss.redis.com/redisgraph/commands/#graphprofile)
 
 --8<-- "includes/ds-timeout.md"
 
@@ -16,10 +16,10 @@ This command executes a query and produces an execution plan augmented with metr
 
 ## Parameters
 
-| Parameter | Description                                                                                                                                           |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key       | RedisGraph key                                                                                                                                        |
-| Cypher    | The [syntax is based on Cypher](https://oss.redislabs.com/redisgraph/commands/#query-language), and only a subset of the language currently supported |
+| Parameter | Description                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key       | RedisGraph key                                                                                                                                    |
+| Cypher    | The [syntax is based on Cypher](https://oss.redis.com/redisgraph/commands/#query-language), and only a subset of the language currently supported |
 
 ## Streaming
 

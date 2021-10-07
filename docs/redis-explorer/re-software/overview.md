@@ -4,7 +4,7 @@ Redis Enterprise Software Data Source allows connecting to Redis Enterprise soft
 
 !!! quote "REST API [Specification](https://storage.googleapis.com/rlecrestapi/rest-html/http_rest_api.html)"
 
-    Redis Labs clusters are a set of nodes, typically two or more, providing database services. Clusters are inherently multi-tenant, and a single cluster can manage multiple databases accessed through individual endpoints.
+    Redis Enterprise clusters are a set of nodes, typically two or more, providing database services. Clusters are inherently multi-tenant, and a single cluster can manage multiple databases accessed through individual endpoints.
 
 ## Configuration
 

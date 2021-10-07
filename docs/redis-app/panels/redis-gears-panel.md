@@ -6,7 +6,7 @@ hide: toc
 
 This panel support Python syntax and allows to execute functions in blocking and unblocking modes using RG.PYEXECUTE command.
 
-> [RedisGears](https://oss.redislabs.com/redisgears/) is a dynamic framework that enables developers to write and execute functions that implement data flows in Redis, while abstracting away the data’s distribution and deployment.
+> [RedisGears](https://oss.redis.com/redisgears/) is a dynamic framework that enables developers to write and execute functions that implement data flows in Redis, while abstracting away the data’s distribution and deployment.
 
 ![RedisGears-Panel](../../images/redis-app/panels/gears-panel.png)
 

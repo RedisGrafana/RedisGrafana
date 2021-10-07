@@ -10,11 +10,11 @@ You can add as many data sources as you want to support multiple Redis Enterpris
 
 ## Cluster URL
 
-Specify `host:port` address to Redis Enterprise software REST API interface. Port 9443 is [recommended](https://docs.redislabs.com/latest/rs/administering/designing-production/networking/port-configurations/) to use for REST API traffic.
+Specify `host:port` address to Redis Enterprise software REST API interface. Port 9443 is [recommended](https://docs.redis.com/latest/rs/administering/designing-production/networking/port-configurations/) to use for REST API traffic.
 
 ## User
 
-Username to authenticate. Ability to see metrics, configuration and logs depends on the [role](https://docs.redislabs.com/latest/rs/security/admin-console-security/user-security/).
+Username to authenticate. Ability to see metrics, configuration and logs depends on the [role](https://docs.redis.com/latest/rs/security/admin-console-security/user-security/).
 
 ## Password
 

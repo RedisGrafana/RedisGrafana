@@ -6,11 +6,11 @@ hide: toc
 
 This command executes a Python function.
 
-> A RedisGears [function](https://oss.redislabs.com/redisgears/functions.html#function) is a formal description of the processing steps in the data flow.
+> A RedisGears [function](https://oss.redis.com/redisgears/functions.html#function) is a formal description of the processing steps in the data flow.
 
 !!! info "RedisGears"
 
-    [https://oss.redislabs.com/redisgears/commands.html#rgpyexecute](https://oss.redislabs.com/redisgears/commands.html#rgpyexecute)
+    [https://oss.redis.com/redisgears/commands.html#rgpyexecute](https://oss.redis.com/redisgears/commands.html#rgpyexecute)
 
 ![RG.PYEXECUTE](../../images/redis-app/panels/gears-panel.png)
 
