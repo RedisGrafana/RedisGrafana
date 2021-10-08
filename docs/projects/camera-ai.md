@@ -4,7 +4,7 @@ hide: toc
 
 # Analyzing camera feed using RedisAI, OpenCV, and Redis plugins for Grafana
 
-This project demonstrates how to analyze camera feed stored as [Redis Streams](https://redis.io/topics/streams-intro) using serverless engine [RedisGears](https://oss.redislabs.com/redisgears/), [RedisAI](https://redisai.io/) and display analyzed frames with metrics in Grafana.
+This project demonstrates how to analyze camera feed stored as [Redis Streams](https://redis.io/topics/streams-intro) using serverless engine [RedisGears](https://oss.redis.com/redisgears/), [RedisAI](https://redisai.io/) and display analyzed frames with metrics in Grafana.
 
 !!! important "GitHub Repository"
 
@@ -16,7 +16,7 @@ This project demonstrates how to analyze camera feed stored as [Redis Streams](h
 
 !!! quote "Analyzing camera feed using RedisAI, OpenCV, and Redis plugins for Grafana"
 
-    Two years ago, Redis Labs published an article "My Other Stack Is RedisEdge" introducing real-time video analysis in Redis. Since then, we introduced Redis plugins for Grafana to visualize RedisTimeSeries directly without adapters for Prometheus. Also, a recently developed Image panel can display analyzed with AI encoded image on the dashboard, eliminating the Video server.
+    Two years ago, Redis published an article "My Other Stack Is RedisEdge" introducing real-time video analysis in Redis. Since then, we introduced Redis plugins for Grafana to visualize RedisTimeSeries directly without adapters for Prometheus. Also, a recently developed Image panel can display analyzed with AI encoded image on the dashboard, eliminating the Video server.
 
     Read more at [Volkov Labs blog](https://volkovlabs.com/analyzing-camera-feed-in-real-time-using-redisai-opencv-python-and-redis-plugins-for-grafana-1c23ef0a042c).
 

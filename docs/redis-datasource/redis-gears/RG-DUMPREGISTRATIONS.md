@@ -6,11 +6,11 @@ hide: toc
 
 This command outputs the list of function registrations.
 
-> The representation of an event-driven function is called a [registration](https://oss.redislabs.com/redisgears/functions.html#registration).
+> The representation of an event-driven function is called a [registration](https://oss.redis.com/redisgears/functions.html#registration).
 
 !!! info "RedisGears"
 
-    [https://oss.redislabs.com/redisgears/commands.html#rgdumpregistrations](https://oss.redislabs.com/redisgears/commands.html#rgdumpregistrations)
+    [https://oss.redis.com/redisgears/commands.html#rgdumpregistrations](https://oss.redis.com/redisgears/commands.html#rgdumpregistrations)
 
 ![RG.DUMPREGISTRATIONS](../../images/redis-datasource/commands/rg-dumpregistrations.png)
 

@@ -8,7 +8,7 @@ This command executes the given query against a specified graph.
 
 !!! info "RedisGraph"
 
-    [https://oss.redislabs.com/redisgraph/commands/#graphquery](https://oss.redislabs.com/redisgraph/commands/#graphquery)
+    [https://oss.redis.com/redisgraph/commands/#graphquery](https://oss.redis.com/redisgraph/commands/#graphquery)
 
 --8<-- "includes/ds-timeout.md"
 
@@ -16,10 +16,10 @@ This command executes the given query against a specified graph.
 
 ## Parameters
 
-| Parameter | Description                                                                                                                                           |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Key       | RedisGraph key                                                                                                                                        |
-| Cypher    | The [syntax is based on Cypher](https://oss.redislabs.com/redisgraph/commands/#query-language), and only a subset of the language currently supported |
+| Parameter | Description                                                                                                                                       |
+| --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Key       | RedisGraph key                                                                                                                                    |
+| Cypher    | The [syntax is based on Cypher](https://oss.redis.com/redisgraph/commands/#query-language), and only a subset of the language currently supported |
 
 ## Data Frames
 

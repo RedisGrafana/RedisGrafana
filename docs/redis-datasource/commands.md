@@ -39,7 +39,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisTimeSeries
 
-[RedisTimeSeries](https://oss.redislabs.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
+[RedisTimeSeries](https://oss.redis.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
 
 | Command                                            | Description                                                    |
 | -------------------------------------------------- | -------------------------------------------------------------- |
@@ -52,7 +52,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisGears
 
-[RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
+[RedisGears](https://oss.redis.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 | Command                                                     | Description                                                 |
 | ----------------------------------------------------------- | ----------------------------------------------------------- |
@@ -63,7 +63,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisGraph
 
-[RedisGraph](https://oss.redislabs.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
+[RedisGraph](https://oss.redis.com/redisgraph/) is the first queryable Property Graph database to use sparse matrices to represent the adjacency matrix in graphs and linear algebra to query the graph.
 
 | Command                                       | Description                                                                                           |
 | --------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -75,7 +75,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RediSearch
 
-[RediSearch](https://oss.redislabs.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
+[RediSearch](https://oss.redis.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
 | Command                            | Description                                     |
 | ---------------------------------- | ----------------------------------------------- |

@@ -4,7 +4,7 @@ hide: toc
 
 # RedisGears
 
-> [RedisGears](https://oss.redislabs.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
+> [RedisGears](https://oss.redis.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
 
 !!! note "Streaming"
 

@@ -8,7 +8,7 @@ This command retrieves a RedisGraph configuration.
 
 !!! info "RedisGraph"
 
-    [https://oss.redislabs.com/redisgraph/commands/#graphconfig](https://oss.redislabs.com/redisgraph/commands/#graphconfig)
+    [https://oss.redis.com/redisgraph/commands/#graphconfig](https://oss.redis.com/redisgraph/commands/#graphconfig)
 
 ![GRAPH.QUERY](../../images/redis-datasource/commands/graph-config.png)
 
