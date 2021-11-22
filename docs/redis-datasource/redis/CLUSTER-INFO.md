@@ -21,3 +21,9 @@ No parameters is required.
 Streaming supported as **Data frame**.
 
 --8<-- "includes/redis-datasource/visualization-any.md"
+
+## Dashboard
+
+Redis Cluster dashboard is available at [demo.volkovlabs.io](https://demo.volkovlabs.io/d/TTQkU657k/redis-cluster?orgId=1&refresh=10s).
+
+![CLUSTER-INFO](../../images/showcase/redis-cluster.png)
