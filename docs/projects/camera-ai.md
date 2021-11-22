@@ -6,9 +6,11 @@ hide: toc
 
 This project demonstrates how to analyze camera feed stored as [Redis Streams](https://redis.io/topics/streams-intro) using serverless engine [RedisGears](https://oss.redis.com/redisgears/), [RedisAI](https://redisai.io/) and display analyzed frames with metrics in Grafana.
 
-!!! important "GitHub Repository"
+!!! important "Links"
 
-    [https://github.com/RedisGrafana/redis-camera-ai](https://github.com/RedisGrafana/redis-camera-ai)
+    Demo: [Analyzing camera feed with AI](https://demo.volkovlabs.io/d/DtsbVE3Mk/analyzing-camera-feed-with-ai?orgId=1)
+
+    GitHub Repository: [RedisGrafana/redis-camera-ai](https://github.com/RedisGrafana/redis-camera-ai)
 
 ![Camera AI](../images/projects/redis-camera-ai.png)
 
