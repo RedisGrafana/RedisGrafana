@@ -69,6 +69,10 @@ Specifies the interval in seconds at which a ping event happens. A shorter inter
 
 Sets the duration in microseconds after which internal pipelines will be flushed. If window is zero then implicit pipelining will be disabled. Default value is 0.
 
+### Disable CLI
+
+Hides Command-line interface (CLI) from the Query Editor. [Redis CLI](../redis-app/panels/redis-cli-panel.md) panel respects the configuration and disable Command line interface.
+
 ## SSL/TLS
 
 To support SSL/TLS authentication enable it and provide all required parameters.

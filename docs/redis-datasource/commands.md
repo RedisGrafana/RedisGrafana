@@ -30,6 +30,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 | [XLEN](redis/XLEN.md)                   | Returns the number of entries inside a stream                                                                          |
 | [XRANGE](redis/XRANGE.md)               | Returns the stream entries matching a given range of IDs                                                               |
 | [XREVRANGE](redis/XREVRANGE.md)         | Returns the stream entries matching a given range of IDs in reverse order                                              |
+| [ZRANGE](redis/ZRANGE.md)               | Returns the specified range of elements in the sorted set stored at key                                                |
 
 ## Custom
 

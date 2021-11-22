@@ -16,14 +16,18 @@ This command returns the stream entries matching a given range of IDs.
 
     Column **$time** was added in Redis Data Source 1.4.0 based on the $streamId.
 
+!!! important "Since 2.0.0"
+
+    XRANGE command based on the selected time range if Start/End is not specified. Use '-' as Start and '+' as end to display all results.
+
 ## Parameters
 
-| Parameter | Description       | Default     |
-| --------- | ----------------- | ----------- |
-| Key       | Key name          |             |
-| Start     | Range start       | - (minimum) |
-| End       | Range end         | + (maximum) |
-| Count     | Number of entries |             |
+| Parameter | Description       | Default    |
+| --------- | ----------------- | ---------- |
+| Key       | Key name          |            |
+| Start     | Range start       | time range |
+| End       | Range end         | time range |
+| Count     | Number of entries |            |
 
 ## Streaming
 

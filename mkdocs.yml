@@ -87,6 +87,7 @@ nav:
           - "XLEN": "redis-datasource/redis/XLEN.md"
           - "XRANGE": "redis-datasource/redis/XRANGE.md"
           - "XREVRANGE": "redis-datasource/redis/XREVRANGE.md"
+          - "ZRANGE": "redis-datasource/redis/ZRANGE.md"
       - "RedisGears":
           - "RG.DUMPREGISTRATIONS": "redis-datasource/redis-gears/RG-DUMPREGISTRATIONS.md"
           - "RG.PYDUMPREQS": "redis-datasource/redis-gears/RG-PYDUMPREQS.md"
