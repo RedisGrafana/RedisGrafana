@@ -99,6 +99,8 @@ nav:
           - "GRAPH.PROFILE": "redis-datasource/redis-graph/GRAPH-PROFILE.md"
           - "GRAPH.QUERY": "redis-datasource/redis-graph/GRAPH-QUERY.md"
           - "GRAPH.SLOWLOG": "redis-datasource/redis-graph/GRAPH-SLOWLOG.md"
+      - "RedisJSON":
+          - "JSON.GET": "redis-datasource/redis-json/JSON-GET.md"
       - "RediSearch":
           - "FT.INFO": "redis-datasource/redis-search/FT-INFO.md"
       - "RedisTimeSeries":

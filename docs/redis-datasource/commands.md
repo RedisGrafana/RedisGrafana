@@ -38,19 +38,6 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 | -------------------------- | ---------------------------------------- |
 | [TMSCAN](custom/TMSCAN.md) | Returns keys with types and memory usage |
 
-## RedisTimeSeries
-
-[RedisTimeSeries](https://oss.redis.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
-
-| Command                                            | Description                                                    |
-| -------------------------------------------------- | -------------------------------------------------------------- |
-| [TS.GET](redis-timeseries/TS-GET.md)               | Returns the last sample                                        |
-| [TS.INFO](redis-timeseries/TS-INFO.md)             | Returns information and statistics on the time-series          |
-| [TS.MGET](redis-timeseries/TS-MGET.md)             | Returns the last samples matching the specific filter          |
-| [TS.MRANGE](redis-timeseries/TS-MRANGE.md)         | Query a timestamp range across multiple time-series by filters |
-| [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) | Query all the keys matching the filter list                    |
-| [TS.RANGE](redis-timeseries/TS-RANGE.md)           | Query a range                                                  |
-
 ## RedisGears
 
 [RedisGears](https://oss.redis.com/redisgears/) is a serverless engine for transaction, batch and event-driven data processing in Redis.
@@ -74,6 +61,14 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 | [GRAPH.QUERY](redis-graph/GRAPH-QUERY.md)     | Executes the given query against a specified graph                                                    |
 | [GRAPH.SLOWLOG](redis-graph/GRAPH-SLOWLOG.md) | Returns a list containing up to 10 of the slowest queries issued against the given graph ID           |
 
+## RedisJSON
+
+[RedisJSON](https://oss.redis.com/rejson/) is a Redis Module adding a JSON data type for Redis.
+
+| Command                            | Description                                      |
+| ---------------------------------- | ------------------------------------------------ |
+| [JSON.GET](redis-json/JSON-GET.md) | Return the value at path in JSON serialized form |
+
 ## RediSearch
 
 [RediSearch](https://oss.redis.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
@@ -81,3 +76,16 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 | Command                            | Description                                     |
 | ---------------------------------- | ----------------------------------------------- |
 | [FT.INFO](redis-search/FT-INFO.md) | Returns information and statistics on the index |
+
+## RedisTimeSeries
+
+[RedisTimeSeries](https://oss.redis.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
+
+| Command                                            | Description                                                    |
+| -------------------------------------------------- | -------------------------------------------------------------- |
+| [TS.GET](redis-timeseries/TS-GET.md)               | Returns the last sample                                        |
+| [TS.INFO](redis-timeseries/TS-INFO.md)             | Returns information and statistics on the time-series          |
+| [TS.MGET](redis-timeseries/TS-MGET.md)             | Returns the last samples matching the specific filter          |
+| [TS.MRANGE](redis-timeseries/TS-MRANGE.md)         | Query a timestamp range across multiple time-series by filters |
+| [TS.QUERYINDEX](redis-timeseries/TS-QUERYINDEX.md) | Query all the keys matching the filter list                    |
+| [TS.RANGE](redis-timeseries/TS-RANGE.md)           | Query a range                                                  |
