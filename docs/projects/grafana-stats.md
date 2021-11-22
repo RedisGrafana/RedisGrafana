@@ -2,13 +2,15 @@
 hide: toc
 ---
 
-# Collecting Grafana Plugins Statistics as RedisTimeSeries and visualizing time-series using Redis plugins for Grafana
+# Collecting Grafana Plugins Statistics as RedisTimeSeries and visualizing time series using Redis plugins for Grafana
 
-This project collects plugins statistics from Grafana repository using [RedisTimeSeries](https://oss.redis.com/redistimeseries/).
+This project collects plugins statistics from Grafana repository using [RedisTimeSeries](https://oss.redis.com/redistimeseries/) and [RedisJSON](https://oss.redis.com/rejson/).
 
-!!! important "GitHub Repository"
+!!! important "Links"
 
-    [https://github.com/RedisGrafana/grafana-plugin-stats](https://github.com/RedisGrafana/grafana-plugin-stats)
+    Demo: [Grafana Plugins](https://demo.volkovlabs.io/d/hHK1qmpnk/grafana-plugins), [Grafana Plugins Downloads](https://demo.volkovlabs.io/d/C1NCSr3Gk/grafana-plugins-downloads)
+
+    GitHub Repository: [RedisGrafana/grafana-plugin-stats](https://github.com/RedisGrafana/grafana-plugin-stats)
 
 ![How many times Redis Data Source for Grafana was downloaded?](../images/projects/redis-grafana-stats.png)
 
@@ -22,7 +24,7 @@ This project collects plugins statistics from Grafana repository using [RedisTim
 
 ![Stats](../images/projects/redis-datasource-stats.png)
 
-## Dashboard
+## Downloads Dashboard
 
 A new dashboard for Grafana v8 with Time Series panels was recently added to the project:
 

@@ -4,11 +4,13 @@ hide: toc
 
 # Pop-up store demo using RedisTimeSeries, RedisGears and Redis Data Source
 
-The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-intro), [RedisTimeSeries](https://oss.redis.com/redistimeseries/), [RedisGears](https://oss.redis.com/redisgears/) and [Redis Data Source](https://github.com/RedisGrafana/grafana-redis-datasource) to visualize real-time data pipeline in Grafana.
+The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-intro), [RedisTimeSeries](https://oss.redis.com/redistimeseries/), [RedisGears](https://oss.redis.com/redisgears/) and Redis plugins to visualize real-time data pipeline in Grafana.
 
-!!! important "GitHub Repository"
+!!! important "Links"
 
-    [https://github.com/RedisTimeSeries/redis-pop-up-store](https://github.com/RedisTimeSeries/redis-pop-up-store)
+    Demo: [Pop-up Store](https://demo.volkovlabs.io/d/0LC0Sm7Ml/pop-up-store)
+
+    GitHub Repository: [RedisGrafana/redis-pop-up-store](https://github.com/RedisGrafana/redis-pop-up-store)
 
 ![Redis Pop-up store](../images/projects/redis-pop-up-store.png)
 
@@ -20,10 +22,10 @@ The Pop-up store demo is using [Redis Streams](https://redis.io/topics/streams-i
 
     Read more at [Redis blog](https://redis.com/blog/3-real-life-apps-built-with-redis-data-source-for-grafana/).
 
-![Pop-up](https://raw.githubusercontent.com/RedisTimeSeries/redis-pop-up-store/master/images/pop-up.gif)
+![Pop-up](../images/projects/redis-pop-up-store.gif)
 
-## Streaming
+## Streaming dashboard
 
-A new dashboard with streaming Time Series (Grafana 7.4+) panels was recently added to the project:
+A new dashboard with streaming time series panels was recently added to the project:
 
 ![Streaming](../images/projects/redis-pop-up-store-streaming.png)
