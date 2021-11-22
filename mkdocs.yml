@@ -134,6 +134,7 @@ nav:
           - "Cluster Overview": "redis-explorer/dashboards/overview.md"
           - "Cluster Nodes": "redis-explorer/dashboards/nodes.md"
           - "Cluster Databases": "redis-explorer/dashboards/databases.md"
+  - "-> Demo Grafana <-": "https://demo.volkovlabs.io"
 
 # Extensions
 markdown_extensions:
