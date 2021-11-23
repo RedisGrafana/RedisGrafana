@@ -42,10 +42,12 @@ nav:
   - "Redis plugins":
       - "Introduction": "intro.md"
       - "Quickstart": "quickstart.md"
+      - "What is Grafana?": "grafana.md"
       - "Learn More": "learn-more.md"
-      - "Docker Images": "development/images.md"
-      - "Grafana":
-          - "Overview": "grafana.md"
+      - "Docker Images":
+          - "Overview": "development/images.md"
+          - "Grafana": "development/grafana.md"
+          - "Redis": "development/redis.md"
       - "Development":
           - "Timeline": "timeline.md"
           - "Redis Data Source": "development/redis-datasource.md"
