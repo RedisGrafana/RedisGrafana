@@ -65,9 +65,13 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 [RedisJSON](https://oss.redis.com/rejson/) is a Redis Module adding a JSON data type for Redis.
 
-| Command                            | Description                                      |
-| ---------------------------------- | ------------------------------------------------ |
-| [JSON.GET](redis-json/JSON-GET.md) | Return the value at path in JSON serialized form |
+| Command                                    | Description                                                 |
+| ------------------------------------------ | ----------------------------------------------------------- |
+| [JSON.ARRLEN](redis-json/JSON-ARRLEN.md)   | Return the length of the JSON Array at path in key          |
+| [JSON.GET](redis-json/JSON-GET.md)         | Return the value at path in JSON serialized form            |
+| [JSON.OBJKEYS](redis-json/JSON-OBJKEYS.md) | Return the keys in the object that's referenced by path     |
+| [JSON.OBJLEN](redis-json/JSON-OBJLEN.md)   | Return the number of keys in the JSON Object at path in key |
+| [JSON.TYPE](redis-json/JSON-TYPE.md)       | Return the type of JSON value at path                       |
 
 ## RediSearch
 

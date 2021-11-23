@@ -2,15 +2,15 @@
 hide: toc
 ---
 
-# JSON.GET
+# JSON.ARRLEN
 
-This command returns the value at path in JSON serialized form.
+This command returns the length of the JSON Array at path in key.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonget](https://oss.redis.com/redisjson/commands/#jsonget)
+    [https://oss.redis.com/redisjson/commands/#jsonarrlen](https://oss.redis.com/redisjson/commands/#jsonarrlen)
 
-![JSON.GET](../../images/redis-datasource/commands/json-get.png)
+![JSON.ARRLEN](../../images/redis-datasource/commands/json-arrlen.png)
 
 ## Parameters
 
@@ -21,8 +21,6 @@ This command returns the value at path in JSON serialized form.
 
 --8<-- "includes/redis-datasource/json-path.md"
 
-## Streaming
-
-Streaming supported as **Data frame**.
+--8<-- "includes/redis-datasource/streaming-any.md"
 
 --8<-- "includes/redis-datasource/visualization-any.md"

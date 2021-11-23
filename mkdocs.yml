@@ -102,7 +102,11 @@ nav:
           - "GRAPH.QUERY": "redis-datasource/redis-graph/GRAPH-QUERY.md"
           - "GRAPH.SLOWLOG": "redis-datasource/redis-graph/GRAPH-SLOWLOG.md"
       - "RedisJSON":
+          - "JSON.ARRLEN": "redis-datasource/redis-json/JSON-ARRLEN.md"
           - "JSON.GET": "redis-datasource/redis-json/JSON-GET.md"
+          - "JSON.OBJKEYS": "redis-datasource/redis-json/JSON-OBJKEYS.md"
+          - "JSON.OBJLEN": "redis-datasource/redis-json/JSON-OBJLEN.md"
+          - "JSON.TYPE": "redis-datasource/redis-json/JSON-TYPE.md"
       - "RediSearch":
           - "FT.INFO": "redis-datasource/redis-search/FT-INFO.md"
       - "RedisTimeSeries":
