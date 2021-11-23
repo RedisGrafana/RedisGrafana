@@ -2,15 +2,15 @@
 hide: toc
 ---
 
-# JSON.GET
+# JSON.OBJKEYS
 
-This command returns the value at path in JSON serialized form.
+This command returns the keys in the object that's referenced by path.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonget](https://oss.redis.com/redisjson/commands/#jsonget)
+    [https://oss.redis.com/redisjson/commands/#jsonobjkeys](https://oss.redis.com/redisjson/commands/#jsonobjkeys)
 
-![JSON.GET](../../images/redis-datasource/commands/json-get.png)
+![JSON.ARRLEN](../../images/redis-datasource/commands/json-objkeys.png)
 
 ## Parameters
 
@@ -21,8 +21,6 @@ This command returns the value at path in JSON serialized form.
 
 --8<-- "includes/redis-datasource/json-path.md"
 
-## Streaming
-
-Streaming supported as **Data frame**.
+--8<-- "includes/redis-datasource/streaming-any.md"
 
 --8<-- "includes/redis-datasource/visualization-any.md"
