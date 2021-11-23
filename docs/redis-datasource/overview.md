@@ -22,10 +22,10 @@ The [Configuration](configuration.md) page explains how to connect a data source
 
 ## Query Editor
 
-1. Choose **Type** to select core Redis, Custom, or Redis Module
-2. Select one of the supported [Commands](commands.md)
-3. Provide all required parameters, depends on the **Command** chosen
-4. Enable [Streaming](streaming.md) to visualize data on Graph, Time-Series (Grafana 7.4+) panels
+1. Choose **Type** to select core Redis, Custom, or Redis Module.
+2. Select one of the supported [Commands](commands.md).
+3. Provide all required parameters, depends on the **Command** chosen.
+4. Enable [Streaming](streaming.md) to visualize data on Graph, Time-Series (Grafana 7.4+) panels.
 
 ![Query Editor](../images/redis-datasource/query.png)
 
@@ -46,3 +46,7 @@ Other platforms are not supported and may be introduced in future.
 ## Provisioning
 
 To learn how to provision Redis Data Source using YAML config files follow the [Provisioning](provisioning.md) page.
+
+## FAQ
+
+You can find solutions to the most common issues in the [FAQ](faq.md).
