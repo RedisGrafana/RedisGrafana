@@ -15,7 +15,7 @@ All the increased functionality comes with a more streamlined workflow.
 
 ![Redis plugins for Grafana](docs/images/redis-table.png)
 
-Redis Data Source can connect to any Redis database On-Premises and in the Cloud. The Redis plugins for Grafana ecosystem build on top of the Redis Data Source.
+Redis Data Source can connect to any Redis database On-Premises and in the Cloud.
 
 ## Requirements
 
