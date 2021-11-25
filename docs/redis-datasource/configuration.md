@@ -18,6 +18,10 @@ Specify `host:port` address or a URI to connect to Redis. Please use `/db-number
 redis://redis-server:6379/0
 ```
 
+!!! note
+
+    `rediss://` is supported by some clients to enable TLS and is not a part of the Schema. To enable TLS please enable **Client Authentication** in the TLS section.
+
 #### Cluster
 
 - For redundancy provide multiple `host:port` addresses or URIs comma separated.
@@ -75,7 +79,7 @@ Hides Command-line interface (CLI) from the Query Editor. [Redis CLI](../redis-a
 
 ## SSL/TLS
 
-To support SSL/TLS authentication enable it and provide all required parameters.
+To support SSL/TLS authentication enable **Client Authentication** and provide all required parameters.
 
 ![TLS enabled](../images/redis-datasource/config/tls.png)
 

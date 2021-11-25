@@ -34,5 +34,5 @@ The Redis-JSG Docker image is based on the latest version of RedisJSON, RediSear
 
 ```bash
 docker pull ghcr.io/redisgrafana/redis-jsg:latest && \
-docker run -p 6379:6379 --name=redis-opencv ghcr.io/redisgrafana/redis-jsg:latest
+docker run -p 6379:6379 --name=redis-jsg ghcr.io/redisgrafana/redis-jsg:latest
 ```

@@ -2,7 +2,7 @@
 
 ## Architecture
 
-The Redis plugins for the Grafana ecosystem build on top of the Redis Data Source.
+The Redis plugins for Grafana consists of Redis Data Source, Redis Application and Redis Explorer.
 
 ![Architecture](/images/redis-plugins.png)
 
