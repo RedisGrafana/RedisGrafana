@@ -6,6 +6,12 @@ The Redis plugins for Grafana consists of Redis Data Source, Redis Application a
 
 ![Architecture](/images/redis-plugins.png)
 
+## Grafana Marketplace
+
+In Grafana 8+ Redis Plugins can be installed from the Grafana Marketplace.
+
+![Grafana Marketplace](/images/grafana-marketplace.png)
+
 ## Install using `grafana-cli`
 
 Use the `grafana-cli` tool to install from the command line:
@@ -26,12 +32,6 @@ grafana-cli plugins install redis-app
 grafana-cli plugins install redis-explorer-app
 ```
 
-### Redis Data Source
-
-```bash
-grafana-cli plugins install redis-datasource
-```
-
 ## Run using `Docker`
 
 --8<-- "includes/login-grafana.md"
@@ -42,12 +42,6 @@ grafana-cli plugins install redis-datasource
 
 ```bash
 docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-app" grafana/grafana
-```
-
-### Redis Data Source
-
-```bash
-docker run -p 3000:3000 --name=grafana -e "GF_INSTALL_PLUGINS=redis-datasource" grafana/grafana
 ```
 
 ### Redis Explorer

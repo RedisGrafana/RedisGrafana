@@ -8,7 +8,7 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 
 !!! note "What is Grafana?"
 
-    If you’re not familiar with [Grafana](grafana.md), it’s a very popular tool used to build dashboards to monitor applications, infrastructures, and software components.
+    [Grafana](grafana.md) is a very popular tool used to build dashboards to monitor applications, infrastructures, and software components.
 
 !!! important "Requirements"
 
@@ -28,9 +28,9 @@ The Redis plugins for Grafana allow users to connect to the Redis databases and 
 - The [Timeline](timeline.md) page lists all significant dates and plans in the plugin's development.
 - The **Development** section has more details on the developing plugins.
 
-## Grafana Repository
+## Grafana Marketplace
 
-Plugins are registered in the [Grafana repository](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/), and [Grafana Cloud](https://grafana.com/products/cloud/).
+Plugins are registered in the [Grafana marketplace](https://grafana.com/grafana/plugins/) and available to [Grafana](https://grafana.com/), [Grafana Enterprise](https://grafana.com/products/enterprise/), and [Grafana Cloud](https://grafana.com/products/cloud/).
 
 | Plugin                                                                           | Description                                                            | GitHub                                                                              |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
