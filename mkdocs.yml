@@ -130,6 +130,7 @@ nav:
           - "Command Latency": "redis-app/panels/redis-latency-panel.md"
           - "Keys consuming a lot of memory": "redis-app/panels/redis-keys-panel.md"
           - "RedisGears Script Editor": "redis-app/panels/redis-gears-panel.md"
+          - "CPU Usage": "redis-app/panels/redis-cpu-panel.md"
   - "Redis Explorer":
       - "Overview": "redis-explorer/overview.md"
       - "Provisioning": "redis-explorer/provisioning.md"

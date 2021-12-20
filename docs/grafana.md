@@ -4,7 +4,7 @@ hide: toc
 
 # What is Grafana?
 
-If you’re not familiar with Grafana, it’s a very popular tool used to build dashboards to monitor applications, infrastructures, and software components.
+Grafana is a very popular tool used to build dashboards to monitor applications, infrastructures, and software components.
 
 !!! quote
 
