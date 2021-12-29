@@ -4,7 +4,13 @@ hide: toc
 
 # Provisioning
 
----8<-- "includes/provisioning.md"
+Grafana supports managing applications by adding one or more YAML config files in the `provisioning/plugins` folder:
+
+- Each config file can contain a list of applications that will be updated during start up.
+- Grafana updates each application to match the configuration file.
+- It is possible to use environment variable interpolation.
+
+Follow [Provisioning Grafana](https://grafana.com/docs/grafana/latest/administration/provisioning/) in documentation for examples.
 
 ## Redis Application
 
