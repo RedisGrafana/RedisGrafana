@@ -55,7 +55,7 @@ yarn build
 
     Docker-compose file for Development includes:
 
-    - Service `redis` using [Redismod](https://hub.docker.com/r/redislabs/redismod)
+    - Service `redis` using [Redis Stack](https://hub.docker.com/r/redis/redis-stack-server)
     - Service `grafana` using [Grafana](https://hub.docker.com/r/grafana/grafana) which allow loading unsigned plugins `redis-app` and `redis-datasource`
 
     !!! summary "Redis Data Source"
