@@ -8,7 +8,7 @@ This command returns the keys in the object that's referenced by path.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonobjkeys](https://oss.redis.com/redisjson/commands/#jsonobjkeys)
+    [https://redis.io/commands/json.objkeys/](https://redis.io/commands/json.objkeys/)
 
 ![JSON.ARRLEN](../../images/redis-datasource/commands/json-objkeys.png)
 

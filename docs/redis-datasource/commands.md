@@ -77,9 +77,10 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 [RediSearch](https://oss.redis.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
-| Command                            | Description                                     |
-| ---------------------------------- | ----------------------------------------------- |
-| [FT.INFO](redis-search/FT-INFO.md) | Returns information and statistics on the index |
+| Command                                | Description                                      |
+| ----------------------------------     | ------------------------------------------------ |
+| [FT.INFO](redis-search/FT-INFO.md)     | Returns information and statistics on the index  |
+| [FT.SEARCH](redis-search/FT-SEARCH.md) | Queries a secondary index for matching documents |
 
 ## RedisTimeSeries
 

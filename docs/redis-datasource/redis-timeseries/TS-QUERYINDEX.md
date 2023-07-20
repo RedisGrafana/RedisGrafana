@@ -8,7 +8,7 @@ This command query all the keys matching the filter list.
 
 !!! info "RedisTimeSeries"
 
-    [https://oss.redis.com/redistimeseries/commands/#tsqueryindex](https://oss.redis.com/redistimeseries/commands/#tsqueryindex)
+    [https://redis.io/commands/ts.queryindex/](https://redis.io/commands/ts.queryindex/)
 
 ![TS.QUERYINDEX](../../images/redis-datasource/commands/ts-queryindex.png)
 

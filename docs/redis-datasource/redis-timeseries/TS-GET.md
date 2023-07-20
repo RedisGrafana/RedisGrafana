@@ -8,7 +8,7 @@ This command returns the last sample.
 
 !!! info "RedisTimeSeries"
 
-    [https://oss.redis.com/redistimeseries/commands/#tsget](https://oss.redis.com/redistimeseries/commands/#tsget)
+    [https://redis.io/commands/ts.get/](https://redis.io/commands/ts.get/)
 
 ![TS.GET](../../images/redis-datasource/commands/ts-get.png)
 

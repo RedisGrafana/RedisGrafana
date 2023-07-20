@@ -8,7 +8,7 @@ This command returns the last samples matching the specific filter.
 
 !!! info "RedisTimeSeries"
 
-    [https://oss.redis.com/redistimeseries/commands/#tsmget](https://oss.redis.com/redistimeseries/commands/#tsmget)
+    [https://redis.io/commands/ts.mget/](https://redis.io/commands/ts.mget/)
 
 ![TS.MGET](../../images/redis-datasource/commands/ts-mget.png)
 

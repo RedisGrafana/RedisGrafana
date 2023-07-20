@@ -8,7 +8,7 @@ This command returns the length of the JSON Array at path in key.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonarrlen](https://oss.redis.com/redisjson/commands/#jsonarrlen)
+    [https://redis.io/commands/json.arrlen/](https://redis.io/commands/json.arrlen/)
 
 ![JSON.ARRLEN](../../images/redis-datasource/commands/json-arrlen.png)
 

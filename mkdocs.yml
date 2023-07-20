@@ -109,6 +109,7 @@ nav:
           - "JSON.TYPE": "redis-datasource/redis-json/JSON-TYPE.md"
       - "RediSearch":
           - "FT.INFO": "redis-datasource/redis-search/FT-INFO.md"
+          - "FT.SEARCH": "redis-datasource/redis-search/FT-SEARCH.md"
       - "RedisTimeSeries":
           - "TS.GET": "redis-datasource/redis-timeseries/TS-GET.md"
           - "TS.INFO": "redis-datasource/redis-timeseries/TS-INFO.md"
