@@ -14,11 +14,11 @@ This command returns the last samples matching the specific filter.
 
 ## Parameters
 
-| Parameter    | Description                                                                                                           |
-| ------------ | --------------------------------------------------------------------------------------------------------------------- |
-| Label Filter | [Filters](https://oss.redis.com/redistimeseries/commands/#filtering). A minimum of one **l=v** filter must be applied |
-| Legend Label | Label for Frame's name. Will be displayed for two or more time series                                                 |
-| Value Label  | Label for Serie's name. Will be displayed in the legend                                                               |
+| Parameter    | Description                                                                                                                   |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Label Filter | [Filters](https://redis.io/docs/data-types/timeseries/quickstart/#filtering). A minimum of one **l=v** filter must be applied |
+| Legend Label | Label for Frame's name. Will be displayed for two or more time series                                                         |
+| Value Label  | Label for Serie's name. Will be displayed in the legend                                                                       |
 
 ## Streaming
 

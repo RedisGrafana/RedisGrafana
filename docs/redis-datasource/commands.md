@@ -63,7 +63,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisJSON
 
-[RedisJSON](https://oss.redis.com/rejson/) is a Redis Module adding a JSON data type for Redis.
+[RedisJSON](https://redis.io/docs/data-types/json/) is a Redis Module adding a JSON data type for Redis.
 
 | Command                                    | Description                                                 |
 | ------------------------------------------ | ----------------------------------------------------------- |
@@ -75,7 +75,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RediSearch
 
-[RediSearch](https://oss.redis.com/redisearch/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
+[RediSearch](https://redis.io/docs/interact/search-and-query/) is a source available Secondary Index, Query Engine and Full-Text Search over Redis.
 
 | Command                                | Description                                      |
 | ----------------------------------     | ------------------------------------------------ |
@@ -84,7 +84,7 @@ Redis Data Source supports core Redis, Custom and Redis Modules commands.
 
 ## RedisTimeSeries
 
-[RedisTimeSeries](https://oss.redis.com/redistimeseries/) is a Redis Module adding a Time Series data structure to Redis.
+[RedisTimeSeries](https://redis.io/docs/data-types/timeseries/) is a Redis Module adding a Time Series data structure to Redis.
 
 | Command                                            | Description                                                    |
 | -------------------------------------------------- | -------------------------------------------------------------- |
