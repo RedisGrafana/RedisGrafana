@@ -8,7 +8,7 @@ This command returns the type of JSON value at path.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsontype](https://oss.redis.com/redisjson/commands/#jsontype)
+    [https://redis.io/commands/json.type/](https://redis.io/commands/json.type/)
 
 ![JSON.TYPE](../../images/redis-datasource/commands/json-type.png)
 

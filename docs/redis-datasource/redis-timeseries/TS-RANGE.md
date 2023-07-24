@@ -8,7 +8,7 @@ This command query a range in a forward direction.
 
 !!! info "RedisTimeSeries"
 
-    [https://oss.redis.com/redistimeseries/commands/#tsrangetsrevrange](https://oss.redis.com/redistimeseries/commands/#tsrangetsrevrange)
+    [https://redis.io/commands/ts.range/](https://redis.io/commands/ts.range/)
 
 ![TS.RANGE](../../images/redis-datasource/commands/ts-range.png)
 

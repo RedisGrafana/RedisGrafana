@@ -8,7 +8,7 @@ This command returns the value at path in JSON serialized form.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonget](https://oss.redis.com/redisjson/commands/#jsonget)
+    [https://redis.io/commands/json.get/](https://redis.io/commands/json.get/)
 
 ![JSON.GET](../../images/redis-datasource/commands/json-get.png)
 

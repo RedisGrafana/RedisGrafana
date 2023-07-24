@@ -8,7 +8,7 @@ This command returns information and statistics on the time series.
 
 !!! info "RedisTimeSeries"
 
-    [https://oss.redis.com/redistimeseries/commands/#tsinfo](https://oss.redis.com/redistimeseries/commands/#tsinfo)
+    [https://redis.io/commands/ts.info/](https://redis.io/commands/ts.info/)
 
 ![TS.RANGE](../../images/redis-datasource/commands/ts-info.png)
 

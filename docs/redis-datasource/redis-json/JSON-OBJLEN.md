@@ -8,7 +8,7 @@ This command returns the number of keys in the JSON Object at path in key.
 
 !!! info "RedisJSON"
 
-    [https://oss.redis.com/redisjson/commands/#jsonobjlen](https://oss.redis.com/redisjson/commands/#jsonobjlen)
+    [https://redis.io/commands/json.objlen/](https://redis.io/commands/json.objlen/)
 
 ![JSON.ARRLEN](../../images/redis-datasource/commands/json-objlen.png)
 

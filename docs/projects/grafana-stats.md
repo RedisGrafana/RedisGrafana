@@ -4,7 +4,7 @@ hide: toc
 
 # Collecting Grafana Plugins Statistics as RedisTimeSeries and visualizing time series using Redis plugins for Grafana
 
-This project collects plugins statistics from Grafana marketplace using [RedisTimeSeries](https://oss.redis.com/redistimeseries/) and [RedisJSON](https://oss.redis.com/rejson/).
+This project collects plugins statistics from Grafana marketplace using [RedisTimeSeries](https://redis.io/docs/data-types/timeseries/) and [RedisJSON](https://oss.redis.com/rejson/).
 
 !!! important "Links"
 
