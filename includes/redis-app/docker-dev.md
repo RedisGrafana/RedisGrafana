@@ -3,8 +3,8 @@ version: "3.4"
 
 services:
   redis:
-    container_name: redismod
-    image: redislabs/redismod:latest
+    container_name: redis-stack
+    image: redis/redis-stack-server:latest
     ports:
       - 6379:6379/tcp
     # Uncomment and edit the local path in the following line to have
